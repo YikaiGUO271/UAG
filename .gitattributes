@@ -11,3 +11,6 @@
 # Research inputs, snapshots and checksums must survive Git byte-for-byte.
 experiments/** -text
 tests/data/** -text
+
+# Formal proof sources and recorded evidence must preserve their checked bytes.
+formalization/** -text
