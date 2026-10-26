@@ -1,0 +1,26 @@
+⚠ [1593/1765] Replayed UAG.Quadratic
+warning: UAG\Quadratic.lean: imports `Mathlib.Analysis.Real.Sqrt` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: UAG\Quadratic.lean: imports `Mathlib.Algebra.BigOperators.Ring.Finset` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: UAG\Quadratic.lean: imports `Mathlib.Tactic.FieldSimp` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: UAG\Quadratic.lean: imports `Mathlib.Tactic.Linarith` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: UAG\Quadratic.lean: imports `Mathlib.Tactic.Positivity` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: UAG\Quadratic.lean: imports `Mathlib.Tactic.Ring` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+info: UAG/Quadratic.lean:546:0: 'UAG.Quadratic.positive_weight_relation_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: UAG/Quadratic.lean:547:0: 'UAG.Quadratic.initial_minimum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: UAG/Quadratic.lean:548:0: 'UAG.Quadratic.modelPoint_is_minimizer' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: UAG/Quadratic.lean:549:0: 'UAG.Quadratic.uag_gap_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: UAG/Quadratic.lean:550:0: 'UAG.Quadratic.uag_displacement_update' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: UAG/Quadratic.lean:551:0: 'UAG.Quadratic.accepted_history_invariants' depends on axioms: [propext, Classical.choice, Quot.sound]
+⚠ [2076/2079] Replayed UAG.History
+warning: UAG\History.lean: imports `Mathlib.Analysis.SpecialFunctions.Pow.Real` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: UAG\History.lean: imports `Mathlib.Tactic.FieldSimp` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: UAG\History.lean: imports `Mathlib.Tactic.Linarith` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: UAG\History.lean: imports `Mathlib.Tactic.Positivity` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: UAG\History.lean: imports `Mathlib.Tactic.Ring` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [2077/2079] Replayed UAG.ScaleBridge
+warning: UAG\ScaleBridge.lean: imports `Mathlib.Analysis.SpecialFunctions.Log.Basic` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: UAG\ScaleBridge.lean: imports `Mathlib.Tactic.FieldSimp` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: UAG\ScaleBridge.lean: imports `Mathlib.Tactic.Linarith` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: UAG\ScaleBridge.lean: imports `Mathlib.Tactic.NormNum` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: UAG\ScaleBridge.lean: imports `Mathlib.Tactic.Ring` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (2079 jobs).

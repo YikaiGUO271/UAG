@@ -97,6 +97,12 @@ The [26 October repetition campaign](experiments/repeated_20261026/README.md) co
 
 The four logistic-regression datasets are downloaded separately from LIBSVM. Third-party benchmark provenance and licensing are documented in [third-party notices](docs/third_party.md). Saved manuscript results must not be interpreted as a speed benchmark of every backend or as repeated measurements unless explicitly labeled that way.
 
+## Partial proof formalization
+
+The [Lean formalization](formalization/README.md) checks selected quadratic-model identities and invariants, the historical symmetric-descent inequality, and conditional replay and query-accounting results. The five modules have passed Lean 4.35.0 with pinned mathlib dependencies and a transitive axiom audit. Source files, reproducible commands, recorded logs, and a mapping to manuscript statements are included.
+
+The formalization explicitly lists its remaining assumptions and correspondence obligations. It does not yet prove the complete UAG algorithm, the four final complexity bounds, or the correctness of the Python floating-point implementation.
+
 ## Development
 
 ```console

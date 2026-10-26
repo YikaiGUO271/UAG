@@ -1,0 +1,208 @@
+{
+  "date": "2026-10-27",
+  "status": "passed_for_explicit_module_scope_only",
+  "lean_version": "4.35.0",
+  "lean_commit": "eb6cafb7290e8bd5f2937522d8d804f58f02bafc",
+  "mathlib_commit": "56a005855ea17e0b0958f73ec801ae140b0a1679",
+  "module_count": 5,
+  "explicit_theorem_declarations": 110,
+  "audited_theorem_constants_including_generated": 320,
+  "allowed_transitive_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "build_passed": true,
+  "axiom_audit_passed": true,
+  "unfinished_proof_and_custom_axiom_scan_passed": true,
+  "build_warnings": "Lean 4.35 module-system migration hints on legacy imports; no proof errors",
+  "not_claimed": [
+    "whole-paper formalization",
+    "full UAG program refinement",
+    "four final complexity theorems",
+    "floating-point implementation verification"
+  ],
+  "theorems_by_file": {
+    "Accounting.lean": [
+      "eventCost_append",
+      "eventCost_replicate_one",
+      "blockCost_le",
+      "eventCost_map_queries",
+      "Correction.cost_le",
+      "Exit.cost_events",
+      "Exit.queries_le",
+      "Exit.lowerings_le",
+      "CallTrace.cost_events",
+      "CallTrace.queries_le",
+      "CallTrace.forward_bound",
+      "CallTrace.lowerings_le",
+      "CallTrace.secants_le",
+      "prefix_cost_le",
+      "global_forward_bound",
+      "global_lowerings_bound",
+      "global_replay_bound",
+      "packet_cost_bound",
+      "nonReplay_cost_bound",
+      "runScale_eq",
+      "scaleNet_append",
+      "scaleNet_doubles",
+      "Exit.scale_ledger",
+      "CallTrace.scale_ledger",
+      "global_scale_ledger",
+      "finalExponent_eq_runScale",
+      "scale_bound_interface",
+      "failure_bound_of_scale",
+      "forward_bound_of_scale",
+      "inner_query_bound",
+      "full_query_bound",
+      "full_query_bound_of_replay_cost"
+    ],
+    "History.lean": [
+      "errors_add",
+      "curvature_error_identity",
+      "rpow_factor",
+      "symmetric_descent_ordered",
+      "reverse_bound",
+      "curvature_reverse",
+      "symmetric_descent",
+      "function_symmetric_descent",
+      "normalized_error",
+      "normalized_reverse_error",
+      "cubic_cancellation",
+      "symmetric_descent_from_manuscript"
+    ],
+    "Quadratic.lean": [
+      "curvature_pos",
+      "discriminant_pos",
+      "weight_pos",
+      "root_equation_algebra",
+      "weight_quadratic",
+      "weight_relation",
+      "positive_root_unique",
+      "positive_weight_relation_unique",
+      "theta_den_pos",
+      "theta_pos",
+      "theta_le_one",
+      "theta_zero_weight",
+      "cross_cancellation",
+      "normSq_nonneg",
+      "sqDist_nonneg",
+      "sqDist_self",
+      "sqDist_comm",
+      "initial_representation",
+      "initial_anchor_value",
+      "initial_minimum",
+      "shifted_norm",
+      "completing_square_coordinate",
+      "quadratic_representation",
+      "modelPoint_is_minimizer",
+      "dot_cross_cancellation",
+      "gap_identity_algebra",
+      "uag_gap_identity",
+      "model_point_coordinate_formula",
+      "displacement_coordinate",
+      "uag_displacement_update",
+      "accepted_gap_nonincrease",
+      "anchor_step",
+      "gap_invariant",
+      "combined_bound",
+      "trial_mass_pos",
+      "trial_gap_nonincrease",
+      "trial_anchor_invariant",
+      "accepted_history_invariants"
+    ],
+    "Replay.lean": [
+      "historyCost_append",
+      "charge_queries",
+      "replay_found_of_le",
+      "ForwardPrefix.erase",
+      "ForwardPrefix.cost",
+      "replay_eq_scan",
+      "scan_cost_le",
+      "FirstMatch.witness_valid",
+      "FirstMatch.cost_le",
+      "scan_first_match",
+      "scan_finds",
+      "replay_finds_within_forward_cost",
+      "replay_finds_within_inner_budget",
+      "replay_finds_with_forward_suffix",
+      "replay_query_guard",
+      "restoreCore_core",
+      "restoreCore_queries"
+    ],
+    "ScaleBridge.lean": [
+      "runRealScale_eq",
+      "persistentScale_eq",
+      "persistentScale_pos",
+      "exponent_le_log",
+      "exact_real_scale_ledger",
+      "logarithmicAllowance_nonneg",
+      "real_failure_bound",
+      "real_forward_bound",
+      "real_inner_query_bound",
+      "real_full_query_bound",
+      "real_full_query_bound_of_replay_cost"
+    ]
+  },
+  "manuscript_reference": {
+    "title": "Universal Accelerated Gradient Method for Unconstrained Smooth Optimization",
+    "author": "Yikai Guo",
+    "source_snapshot_date": "2026-10-26",
+    "source_snapshot_sha256": "3c8ae30e9b55ab42e9f1e08dd5a5515598aac4a36c8dac0cc5170515f7039a5f",
+    "note": "Identifies the manuscript snapshot used to establish the correspondence. Later editorial additions may change its hash without changing the formalized statements."
+  },
+  "files": {
+    "UAG.lean": {
+      "bytes": 103,
+      "sha256": "93b4a292083277a6649727e657f5c5206031a8cbe3cbaaf1194c622903b15f12"
+    },
+    "lean-toolchain": {
+      "bytes": 25,
+      "sha256": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c"
+    },
+    "lakefile.toml": {
+      "bytes": 230,
+      "sha256": "cb939689171293ed4c858f90a2c6b8dc46e20a3311d52abde7f0c92d3889e06d"
+    },
+    "lake-manifest.json": {
+      "bytes": 3160,
+      "sha256": "1c0f95cdec907d075b2ad9d8ef68c2dff3482cb738e34cf3e11f33d72a560c77"
+    },
+    "verification/AxiomAudit.lean": {
+      "bytes": 1034,
+      "sha256": "6a8c33322e198b5b17c39926d3db761fd0ae77695e7e21124e329d41d638b239"
+    },
+    "verification/build.log": {
+      "bytes": 4029,
+      "sha256": "760444738c81ec2d85dc2c11b10a8aee7f304002a245b2c4ba214ef6057c962f"
+    },
+    "verification/axioms.log": {
+      "bytes": 19734,
+      "sha256": "4221e36742c12762f0c8e7243bfbf0ea73da31dfb16412849552e0843a872b86"
+    },
+    "verification/toolchain.log": {
+      "bytes": 105,
+      "sha256": "b4ab9ebb701e4668c357265b8d2dd1363a99b4d9776c7a5e925fa0d621b9aed6"
+    },
+    "UAG/Quadratic.lean": {
+      "bytes": 22354,
+      "sha256": "27d9f5e64c9768fe4f44645db431fa369f04784f1f0db6d9ff1a7d54b076938f"
+    },
+    "UAG/History.lean": {
+      "bytes": 8461,
+      "sha256": "c074898a28cdd6fb32e38e808b93ae40e598aca38ec52af0330be96f7966431d"
+    },
+    "UAG/Replay.lean": {
+      "bytes": 15176,
+      "sha256": "b4ca5639aabec46238b9bd10f9587d711418809781c2a62ab1a5dd026e1a1d16"
+    },
+    "UAG/Accounting.lean": {
+      "bytes": 18163,
+      "sha256": "15c8abe787eaa0c857289b435f7958708a445455d3e578e1c8b636bed5de9d21"
+    },
+    "UAG/ScaleBridge.lean": {
+      "bytes": 7124,
+      "sha256": "569842080936bfc5fbe045202d76893417eb9051b560e37aacc33e7d281e89b5"
+    }
+  }
+}
