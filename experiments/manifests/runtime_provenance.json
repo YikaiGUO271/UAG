@@ -1,0 +1,10 @@
+{
+  "native_api_windows.py": {
+    "sha256": "e5d9a85003e3e9f4a32a50df1acea07fbd0288cc9ab6e2b5cc408225693b765a",
+    "source": "unchanged 2026-10-24 native_api.py; QueryPerformanceCounter clock"
+  },
+  "driver_used.py": {
+    "sha256": "3aa91cb8960478232e5a53ecf8a5c4c1e2fa08ad1b0f38e133310d5f5fdde788",
+    "source": "exact launched 2026-10-26 five-repetition driver"
+  }
+}

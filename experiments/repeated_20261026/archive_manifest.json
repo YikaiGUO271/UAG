@@ -1,0 +1,47 @@
+[
+  {
+    "file": "traces_r01.zip",
+    "repeat": 1,
+    "complete": true,
+    "observations": 457,
+    "bytes": 56868469,
+    "sha256": "0adcef135aeb0ddf951c5191195ce8b6920df04aa918ff1f0cdb42c3d590d481",
+    "compression": "ZIP_STORED"
+  },
+  {
+    "file": "traces_r02.zip",
+    "repeat": 2,
+    "complete": true,
+    "observations": 457,
+    "bytes": 56502496,
+    "sha256": "42500f02e32b9a0fffaeb9fcd46727987a6fbc3a53af36c1140882e0601246ba",
+    "compression": "ZIP_STORED"
+  },
+  {
+    "file": "traces_r03.zip",
+    "repeat": 3,
+    "complete": true,
+    "observations": 457,
+    "bytes": 56561249,
+    "sha256": "b943bd3ecb5a510e23652315b2a2f36abb9c977a066472f377602ecdaaa63738",
+    "compression": "ZIP_STORED"
+  },
+  {
+    "file": "traces_r04.zip",
+    "repeat": 4,
+    "complete": true,
+    "observations": 457,
+    "bytes": 56612027,
+    "sha256": "bd1b97835f1a5287d61a39b7e8891267ec860dc6cf22b31ce1c39138bc4f31a5",
+    "compression": "ZIP_STORED"
+  },
+  {
+    "file": "traces_r05_partial.zip",
+    "repeat": 5,
+    "complete": false,
+    "observations": 44,
+    "bytes": 26077834,
+    "sha256": "85241a16f2756f3b44df50eb3c1aef62e847d350ad50a69eed9a72e057cd7cf0",
+    "compression": "ZIP_STORED"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-26",
+  "package": "uag-optimization",
+  "version": "0.1.0",
+  "python": "3.13.5",
+  "platform": "Windows",
+  "numpy": "2.1.3",
+  "numba": "0.61.0",
+  "installed_wheel_tests": {"passed": 45, "failed": 0, "duration_seconds": 27.63},
+  "wheel_source_bytes_match": true,
+  "wheel_license_bytes_match": true,
+  "base_numpy_only_import_checked": true,
+  "frozen_prefix_validation": "tests/data/frozen_prefixes.json",
+  "development_backend_benchmark": "artifacts/backend_benchmark.json",
+  "ci_status_at_packaging": "Configured; local validation does not imply all CI matrix jobs passed"
+}

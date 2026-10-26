@@ -1,0 +1,200 @@
+{
+  "frozen_data_sha256": {
+    "results.json": "074fdffe86254e4bf485f9bfd681b34cb8dd7b7997cd5dd165994cf7a82c6f5a",
+    "protocol.json": "0b43c1abf25da7108d97e2d8869782a9a9a30037e68d6371934efb9b8127c091",
+    "analysis.json": "fcc91c9a9252ffa1037623d4957748b49f165b51a7844380799daac5ef4775e3",
+    "results.csv": "5189de769f5d688c2659348122f440d9e8a56928418f923e1f6117a9bad824d7"
+  },
+  "profile_checks": [
+    {
+      "suite": "specific",
+      "metric": "FG",
+      "method": "UAD",
+      "ratios_equal": true
+    },
+    {
+      "suite": "specific",
+      "metric": "FG",
+      "method": "NAG",
+      "ratios_equal": true
+    },
+    {
+      "suite": "specific",
+      "metric": "FG",
+      "method": "RNAG",
+      "ratios_equal": true
+    },
+    {
+      "suite": "specific",
+      "metric": "FG",
+      "method": "AC-FGM",
+      "ratios_equal": true
+    },
+    {
+      "suite": "specific",
+      "metric": "FG",
+      "method": "GD",
+      "ratios_equal": true
+    },
+    {
+      "suite": "specific",
+      "metric": "FG",
+      "method": "CUG",
+      "ratios_equal": true
+    },
+    {
+      "suite": "specific",
+      "metric": "FG",
+      "method": "AdaNAG",
+      "ratios_equal": true
+    },
+    {
+      "suite": "specific",
+      "metric": "FG",
+      "method": "A-QNPE",
+      "ratios_equal": true
+    },
+    {
+      "suite": "specific",
+      "metric": "Seconds",
+      "method": "UAD",
+      "ratios_equal": true
+    },
+    {
+      "suite": "specific",
+      "metric": "Seconds",
+      "method": "NAG",
+      "ratios_equal": true
+    },
+    {
+      "suite": "specific",
+      "metric": "Seconds",
+      "method": "RNAG",
+      "ratios_equal": true
+    },
+    {
+      "suite": "specific",
+      "metric": "Seconds",
+      "method": "AC-FGM",
+      "ratios_equal": true
+    },
+    {
+      "suite": "specific",
+      "metric": "Seconds",
+      "method": "GD",
+      "ratios_equal": true
+    },
+    {
+      "suite": "specific",
+      "metric": "Seconds",
+      "method": "CUG",
+      "ratios_equal": true
+    },
+    {
+      "suite": "specific",
+      "metric": "Seconds",
+      "method": "AdaNAG",
+      "ratios_equal": true
+    },
+    {
+      "suite": "specific",
+      "metric": "Seconds",
+      "method": "A-QNPE",
+      "ratios_equal": true
+    },
+    {
+      "suite": "cutest",
+      "metric": "FG",
+      "method": "UAD",
+      "ratios_equal": true
+    },
+    {
+      "suite": "cutest",
+      "metric": "FG",
+      "method": "NAG",
+      "ratios_equal": true
+    },
+    {
+      "suite": "cutest",
+      "metric": "FG",
+      "method": "RNAG",
+      "ratios_equal": true
+    },
+    {
+      "suite": "cutest",
+      "metric": "FG",
+      "method": "AC-FGM",
+      "ratios_equal": true
+    },
+    {
+      "suite": "cutest",
+      "metric": "FG",
+      "method": "GD",
+      "ratios_equal": true
+    },
+    {
+      "suite": "cutest",
+      "metric": "FG",
+      "method": "AdaNAG",
+      "ratios_equal": true
+    },
+    {
+      "suite": "cutest",
+      "metric": "FG",
+      "method": "A-QNPE",
+      "ratios_equal": true
+    },
+    {
+      "suite": "cutest",
+      "metric": "Seconds",
+      "method": "UAD",
+      "ratios_equal": true
+    },
+    {
+      "suite": "cutest",
+      "metric": "Seconds",
+      "method": "NAG",
+      "ratios_equal": true
+    },
+    {
+      "suite": "cutest",
+      "metric": "Seconds",
+      "method": "RNAG",
+      "ratios_equal": true
+    },
+    {
+      "suite": "cutest",
+      "metric": "Seconds",
+      "method": "AC-FGM",
+      "ratios_equal": true
+    },
+    {
+      "suite": "cutest",
+      "metric": "Seconds",
+      "method": "GD",
+      "ratios_equal": true
+    },
+    {
+      "suite": "cutest",
+      "metric": "Seconds",
+      "method": "AdaNAG",
+      "ratios_equal": true
+    },
+    {
+      "suite": "cutest",
+      "metric": "Seconds",
+      "method": "A-QNPE",
+      "ratios_equal": true
+    }
+  ],
+  "new_optimization_runs": 0,
+  "figsize_inches": [
+    7.4,
+    3.2
+  ],
+  "legend_fontsize": 9.0,
+  "figure_sha256": {
+    "cutest_profiles.pdf": "4c85ba48549192ede057275238549f4007b43ba1ce859411d2ba1187c7bf8f3e",
+    "specific_profiles.pdf": "eac69e71edc9a3f2498c577d571122cf3542ae335afc9e062c8688733f807445"
+  }
+}

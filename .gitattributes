@@ -1,0 +1,13 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.toml text eol=lf
+*.json text eol=lf
+*.npz binary
+*.zip binary
+*.pdf binary
+*.png binary
+# Research inputs, snapshots and checksums must survive Git byte-for-byte.
+experiments/** -text
+tests/data/** -text

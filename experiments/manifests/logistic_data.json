@@ -1,0 +1,166 @@
+[
+  {
+    "name": "a9a",
+    "url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/a9a",
+    "shape": [
+      32561,
+      123
+    ],
+    "npz_sha256_historical": "2cab336701b1f724dea6ecfa186c52bd3a8fc8de183016e447958841b347445d",
+    "arrays": {
+      "data": {
+        "dtype": "float64",
+        "shape": [
+          451592
+        ],
+        "sha256": "285ce074ce1f921ad5be7e52f53d91f141b850cbeba2a82ab953e7699670dbbf"
+      },
+      "indices": {
+        "dtype": "int32",
+        "shape": [
+          451592
+        ],
+        "sha256": "0f37a78d9e2bbc2db460f29d17cd572a368331fd95bb002747da47272de0458a"
+      },
+      "indptr": {
+        "dtype": "int32",
+        "shape": [
+          32562
+        ],
+        "sha256": "6642928f59c0f4125bfdd100d47a1fd6a675aaae7a88e2def413234c79610d58"
+      },
+      "shape": {
+        "dtype": "int64",
+        "shape": [
+          2
+        ],
+        "sha256": "89fb26567e3f5485db40bb296fbfcc30691280dbf8850255d524f1398bc81ee4"
+      }
+    },
+    "transformation": "LIBSVM binary labels mapped to +/-1; CSR rows multiplied by -y; explicit zero entries dropped; no additional scaling, intercept, shuffling or train/test merge.",
+    "raw_sha256": "f5d5ffd8d865ff41328e7ee043e4b020816914ff6843ff15b98905ddbedce906"
+  },
+  {
+    "name": "australian",
+    "url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/australian_scale",
+    "shape": [
+      690,
+      14
+    ],
+    "npz_sha256_historical": "6e814768bf7285f71eeefc75f26302d4fb92a5725cc1687dfbb349d325896dde",
+    "arrays": {
+      "data": {
+        "dtype": "float64",
+        "shape": [
+          8447
+        ],
+        "sha256": "6fc27c4109f9e772654c0c1881961266aca146fa88695da480bf0454b72cab58"
+      },
+      "indices": {
+        "dtype": "int32",
+        "shape": [
+          8447
+        ],
+        "sha256": "8b1c282e6d7e8bbdd79f1bccc956d0768c886663de30100bd3b91e7f26564cdb"
+      },
+      "indptr": {
+        "dtype": "int32",
+        "shape": [
+          691
+        ],
+        "sha256": "464e04f1ba2cc7b0693e6b8caff9f2fe7a388abebea4dac5434746f5c3fe14f6"
+      },
+      "shape": {
+        "dtype": "int64",
+        "shape": [
+          2
+        ],
+        "sha256": "8b0b3ced7bace98daf4676e72026df131497e710400947701ad35ce6ad955edb"
+      }
+    },
+    "transformation": "LIBSVM binary labels mapped to +/-1; CSR rows multiplied by -y; explicit zero entries dropped; no additional scaling, intercept, shuffling or train/test merge.",
+    "raw_sha256": "86799bcc4dbcd41929a514fa181d1c1a40e01f009dee139d4141a194d7ecd9e3"
+  },
+  {
+    "name": "ionosphere",
+    "url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/ionosphere_scale",
+    "shape": [
+      351,
+      34
+    ],
+    "npz_sha256_historical": "680420bea6326b76c852fc0de1f713589d940c6ec6965bf9b0cc778bba34b0f2",
+    "arrays": {
+      "data": {
+        "dtype": "float64",
+        "shape": [
+          10551
+        ],
+        "sha256": "d45e3739df40351824e86bf46a8382930ce839e988982c9526b9ee52da56fbbb"
+      },
+      "indices": {
+        "dtype": "int32",
+        "shape": [
+          10551
+        ],
+        "sha256": "1cd186b58f0bfbb29e48bc216e075841d3831caa6aaf4caffd9ccfe3bac589e5"
+      },
+      "indptr": {
+        "dtype": "int32",
+        "shape": [
+          352
+        ],
+        "sha256": "3780e8110f06ee24577ac881915d769faf2f5a0d05e92912b3d22a6274954859"
+      },
+      "shape": {
+        "dtype": "int64",
+        "shape": [
+          2
+        ],
+        "sha256": "7947f3ff6ca671956d11c99f8c5209d396aea589de31fc47fd36b76e055030dc"
+      }
+    },
+    "transformation": "LIBSVM binary labels mapped to +/-1; CSR rows multiplied by -y; explicit zero entries dropped; no additional scaling, intercept, shuffling or train/test merge.",
+    "raw_sha256": "f7751584264819b6ea908d513180cec6f9d9fad0d54e7f5693407da1e2eaece1"
+  },
+  {
+    "name": "w8a",
+    "url": "https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/binary/w8a",
+    "shape": [
+      49749,
+      300
+    ],
+    "npz_sha256_historical": "4ad8a6ac1cbc175232a26fa065e543f32b541ded52896c03dd102590e9fe6499",
+    "arrays": {
+      "data": {
+        "dtype": "float64",
+        "shape": [
+          579586
+        ],
+        "sha256": "578d3dad46c0d878557ab3181756a9d6bf2c28f40e625de3310e236753694e1e"
+      },
+      "indices": {
+        "dtype": "int32",
+        "shape": [
+          579586
+        ],
+        "sha256": "8a0895fc87d20fab157d67ec3f6c0b0dca7212ef33eeddd0eb89ec747a32092a"
+      },
+      "indptr": {
+        "dtype": "int32",
+        "shape": [
+          49750
+        ],
+        "sha256": "3d75a9f1522fa9e2fc68eecf2079947faccd23a16ac7bf99efa0615b783af407"
+      },
+      "shape": {
+        "dtype": "int64",
+        "shape": [
+          2
+        ],
+        "sha256": "dffb18c6ed9cd6963b2cfe8ae4e34437233c005cfe98d671cf6445a27b2c3dad"
+      }
+    },
+    "transformation": "LIBSVM binary labels mapped to +/-1; CSR rows multiplied by -y; explicit zero entries dropped; no additional scaling, intercept, shuffling or train/test merge.",
+    "raw_sha256": "6a9fa8fd5f524303240a5db07d4b3d4a51e8b7b4b20a914105d8e3e8c81640f2"
+  }
+]

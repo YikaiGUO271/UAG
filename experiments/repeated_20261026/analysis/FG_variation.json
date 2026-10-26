@@ -1,0 +1,340 @@
+[
+  {
+    "Suite": "specific",
+    "Problem": "logsumexp_rho0p005",
+    "Method": "A-QNPE",
+    "Repetitions": 4,
+    "Successes": 0,
+    "Success": false,
+    "StatusCounts": {
+      "time_limit": 4
+    },
+    "FG": 47947.0,
+    "FG_q25": 47885.75,
+    "FG_q75": 48057.0,
+    "FG_min": 47822.0,
+    "FG_max": 48267.0,
+    "Seconds": 120.00927415001206,
+    "Seconds_q25": 120.0042898250249,
+    "Seconds_q75": 120.0148275999818,
+    "Seconds_min": 120.00104209996061,
+    "Seconds_max": 120.01978269999381,
+    "FG_distinct": [
+      47822,
+      47907,
+      47987,
+      48267
+    ],
+    "FG_non_time_limit_distinct": []
+  },
+  {
+    "Suite": "specific",
+    "Problem": "rosenbrock_d200",
+    "Method": "A-QNPE",
+    "Repetitions": 4,
+    "Successes": 0,
+    "Success": false,
+    "StatusCounts": {
+      "time_limit": 4
+    },
+    "FG": 44919.5,
+    "FG_q25": 44128.25,
+    "FG_q75": 45733.25,
+    "FG_min": 43427.0,
+    "FG_max": 46502.0,
+    "Seconds": 120.00776309997309,
+    "Seconds_q25": 120.00416462497378,
+    "Seconds_q75": 120.01148449999164,
+    "Seconds_min": 120.00075399997877,
+    "Seconds_max": 120.01526390004437,
+    "FG_distinct": [
+      43427,
+      44362,
+      45477,
+      46502
+    ],
+    "FG_non_time_limit_distinct": []
+  },
+  {
+    "Suite": "specific",
+    "Problem": "super_logistic_a9a",
+    "Method": "GD",
+    "Repetitions": 4,
+    "Successes": 0,
+    "Success": false,
+    "StatusCounts": {
+      "time_limit": 4
+    },
+    "FG": 56998.0,
+    "FG_q25": 55313.75,
+    "FG_q75": 58776.75,
+    "FG_min": 55133.0,
+    "FG_max": 59241.0,
+    "Seconds": 120.00120985001558,
+    "Seconds_q25": 120.00098857500416,
+    "Seconds_q75": 120.00143160000152,
+    "Seconds_min": 120.00083009997616,
+    "Seconds_max": 120.00159149995307,
+    "FG_distinct": [
+      55133,
+      55374,
+      58622,
+      59241
+    ],
+    "FG_non_time_limit_distinct": []
+  },
+  {
+    "Suite": "specific",
+    "Problem": "super_logistic_a9a",
+    "Method": "CUG",
+    "Repetitions": 4,
+    "Successes": 0,
+    "Success": false,
+    "StatusCounts": {
+      "time_limit": 4
+    },
+    "FG": 59826.5,
+    "FG_q25": 57828.75,
+    "FG_q75": 61266.25,
+    "FG_min": 55899.0,
+    "FG_max": 61522.0,
+    "Seconds": 120.00214539997978,
+    "Seconds_q25": 120.00169992497831,
+    "Seconds_q75": 120.00227647500287,
+    "Seconds_min": 120.00053240003763,
+    "Seconds_max": 120.00250080000842,
+    "FG_distinct": [
+      55899,
+      58472,
+      61181,
+      61522
+    ],
+    "FG_non_time_limit_distinct": []
+  },
+  {
+    "Suite": "specific",
+    "Problem": "super_logistic_w8a",
+    "Method": "CUG",
+    "Repetitions": 4,
+    "Successes": 0,
+    "Success": false,
+    "StatusCounts": {
+      "time_limit": 4
+    },
+    "FG": 45810.5,
+    "FG_q25": 44193.25,
+    "FG_q75": 47921.5,
+    "FG_min": 43915.0,
+    "FG_max": 49681.0,
+    "Seconds": 120.00059119996149,
+    "Seconds_q25": 120.00053532497259,
+    "Seconds_q75": 120.00123252495541,
+    "Seconds_min": 120.0005008999724,
+    "Seconds_max": 120.00302329997066,
+    "FG_distinct": [
+      43915,
+      44286,
+      47335,
+      49681
+    ],
+    "FG_non_time_limit_distinct": []
+  },
+  {
+    "Suite": "specific",
+    "Problem": "super_logistic_w8a",
+    "Method": "AdaNAG",
+    "Repetitions": 4,
+    "Successes": 0,
+    "Success": false,
+    "StatusCounts": {
+      "nonpositive_convexity_residual": 2,
+      "time_limit": 2
+    },
+    "FG": 46260.0,
+    "FG_q25": 45254.0,
+    "FG_q75": 46870.0,
+    "FG_min": 44066.0,
+    "FG_max": 46870.0,
+    "Seconds": 119.73095649998868,
+    "Seconds_q25": 116.43989997499739,
+    "Seconds_q75": 120.00082469999325,
+    "Seconds_min": 107.37624200002756,
+    "Seconds_max": 120.0009177000029,
+    "FG_distinct": [
+      44066,
+      45650,
+      46870
+    ],
+    "FG_non_time_limit_distinct": [
+      46870
+    ]
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "CURLY10",
+    "Method": "A-QNPE",
+    "Repetitions": 4,
+    "Successes": 0,
+    "Success": false,
+    "StatusCounts": {
+      "time_limit": 4
+    },
+    "FG": 2866.5,
+    "FG_q25": 2747.75,
+    "FG_q75": 2987.5,
+    "FG_min": 2732.0,
+    "FG_max": 3010.0,
+    "Seconds": 30.10639375000028,
+    "Seconds_q25": 30.09598777499923,
+    "Seconds_q75": 30.124836649993085,
+    "Seconds_min": 30.068669700005557,
+    "Seconds_max": 30.176265499962028,
+    "FG_distinct": [
+      2732,
+      2753,
+      2980,
+      3010
+    ],
+    "FG_non_time_limit_distinct": []
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "DIXON3DQ",
+    "Method": "A-QNPE",
+    "Repetitions": 4,
+    "Successes": 0,
+    "Success": false,
+    "StatusCounts": {
+      "time_limit": 4
+    },
+    "FG": 3607.5,
+    "FG_q25": 3559.5,
+    "FG_q75": 3683.0,
+    "FG_min": 3546.0,
+    "FG_max": 3779.0,
+    "Seconds": 30.05409749998944,
+    "Seconds_q25": 30.01966762499069,
+    "Seconds_q75": 30.085229225005605,
+    "Seconds_min": 30.009143400005996,
+    "Seconds_max": 30.085859000042547,
+    "FG_distinct": [
+      3546,
+      3564,
+      3651,
+      3779
+    ],
+    "FG_non_time_limit_distinct": []
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "FLETCBV2",
+    "Method": "A-QNPE",
+    "Repetitions": 4,
+    "Successes": 0,
+    "Success": false,
+    "StatusCounts": {
+      "time_limit": 4
+    },
+    "FG": 3142.0,
+    "FG_q25": 3060.0,
+    "FG_q75": 3228.5,
+    "FG_min": 3030.0,
+    "FG_max": 3272.0,
+    "Seconds": 30.040516449982533,
+    "Seconds_q25": 30.026123425006517,
+    "Seconds_q75": 30.076782799966168,
+    "Seconds_min": 30.0229158999864,
+    "Seconds_max": 30.14561030000914,
+    "FG_distinct": [
+      3030,
+      3070,
+      3214,
+      3272
+    ],
+    "FG_non_time_limit_distinct": []
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "GENHUMPS",
+    "Method": "A-QNPE",
+    "Repetitions": 4,
+    "Successes": 0,
+    "Success": false,
+    "StatusCounts": {
+      "time_limit": 4
+    },
+    "FG": 2772.0,
+    "FG_q25": 2708.25,
+    "FG_q75": 2837.0,
+    "FG_min": 2652.0,
+    "FG_max": 2897.0,
+    "Seconds": 30.062805499968817,
+    "Seconds_q25": 30.037624174976372,
+    "Seconds_q75": 30.084466674990836,
+    "Seconds_min": 30.006399500009138,
+    "Seconds_max": 30.105130900046788,
+    "FG_distinct": [
+      2652,
+      2727,
+      2817,
+      2897
+    ],
+    "FG_non_time_limit_distinct": []
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "NCB20B",
+    "Method": "A-QNPE",
+    "Repetitions": 4,
+    "Successes": 0,
+    "Success": false,
+    "StatusCounts": {
+      "time_limit": 4
+    },
+    "FG": 6439.5,
+    "FG_q25": 6199.0,
+    "FG_q75": 6660.25,
+    "FG_min": 5980.0,
+    "FG_max": 6820.0,
+    "Seconds": 30.03724550001789,
+    "Seconds_q25": 30.026113350046217,
+    "Seconds_q75": 30.041448324991507,
+    "Seconds_min": 30.004764600016642,
+    "Seconds_max": 30.042009100026917,
+    "FG_distinct": [
+      5980,
+      6272,
+      6607,
+      6820
+    ],
+    "FG_non_time_limit_distinct": []
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "TRIDIA",
+    "Method": "A-QNPE",
+    "Repetitions": 4,
+    "Successes": 0,
+    "Success": false,
+    "StatusCounts": {
+      "time_limit": 4
+    },
+    "FG": 4687.5,
+    "FG_q25": 4561.75,
+    "FG_q75": 4776.25,
+    "FG_min": 4408.0,
+    "FG_max": 4819.0,
+    "Seconds": 30.017627000052016,
+    "Seconds_q25": 30.001124950038502,
+    "Seconds_q75": 30.039753900040523,
+    "Seconds_min": 30.00076419999823,
+    "Seconds_max": 30.056989200005773,
+    "FG_distinct": [
+      4408,
+      4613,
+      4762,
+      4819
+    ],
+    "FG_non_time_limit_distinct": []
+  }
+]

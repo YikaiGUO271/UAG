@@ -1,0 +1,6 @@
+_cache/
+generated/
+cases/data/
+validation/downloaded_data/
+__pycache__/
+*.pyc

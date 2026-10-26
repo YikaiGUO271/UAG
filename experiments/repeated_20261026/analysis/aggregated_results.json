@@ -1,0 +1,3658 @@
+[
+  {
+    "Suite": "specific",
+    "Problem": "logsumexp_rho0p5",
+    "Method": "UAD",
+    "FG": 97.0,
+    "Seconds": 0.007375249988399446,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "logsumexp_rho0p5",
+    "Method": "NAG",
+    "FG": 710.0,
+    "Seconds": 0.05125469999620691,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "logsumexp_rho0p5",
+    "Method": "RNAG",
+    "FG": 183.0,
+    "Seconds": 0.015122300013899803,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "logsumexp_rho0p5",
+    "Method": "AC-FGM",
+    "FG": 280.0,
+    "Seconds": 0.023217100009787828,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "logsumexp_rho0p5",
+    "Method": "GD",
+    "FG": 296.0,
+    "Seconds": 0.025278749992139637,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "logsumexp_rho0p5",
+    "Method": "CUG",
+    "FG": 30593.0,
+    "Seconds": 1.819487750006374,
+    "Success": false
+  },
+  {
+    "Suite": "specific",
+    "Problem": "logsumexp_rho0p5",
+    "Method": "AdaNAG",
+    "FG": 2024.0,
+    "Seconds": 0.12298689997987822,
+    "Success": false
+  },
+  {
+    "Suite": "specific",
+    "Problem": "logsumexp_rho0p5",
+    "Method": "A-QNPE",
+    "FG": 1747.0,
+    "Seconds": 1.671962850028649,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "logsumexp_rho0p05",
+    "Method": "UAD",
+    "FG": 479.0,
+    "Seconds": 0.03535649998229928,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "logsumexp_rho0p05",
+    "Method": "NAG",
+    "FG": 12513.0,
+    "Seconds": 0.7628952499653678,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "logsumexp_rho0p05",
+    "Method": "RNAG",
+    "FG": 1441.0,
+    "Seconds": 0.09428419996402226,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "logsumexp_rho0p05",
+    "Method": "AC-FGM",
+    "FG": 2600.0,
+    "Seconds": 0.15851765000843443,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "logsumexp_rho0p05",
+    "Method": "GD",
+    "FG": 8723.0,
+    "Seconds": 0.5358496500120964,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "logsumexp_rho0p05",
+    "Method": "CUG",
+    "FG": 100000.0,
+    "Seconds": 5.757198449980933,
+    "Success": false
+  },
+  {
+    "Suite": "specific",
+    "Problem": "logsumexp_rho0p05",
+    "Method": "AdaNAG",
+    "FG": 94479.0,
+    "Seconds": 4.507887349987868,
+    "Success": false
+  },
+  {
+    "Suite": "specific",
+    "Problem": "logsumexp_rho0p05",
+    "Method": "A-QNPE",
+    "FG": 13852.0,
+    "Seconds": 20.17987940000603,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "logsumexp_rho0p005",
+    "Method": "UAD",
+    "FG": 3800.0,
+    "Seconds": 0.4304379500099458,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "logsumexp_rho0p005",
+    "Method": "NAG",
+    "FG": 100000.0,
+    "Seconds": 8.726562149997335,
+    "Success": false
+  },
+  {
+    "Suite": "specific",
+    "Problem": "logsumexp_rho0p005",
+    "Method": "RNAG",
+    "FG": 8102.0,
+    "Seconds": 0.8252280500018969,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "logsumexp_rho0p005",
+    "Method": "AC-FGM",
+    "FG": 15994.0,
+    "Seconds": 1.2242766999988817,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "logsumexp_rho0p005",
+    "Method": "GD",
+    "FG": 100000.0,
+    "Seconds": 8.688898549997248,
+    "Success": false
+  },
+  {
+    "Suite": "specific",
+    "Problem": "logsumexp_rho0p005",
+    "Method": "CUG",
+    "FG": 100000.0,
+    "Seconds": 8.461920800007647,
+    "Success": false
+  },
+  {
+    "Suite": "specific",
+    "Problem": "logsumexp_rho0p005",
+    "Method": "AdaNAG",
+    "FG": 100000.0,
+    "Seconds": 9.220138600008795,
+    "Success": false
+  },
+  {
+    "Suite": "specific",
+    "Problem": "logsumexp_rho0p005",
+    "Method": "A-QNPE",
+    "FG": 47947.0,
+    "Seconds": 120.00927415001206,
+    "Success": false
+  },
+  {
+    "Suite": "specific",
+    "Problem": "rosenbrock_d200",
+    "Method": "UAD",
+    "FG": 164.0,
+    "Seconds": 0.0007090499857440591,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "rosenbrock_d200",
+    "Method": "NAG",
+    "FG": 55921.0,
+    "Seconds": 0.1247224000399001,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "rosenbrock_d200",
+    "Method": "RNAG",
+    "FG": 4436.0,
+    "Seconds": 0.010754400020232424,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "rosenbrock_d200",
+    "Method": "AC-FGM",
+    "FG": 60699.0,
+    "Seconds": 0.17135859999689274,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "rosenbrock_d200",
+    "Method": "GD",
+    "FG": 83208.0,
+    "Seconds": 0.21032374998321757,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "rosenbrock_d200",
+    "Method": "CUG",
+    "FG": 100000.0,
+    "Seconds": 0.26688445001491345,
+    "Success": false
+  },
+  {
+    "Suite": "specific",
+    "Problem": "rosenbrock_d200",
+    "Method": "AdaNAG",
+    "FG": 18.0,
+    "Seconds": 0.0001687500043772161,
+    "Success": false
+  },
+  {
+    "Suite": "specific",
+    "Problem": "rosenbrock_d200",
+    "Method": "A-QNPE",
+    "FG": 44919.5,
+    "Seconds": 120.00776309997309,
+    "Success": false
+  },
+  {
+    "Suite": "specific",
+    "Problem": "t_regression_s0",
+    "Method": "UAD",
+    "FG": 1023.0,
+    "Seconds": 0.03017064998857677,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "t_regression_s0",
+    "Method": "NAG",
+    "FG": 25733.0,
+    "Seconds": 0.6532617000048049,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "t_regression_s0",
+    "Method": "RNAG",
+    "FG": 3314.0,
+    "Seconds": 0.11335110003710724,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "t_regression_s0",
+    "Method": "AC-FGM",
+    "FG": 12142.0,
+    "Seconds": 0.4116315499995835,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "t_regression_s0",
+    "Method": "GD",
+    "FG": 31460.0,
+    "Seconds": 0.8689894499839284,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "t_regression_s0",
+    "Method": "CUG",
+    "FG": 50063.0,
+    "Seconds": 1.40808989998186,
+    "Success": false
+  },
+  {
+    "Suite": "specific",
+    "Problem": "t_regression_s0",
+    "Method": "AdaNAG",
+    "FG": 3.0,
+    "Seconds": 0.0003801500133704394,
+    "Success": false
+  },
+  {
+    "Suite": "specific",
+    "Problem": "t_regression_s0",
+    "Method": "A-QNPE",
+    "FG": 36091.0,
+    "Seconds": 58.680471150029916,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "super_logistic_a9a",
+    "Method": "UAD",
+    "FG": 1348.0,
+    "Seconds": 2.3899119999841787,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "super_logistic_a9a",
+    "Method": "NAG",
+    "FG": 25857.0,
+    "Seconds": 50.328312900004676,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "super_logistic_a9a",
+    "Method": "RNAG",
+    "FG": 3664.0,
+    "Seconds": 7.100438100023894,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "super_logistic_a9a",
+    "Method": "AC-FGM",
+    "FG": 2396.0,
+    "Seconds": 4.958365499973297,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "super_logistic_a9a",
+    "Method": "GD",
+    "FG": 56998.0,
+    "Seconds": 120.00120985001558,
+    "Success": false
+  },
+  {
+    "Suite": "specific",
+    "Problem": "super_logistic_a9a",
+    "Method": "CUG",
+    "FG": 59826.5,
+    "Seconds": 120.00214539997978,
+    "Success": false
+  },
+  {
+    "Suite": "specific",
+    "Problem": "super_logistic_a9a",
+    "Method": "AdaNAG",
+    "FG": 29178.0,
+    "Seconds": 55.62600745004602,
+    "Success": false
+  },
+  {
+    "Suite": "specific",
+    "Problem": "super_logistic_a9a",
+    "Method": "A-QNPE",
+    "FG": 8678.0,
+    "Seconds": 19.985987900028704,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "super_logistic_australian",
+    "Method": "UAD",
+    "FG": 159.0,
+    "Seconds": 0.0077117999899201095,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "super_logistic_australian",
+    "Method": "NAG",
+    "FG": 1471.0,
+    "Seconds": 0.06670920000760816,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "super_logistic_australian",
+    "Method": "RNAG",
+    "FG": 421.0,
+    "Seconds": 0.025569799996446818,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "super_logistic_australian",
+    "Method": "AC-FGM",
+    "FG": 608.0,
+    "Seconds": 0.03292475000489503,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "super_logistic_australian",
+    "Method": "GD",
+    "FG": 1188.0,
+    "Seconds": 0.061856400017859414,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "super_logistic_australian",
+    "Method": "CUG",
+    "FG": 8035.0,
+    "Seconds": 0.3435534500167705,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "super_logistic_australian",
+    "Method": "AdaNAG",
+    "FG": 3927.0,
+    "Seconds": 0.17325455002719536,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "super_logistic_australian",
+    "Method": "A-QNPE",
+    "FG": 1832.0,
+    "Seconds": 0.10656399998697452,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "super_logistic_ionosphere",
+    "Method": "UAD",
+    "FG": 167.0,
+    "Seconds": 0.008193849993404001,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "super_logistic_ionosphere",
+    "Method": "NAG",
+    "FG": 2259.0,
+    "Seconds": 0.09369724997668527,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "super_logistic_ionosphere",
+    "Method": "RNAG",
+    "FG": 441.0,
+    "Seconds": 0.023425000021234155,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "super_logistic_ionosphere",
+    "Method": "AC-FGM",
+    "FG": 611.0,
+    "Seconds": 0.027231499989284202,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "super_logistic_ionosphere",
+    "Method": "GD",
+    "FG": 1350.0,
+    "Seconds": 0.055374199990183115,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "super_logistic_ionosphere",
+    "Method": "CUG",
+    "FG": 7757.0,
+    "Seconds": 0.2945868000097107,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "super_logistic_ionosphere",
+    "Method": "AdaNAG",
+    "FG": 7765.0,
+    "Seconds": 0.2897434499755036,
+    "Success": false
+  },
+  {
+    "Suite": "specific",
+    "Problem": "super_logistic_ionosphere",
+    "Method": "A-QNPE",
+    "FG": 2132.0,
+    "Seconds": 0.22037044999888167,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "super_logistic_w8a",
+    "Method": "UAD",
+    "FG": 185.0,
+    "Seconds": 0.5896820499910973,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "super_logistic_w8a",
+    "Method": "NAG",
+    "FG": 2638.0,
+    "Seconds": 6.185552200011443,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "super_logistic_w8a",
+    "Method": "RNAG",
+    "FG": 636.0,
+    "Seconds": 1.6473326999985147,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "super_logistic_w8a",
+    "Method": "AC-FGM",
+    "FG": 651.0,
+    "Seconds": 1.9323957500164397,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "super_logistic_w8a",
+    "Method": "GD",
+    "FG": 1970.0,
+    "Seconds": 6.140847750008106,
+    "Success": true
+  },
+  {
+    "Suite": "specific",
+    "Problem": "super_logistic_w8a",
+    "Method": "CUG",
+    "FG": 45810.5,
+    "Seconds": 120.00059119996149,
+    "Success": false
+  },
+  {
+    "Suite": "specific",
+    "Problem": "super_logistic_w8a",
+    "Method": "AdaNAG",
+    "FG": 46260.0,
+    "Seconds": 119.73095649998868,
+    "Success": false
+  },
+  {
+    "Suite": "specific",
+    "Problem": "super_logistic_w8a",
+    "Method": "A-QNPE",
+    "FG": 3521.0,
+    "Seconds": 15.292791349987965,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "ARGLINA",
+    "Method": "UAD",
+    "FG": 3.0,
+    "Seconds": 0.00022124996758066118,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "ARGLINA",
+    "Method": "NAG",
+    "FG": 4.0,
+    "Seconds": 0.0003300500102341175,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "ARGLINA",
+    "Method": "RNAG",
+    "FG": 4.0,
+    "Seconds": 0.00032809999538585544,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "ARGLINA",
+    "Method": "AC-FGM",
+    "FG": 82.0,
+    "Seconds": 0.004498550028074533,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "ARGLINA",
+    "Method": "GD",
+    "FG": 4.0,
+    "Seconds": 0.0002898499951697886,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "ARGLINA",
+    "Method": "AdaNAG",
+    "FG": 81.0,
+    "Seconds": 0.004456249997019768,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "ARGLINA",
+    "Method": "A-QNPE",
+    "FG": 4.0,
+    "Seconds": 0.0003763000131584704,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "ARGLINB",
+    "Method": "UAD",
+    "FG": 44.0,
+    "Seconds": 0.0029205000319052488,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "ARGLINB",
+    "Method": "NAG",
+    "FG": 72.0,
+    "Seconds": 0.004513449996011332,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "ARGLINB",
+    "Method": "RNAG",
+    "FG": 58.0,
+    "Seconds": 0.0032711000239942223,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "ARGLINB",
+    "Method": "AC-FGM",
+    "FG": 150.0,
+    "Seconds": 0.00957699998980388,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "ARGLINB",
+    "Method": "GD",
+    "FG": 58.0,
+    "Seconds": 0.0037298000243026763,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "ARGLINB",
+    "Method": "AdaNAG",
+    "FG": 81.0,
+    "Seconds": 0.0057942500279750675,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "ARGLINB",
+    "Method": "A-QNPE",
+    "FG": 148.0,
+    "Seconds": 0.011923100013518706,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "ARGTRIGLS",
+    "Method": "UAD",
+    "FG": 819.0,
+    "Seconds": 0.061986799992155284,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "ARGTRIGLS",
+    "Method": "NAG",
+    "FG": 2473.0,
+    "Seconds": 0.16147290001390502,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "ARGTRIGLS",
+    "Method": "RNAG",
+    "FG": 1499.0,
+    "Seconds": 0.11848050000844523,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "ARGTRIGLS",
+    "Method": "AC-FGM",
+    "FG": 1258.0,
+    "Seconds": 0.10303159998147748,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "ARGTRIGLS",
+    "Method": "GD",
+    "FG": 20000.0,
+    "Seconds": 1.3666372500301804,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "ARGTRIGLS",
+    "Method": "AdaNAG",
+    "FG": 4640.0,
+    "Seconds": 0.3528828500129748,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "ARGTRIGLS",
+    "Method": "A-QNPE",
+    "FG": 2926.0,
+    "Seconds": 0.7433146499970462,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "ARWHEAD",
+    "Method": "UAD",
+    "FG": 27.0,
+    "Seconds": 0.011965049983700737,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "ARWHEAD",
+    "Method": "NAG",
+    "FG": 170.0,
+    "Seconds": 0.06010390000301413,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "ARWHEAD",
+    "Method": "RNAG",
+    "FG": 180.0,
+    "Seconds": 0.04882880000513978,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "ARWHEAD",
+    "Method": "AC-FGM",
+    "FG": 239.0,
+    "Seconds": 0.06758105001063086,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "ARWHEAD",
+    "Method": "GD",
+    "FG": 775.0,
+    "Seconds": 0.26746629999252036,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "ARWHEAD",
+    "Method": "AdaNAG",
+    "FG": 1167.0,
+    "Seconds": 0.4131358999875374,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "ARWHEAD",
+    "Method": "A-QNPE",
+    "FG": 222.0,
+    "Seconds": 0.09575330003281124,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "BDQRTIC",
+    "Method": "UAD",
+    "FG": 261.0,
+    "Seconds": 0.06539910001447424,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "BDQRTIC",
+    "Method": "NAG",
+    "FG": 1480.0,
+    "Seconds": 0.29334795000613667,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "BDQRTIC",
+    "Method": "RNAG",
+    "FG": 872.0,
+    "Seconds": 0.17671834997599944,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "BDQRTIC",
+    "Method": "AC-FGM",
+    "FG": 490.0,
+    "Seconds": 0.10249074999592267,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "BDQRTIC",
+    "Method": "GD",
+    "FG": 5675.0,
+    "Seconds": 1.0745852000254672,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "BDQRTIC",
+    "Method": "AdaNAG",
+    "FG": 20000.0,
+    "Seconds": 3.1629077499674167,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "BDQRTIC",
+    "Method": "A-QNPE",
+    "FG": 1115.0,
+    "Seconds": 0.5395177999744192,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "BROWNAL",
+    "Method": "UAD",
+    "FG": 20.0,
+    "Seconds": 0.0007420499750878662,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "BROWNAL",
+    "Method": "NAG",
+    "FG": 67.0,
+    "Seconds": 0.0020285499922465533,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "BROWNAL",
+    "Method": "RNAG",
+    "FG": 45.0,
+    "Seconds": 0.0014241499884519726,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "BROWNAL",
+    "Method": "AC-FGM",
+    "FG": 103.0,
+    "Seconds": 0.0030289999849628657,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "BROWNAL",
+    "Method": "GD",
+    "FG": 43.0,
+    "Seconds": 0.0009422000148333609,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "BROWNAL",
+    "Method": "AdaNAG",
+    "FG": 81.0,
+    "Seconds": 0.0025769499770831317,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "BROWNAL",
+    "Method": "A-QNPE",
+    "FG": 55.0,
+    "Seconds": 0.002539549983339384,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "BROYDN3DLS",
+    "Method": "UAD",
+    "FG": 45.0,
+    "Seconds": 0.012448249995941296,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "BROYDN3DLS",
+    "Method": "NAG",
+    "FG": 261.0,
+    "Seconds": 0.04506524998578243,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "BROYDN3DLS",
+    "Method": "RNAG",
+    "FG": 93.0,
+    "Seconds": 0.020637350040487945,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "BROYDN3DLS",
+    "Method": "AC-FGM",
+    "FG": 114.0,
+    "Seconds": 0.027285600022878498,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "BROYDN3DLS",
+    "Method": "GD",
+    "FG": 102.0,
+    "Seconds": 0.021104049985297024,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "BROYDN3DLS",
+    "Method": "AdaNAG",
+    "FG": 177.0,
+    "Seconds": 0.031661649991292506,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "BROYDN3DLS",
+    "Method": "A-QNPE",
+    "FG": 347.0,
+    "Seconds": 0.22824595001293346,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "BRYBND",
+    "Method": "UAD",
+    "FG": 66.0,
+    "Seconds": 0.028337650001049042,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "BRYBND",
+    "Method": "NAG",
+    "FG": 359.0,
+    "Seconds": 0.1445769999991171,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "BRYBND",
+    "Method": "RNAG",
+    "FG": 231.0,
+    "Seconds": 0.09846820001257583,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "BRYBND",
+    "Method": "AC-FGM",
+    "FG": 330.0,
+    "Seconds": 0.12398085001041181,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "BRYBND",
+    "Method": "GD",
+    "FG": 681.0,
+    "Seconds": 0.25926274998346344,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "BRYBND",
+    "Method": "AdaNAG",
+    "FG": 2589.0,
+    "Seconds": 0.8923871000006329,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "BRYBND",
+    "Method": "A-QNPE",
+    "FG": 1548.0,
+    "Seconds": 2.27759715000866,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "CHANDHEULS",
+    "Method": "UAD",
+    "FG": 57.0,
+    "Seconds": 0.030946449987823144,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "CHANDHEULS",
+    "Method": "NAG",
+    "FG": 483.0,
+    "Seconds": 0.2232281499891542,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "CHANDHEULS",
+    "Method": "RNAG",
+    "FG": 483.0,
+    "Seconds": 0.22135025000898167,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "CHANDHEULS",
+    "Method": "AC-FGM",
+    "FG": 1683.0,
+    "Seconds": 0.7072806000069249,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "CHANDHEULS",
+    "Method": "GD",
+    "FG": 20000.0,
+    "Seconds": 6.952716500003589,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "CHANDHEULS",
+    "Method": "AdaNAG",
+    "FG": 466.0,
+    "Seconds": 0.21078284998657182,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "CHANDHEULS",
+    "Method": "A-QNPE",
+    "FG": 476.0,
+    "Seconds": 0.23976399999810383,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "COSINE",
+    "Method": "UAD",
+    "FG": 16.0,
+    "Seconds": 0.0057433499896433204,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "COSINE",
+    "Method": "NAG",
+    "FG": 130.0,
+    "Seconds": 0.03010930001619272,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "COSINE",
+    "Method": "RNAG",
+    "FG": 60.0,
+    "Seconds": 0.015771350008435547,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "COSINE",
+    "Method": "AC-FGM",
+    "FG": 243.0,
+    "Seconds": 0.0489473000052385,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "COSINE",
+    "Method": "GD",
+    "FG": 46.0,
+    "Seconds": 0.011751050013117492,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "COSINE",
+    "Method": "AdaNAG",
+    "FG": 3.0,
+    "Seconds": 0.0008964500157162547,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "COSINE",
+    "Method": "A-QNPE",
+    "FG": 147.0,
+    "Seconds": 0.06006695001269691,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "CRAGGLVY",
+    "Method": "UAD",
+    "FG": 79.0,
+    "Seconds": 0.03149515003315173,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "CRAGGLVY",
+    "Method": "NAG",
+    "FG": 278.0,
+    "Seconds": 0.08465184998931363,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "CRAGGLVY",
+    "Method": "RNAG",
+    "FG": 160.0,
+    "Seconds": 0.053999099996872246,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "CRAGGLVY",
+    "Method": "AC-FGM",
+    "FG": 238.0,
+    "Seconds": 0.07085815002210438,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "CRAGGLVY",
+    "Method": "GD",
+    "FG": 295.0,
+    "Seconds": 0.08768394999788143,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "CRAGGLVY",
+    "Method": "AdaNAG",
+    "FG": 16001.0,
+    "Seconds": 3.518890500010457,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "CRAGGLVY",
+    "Method": "A-QNPE",
+    "FG": 1770.0,
+    "Seconds": 4.1877077499812,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "CURLY10",
+    "Method": "UAD",
+    "FG": 19971.0,
+    "Seconds": 0.5077799499849789,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "CURLY10",
+    "Method": "NAG",
+    "FG": 20000.0,
+    "Seconds": 0.4042364500055555,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "CURLY10",
+    "Method": "RNAG",
+    "FG": 20000.0,
+    "Seconds": 0.6048774000082631,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "CURLY10",
+    "Method": "AC-FGM",
+    "FG": 20000.0,
+    "Seconds": 0.6804879499832168,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "CURLY10",
+    "Method": "GD",
+    "FG": 20000.0,
+    "Seconds": 0.6495007500052452,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "CURLY10",
+    "Method": "AdaNAG",
+    "FG": 3.0,
+    "Seconds": 0.00022379998699761927,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "CURLY10",
+    "Method": "A-QNPE",
+    "FG": 2866.5,
+    "Seconds": 30.10639375000028,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "CYCLIC3LS",
+    "Method": "UAD",
+    "FG": 54.0,
+    "Seconds": 0.0029500999953597784,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "CYCLIC3LS",
+    "Method": "NAG",
+    "FG": 70.0,
+    "Seconds": 0.0031697999802418053,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "CYCLIC3LS",
+    "Method": "RNAG",
+    "FG": 70.0,
+    "Seconds": 0.0033397000224795192,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "CYCLIC3LS",
+    "Method": "AC-FGM",
+    "FG": 251.0,
+    "Seconds": 0.011744449991965666,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "CYCLIC3LS",
+    "Method": "GD",
+    "FG": 63.0,
+    "Seconds": 0.0035109999880660325,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "CYCLIC3LS",
+    "Method": "AdaNAG",
+    "FG": 1627.0,
+    "Seconds": 0.0630090500053484,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "CYCLIC3LS",
+    "Method": "A-QNPE",
+    "FG": 414.0,
+    "Seconds": 0.04101700001046993,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "DIXMAANF",
+    "Method": "UAD",
+    "FG": 81.0,
+    "Seconds": 0.020402049995027483,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "DIXMAANF",
+    "Method": "NAG",
+    "FG": 204.0,
+    "Seconds": 0.06929009998566471,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "DIXMAANF",
+    "Method": "RNAG",
+    "FG": 202.0,
+    "Seconds": 0.07277265001903288,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "DIXMAANF",
+    "Method": "AC-FGM",
+    "FG": 225.0,
+    "Seconds": 0.07305669999914244,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "DIXMAANF",
+    "Method": "GD",
+    "FG": 672.0,
+    "Seconds": 0.23004639998544008,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "DIXMAANF",
+    "Method": "AdaNAG",
+    "FG": 4977.0,
+    "Seconds": 1.20994284999324,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "DIXMAANF",
+    "Method": "A-QNPE",
+    "FG": 446.0,
+    "Seconds": 0.4143576500064228,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "DIXON3DQ",
+    "Method": "UAD",
+    "FG": 9986.0,
+    "Seconds": 0.1913846000097692,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "DIXON3DQ",
+    "Method": "NAG",
+    "FG": 20000.0,
+    "Seconds": 0.25671289997990243,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "DIXON3DQ",
+    "Method": "RNAG",
+    "FG": 15237.0,
+    "Seconds": 0.20329134998610243,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "DIXON3DQ",
+    "Method": "AC-FGM",
+    "FG": 20000.0,
+    "Seconds": 0.315666250011418,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "DIXON3DQ",
+    "Method": "GD",
+    "FG": 20000.0,
+    "Seconds": 0.24728665003203787,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "DIXON3DQ",
+    "Method": "AdaNAG",
+    "FG": 20000.0,
+    "Seconds": 0.30547274998389184,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "DIXON3DQ",
+    "Method": "A-QNPE",
+    "FG": 3607.5,
+    "Seconds": 30.05409749998944,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "DQRTIC",
+    "Method": "UAD",
+    "FG": 34.0,
+    "Seconds": 0.0007231000054161996,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "DQRTIC",
+    "Method": "NAG",
+    "FG": 50.0,
+    "Seconds": 0.0010034999868366867,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "DQRTIC",
+    "Method": "RNAG",
+    "FG": 48.0,
+    "Seconds": 0.0008326999959535897,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "DQRTIC",
+    "Method": "AC-FGM",
+    "FG": 177.0,
+    "Seconds": 0.004302299988921732,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "DQRTIC",
+    "Method": "GD",
+    "FG": 39.0,
+    "Seconds": 0.0007292500231415033,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "DQRTIC",
+    "Method": "AdaNAG",
+    "FG": 516.0,
+    "Seconds": 0.011012500006472692,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "DQRTIC",
+    "Method": "A-QNPE",
+    "FG": 201.0,
+    "Seconds": 0.04506924998713657,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "EDENSCH",
+    "Method": "UAD",
+    "FG": 34.0,
+    "Seconds": 0.008468649990390986,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "EDENSCH",
+    "Method": "NAG",
+    "FG": 92.0,
+    "Seconds": 0.02778995002154261,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "EDENSCH",
+    "Method": "RNAG",
+    "FG": 53.0,
+    "Seconds": 0.01339154999004677,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "EDENSCH",
+    "Method": "AC-FGM",
+    "FG": 169.0,
+    "Seconds": 0.04544585000257939,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "EDENSCH",
+    "Method": "GD",
+    "FG": 50.0,
+    "Seconds": 0.012859050038969144,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "EDENSCH",
+    "Method": "AdaNAG",
+    "FG": 1941.0,
+    "Seconds": 0.4021530000027269,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "EDENSCH",
+    "Method": "A-QNPE",
+    "FG": 237.0,
+    "Seconds": 0.11832670000148937,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "EG2",
+    "Method": "UAD",
+    "FG": 15.0,
+    "Seconds": 0.005420650006271899,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "EG2",
+    "Method": "NAG",
+    "FG": 27.0,
+    "Seconds": 0.009355450019938871,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "EG2",
+    "Method": "RNAG",
+    "FG": 22.0,
+    "Seconds": 0.007656549976672977,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "EG2",
+    "Method": "AC-FGM",
+    "FG": 177.0,
+    "Seconds": 0.04964419998577796,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "EG2",
+    "Method": "GD",
+    "FG": 21.0,
+    "Seconds": 0.0070430000487249345,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "EG2",
+    "Method": "AdaNAG",
+    "FG": 3.0,
+    "Seconds": 0.001200550002977252,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "EG2",
+    "Method": "A-QNPE",
+    "FG": 208.0,
+    "Seconds": 0.058155750011792406,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "EIGENALS",
+    "Method": "UAD",
+    "FG": 833.0,
+    "Seconds": 0.16784855001606047,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "EIGENALS",
+    "Method": "NAG",
+    "FG": 20000.0,
+    "Seconds": 2.528715499996906,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "EIGENALS",
+    "Method": "RNAG",
+    "FG": 4375.0,
+    "Seconds": 0.8068389499676414,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "EIGENALS",
+    "Method": "AC-FGM",
+    "FG": 3568.0,
+    "Seconds": 0.7054865499958396,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "EIGENALS",
+    "Method": "GD",
+    "FG": 20000.0,
+    "Seconds": 3.2103321499889717,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "EIGENALS",
+    "Method": "AdaNAG",
+    "FG": 3.0,
+    "Seconds": 0.0009259000071324408,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "EIGENALS",
+    "Method": "A-QNPE",
+    "FG": 19278.0,
+    "Seconds": 4.169341150030959,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "ENGVAL1",
+    "Method": "UAD",
+    "FG": 33.0,
+    "Seconds": 0.018422050023218617,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "ENGVAL1",
+    "Method": "NAG",
+    "FG": 78.0,
+    "Seconds": 0.0326993000053335,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "ENGVAL1",
+    "Method": "RNAG",
+    "FG": 62.0,
+    "Seconds": 0.03009719998226501,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "ENGVAL1",
+    "Method": "AC-FGM",
+    "FG": 137.0,
+    "Seconds": 0.06156349999946542,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "ENGVAL1",
+    "Method": "GD",
+    "FG": 63.0,
+    "Seconds": 0.02714450002531521,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "ENGVAL1",
+    "Method": "AdaNAG",
+    "FG": 804.0,
+    "Seconds": 0.29607784998370335,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "ENGVAL1",
+    "Method": "A-QNPE",
+    "FG": 109.0,
+    "Seconds": 0.06209444999694824,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "EXTROSNB",
+    "Method": "UAD",
+    "FG": 151.0,
+    "Seconds": 0.034867499984102324,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "EXTROSNB",
+    "Method": "NAG",
+    "FG": 423.0,
+    "Seconds": 0.08231570001225919,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "EXTROSNB",
+    "Method": "RNAG",
+    "FG": 451.0,
+    "Seconds": 0.08250099999713711,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "EXTROSNB",
+    "Method": "AC-FGM",
+    "FG": 357.0,
+    "Seconds": 0.06978114999947138,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "EXTROSNB",
+    "Method": "GD",
+    "FG": 5711.0,
+    "Seconds": 0.9052475499920547,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "EXTROSNB",
+    "Method": "AdaNAG",
+    "FG": 918.0,
+    "Seconds": 0.17189229998621158,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "EXTROSNB",
+    "Method": "A-QNPE",
+    "FG": 481.0,
+    "Seconds": 0.16124909999780357,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "FLETCBV2",
+    "Method": "UAD",
+    "FG": 5105.0,
+    "Seconds": 0.7229186999902595,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "FLETCBV2",
+    "Method": "NAG",
+    "FG": 5566.0,
+    "Seconds": 0.6424288499983959,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "FLETCBV2",
+    "Method": "RNAG",
+    "FG": 5566.0,
+    "Seconds": 1.0406095999933314,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "FLETCBV2",
+    "Method": "AC-FGM",
+    "FG": 10441.0,
+    "Seconds": 1.9663990000262856,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "FLETCBV2",
+    "Method": "GD",
+    "FG": 20000.0,
+    "Seconds": 2.8738207000133116,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "FLETCBV2",
+    "Method": "AdaNAG",
+    "FG": 4191.0,
+    "Seconds": 0.6963888999889605,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "FLETCBV2",
+    "Method": "A-QNPE",
+    "FG": 3142.0,
+    "Seconds": 30.040516449982533,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "FREUROTH",
+    "Method": "UAD",
+    "FG": 51.0,
+    "Seconds": 0.023462750017642975,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "FREUROTH",
+    "Method": "NAG",
+    "FG": 400.0,
+    "Seconds": 0.14048245002049953,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "FREUROTH",
+    "Method": "RNAG",
+    "FG": 558.0,
+    "Seconds": 0.20924504997674376,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "FREUROTH",
+    "Method": "AC-FGM",
+    "FG": 468.0,
+    "Seconds": 0.18036724996636622,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "FREUROTH",
+    "Method": "GD",
+    "FG": 9369.0,
+    "Seconds": 3.286833449965343,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "FREUROTH",
+    "Method": "AdaNAG",
+    "FG": 642.0,
+    "Seconds": 0.24771525000687689,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "FREUROTH",
+    "Method": "A-QNPE",
+    "FG": 556.0,
+    "Seconds": 0.31991395002114587,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "GENHUMPS",
+    "Method": "UAD",
+    "FG": 3005.0,
+    "Seconds": 1.277894250000827,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "GENHUMPS",
+    "Method": "NAG",
+    "FG": 20000.0,
+    "Seconds": 8.422714799991809,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "GENHUMPS",
+    "Method": "RNAG",
+    "FG": 9236.0,
+    "Seconds": 4.662881099968217,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "GENHUMPS",
+    "Method": "AC-FGM",
+    "FG": 20000.0,
+    "Seconds": 8.170498850027798,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "GENHUMPS",
+    "Method": "GD",
+    "FG": 20000.0,
+    "Seconds": 7.430279399995925,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "GENHUMPS",
+    "Method": "AdaNAG",
+    "FG": 5.0,
+    "Seconds": 0.002631800016388297,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "GENHUMPS",
+    "Method": "A-QNPE",
+    "FG": 2772.0,
+    "Seconds": 30.062805499968817,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "HILBERTA",
+    "Method": "UAD",
+    "FG": 228.0,
+    "Seconds": 0.059298150008544326,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "HILBERTA",
+    "Method": "NAG",
+    "FG": 495.0,
+    "Seconds": 0.12243704998400062,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "HILBERTA",
+    "Method": "RNAG",
+    "FG": 620.0,
+    "Seconds": 0.15684819998568855,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "HILBERTA",
+    "Method": "AC-FGM",
+    "FG": 463.0,
+    "Seconds": 0.11003114999039099,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "HILBERTA",
+    "Method": "GD",
+    "FG": 3862.0,
+    "Seconds": 0.7119210000091698,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "HILBERTA",
+    "Method": "AdaNAG",
+    "FG": 1244.0,
+    "Seconds": 0.26455009999335743,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "HILBERTA",
+    "Method": "A-QNPE",
+    "FG": 1054.0,
+    "Seconds": 0.26476359996013343,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "INTEQNELS",
+    "Method": "UAD",
+    "FG": 13.0,
+    "Seconds": 0.001275250018807128,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "INTEQNELS",
+    "Method": "NAG",
+    "FG": 45.0,
+    "Seconds": 0.004901500011328608,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "INTEQNELS",
+    "Method": "RNAG",
+    "FG": 26.0,
+    "Seconds": 0.002390150009887293,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "INTEQNELS",
+    "Method": "AC-FGM",
+    "FG": 109.0,
+    "Seconds": 0.008959250000771135,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "INTEQNELS",
+    "Method": "GD",
+    "FG": 30.0,
+    "Seconds": 0.003343849995872006,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "INTEQNELS",
+    "Method": "AdaNAG",
+    "FG": 120.0,
+    "Seconds": 0.009529549977742136,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "INTEQNELS",
+    "Method": "A-QNPE",
+    "FG": 98.0,
+    "Seconds": 0.012316000007558614,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LIARWHD",
+    "Method": "UAD",
+    "FG": 78.0,
+    "Seconds": 0.01970089998212643,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LIARWHD",
+    "Method": "NAG",
+    "FG": 937.0,
+    "Seconds": 0.18420635000802577,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LIARWHD",
+    "Method": "RNAG",
+    "FG": 616.0,
+    "Seconds": 0.11998774998937733,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LIARWHD",
+    "Method": "AC-FGM",
+    "FG": 1007.0,
+    "Seconds": 0.19776905002072453,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LIARWHD",
+    "Method": "GD",
+    "FG": 15120.0,
+    "Seconds": 1.9090552999696229,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LIARWHD",
+    "Method": "AdaNAG",
+    "FG": 2983.0,
+    "Seconds": 0.5599145500164013,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LIARWHD",
+    "Method": "A-QNPE",
+    "FG": 611.0,
+    "Seconds": 0.14422854999429546,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN11LS",
+    "Method": "UAD",
+    "FG": 2216.0,
+    "Seconds": 0.0528729000070598,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN11LS",
+    "Method": "NAG",
+    "FG": 4396.0,
+    "Seconds": 0.09350385001744144,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN11LS",
+    "Method": "RNAG",
+    "FG": 3313.0,
+    "Seconds": 0.06965324998600408,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN11LS",
+    "Method": "AC-FGM",
+    "FG": 9765.0,
+    "Seconds": 0.2037516999989748,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN11LS",
+    "Method": "GD",
+    "FG": 20000.0,
+    "Seconds": 0.3941806999791879,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN11LS",
+    "Method": "AdaNAG",
+    "FG": 36.0,
+    "Seconds": 0.001141999993706122,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN11LS",
+    "Method": "A-QNPE",
+    "FG": 6364.0,
+    "Seconds": 2.2721566000254825,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN12LS",
+    "Method": "UAD",
+    "FG": 384.0,
+    "Seconds": 0.02811884999391623,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN12LS",
+    "Method": "NAG",
+    "FG": 15206.0,
+    "Seconds": 0.9086648500233423,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN12LS",
+    "Method": "RNAG",
+    "FG": 1548.0,
+    "Seconds": 0.09978535000118427,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN12LS",
+    "Method": "AC-FGM",
+    "FG": 1759.0,
+    "Seconds": 0.11528344999533147,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN12LS",
+    "Method": "GD",
+    "FG": 20000.0,
+    "Seconds": 1.0023414999595843,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN12LS",
+    "Method": "AdaNAG",
+    "FG": 36.0,
+    "Seconds": 0.002351500006625429,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN12LS",
+    "Method": "A-QNPE",
+    "FG": 19743.0,
+    "Seconds": 6.113919399998849,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN13LS",
+    "Method": "UAD",
+    "FG": 143.0,
+    "Seconds": 0.016218750010011718,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN13LS",
+    "Method": "NAG",
+    "FG": 1624.0,
+    "Seconds": 0.15008115000091493,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN13LS",
+    "Method": "RNAG",
+    "FG": 538.0,
+    "Seconds": 0.049446399993030354,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN13LS",
+    "Method": "AC-FGM",
+    "FG": 840.0,
+    "Seconds": 0.05908379997708835,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN13LS",
+    "Method": "GD",
+    "FG": 2677.0,
+    "Seconds": 0.17360275003011338,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN13LS",
+    "Method": "AdaNAG",
+    "FG": 42.0,
+    "Seconds": 0.00427225002204068,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN13LS",
+    "Method": "A-QNPE",
+    "FG": 2026.0,
+    "Seconds": 0.38284149998798966,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN14LS",
+    "Method": "UAD",
+    "FG": 203.0,
+    "Seconds": 0.0025874499697238207,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN14LS",
+    "Method": "NAG",
+    "FG": 1211.0,
+    "Seconds": 0.015011300012702122,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN14LS",
+    "Method": "RNAG",
+    "FG": 382.0,
+    "Seconds": 0.005212000018218532,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN14LS",
+    "Method": "AC-FGM",
+    "FG": 481.0,
+    "Seconds": 0.008951550000347197,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN14LS",
+    "Method": "GD",
+    "FG": 1498.0,
+    "Seconds": 0.021127199986949563,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN14LS",
+    "Method": "AdaNAG",
+    "FG": 399.0,
+    "Seconds": 0.00827104999916628,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN14LS",
+    "Method": "A-QNPE",
+    "FG": 1397.0,
+    "Seconds": 0.2604107999941334,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN17LS",
+    "Method": "UAD",
+    "FG": 118.0,
+    "Seconds": 0.03874560000258498,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN17LS",
+    "Method": "NAG",
+    "FG": 883.0,
+    "Seconds": 0.2569962000416126,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN17LS",
+    "Method": "RNAG",
+    "FG": 414.0,
+    "Seconds": 0.12125304999062791,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN17LS",
+    "Method": "AC-FGM",
+    "FG": 335.0,
+    "Seconds": 0.09909094998147339,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN17LS",
+    "Method": "GD",
+    "FG": 1551.0,
+    "Seconds": 0.4134611500194296,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN17LS",
+    "Method": "AdaNAG",
+    "FG": 2757.0,
+    "Seconds": 0.791994099970907,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN17LS",
+    "Method": "A-QNPE",
+    "FG": 792.0,
+    "Seconds": 0.3611011999892071,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN21LS",
+    "Method": "UAD",
+    "FG": 1513.0,
+    "Seconds": 0.03399709999212064,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN21LS",
+    "Method": "NAG",
+    "FG": 20000.0,
+    "Seconds": 0.3313085499976296,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN21LS",
+    "Method": "RNAG",
+    "FG": 4359.0,
+    "Seconds": 0.07725509998272173,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN21LS",
+    "Method": "AC-FGM",
+    "FG": 20000.0,
+    "Seconds": 0.31659634999232367,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN21LS",
+    "Method": "GD",
+    "FG": 20000.0,
+    "Seconds": 0.3303077499731444,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN21LS",
+    "Method": "AdaNAG",
+    "FG": 636.0,
+    "Seconds": 0.013822250009980053,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN21LS",
+    "Method": "A-QNPE",
+    "FG": 20000.0,
+    "Seconds": 9.284505849995185,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN22LS",
+    "Method": "UAD",
+    "FG": 547.0,
+    "Seconds": 0.12509650000720285,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN22LS",
+    "Method": "NAG",
+    "FG": 1647.0,
+    "Seconds": 0.33996685000602156,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN22LS",
+    "Method": "RNAG",
+    "FG": 1400.0,
+    "Seconds": 0.2615839999925811,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN22LS",
+    "Method": "AC-FGM",
+    "FG": 1047.0,
+    "Seconds": 0.2124146000132896,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN22LS",
+    "Method": "GD",
+    "FG": 20000.0,
+    "Seconds": 3.309281349997036,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN22LS",
+    "Method": "AdaNAG",
+    "FG": 3518.0,
+    "Seconds": 0.6182765499979723,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "LUKSAN22LS",
+    "Method": "A-QNPE",
+    "FG": 1714.0,
+    "Seconds": 0.6801594499847852,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "MANCINO",
+    "Method": "UAD",
+    "FG": 27.0,
+    "Seconds": 0.02371449998463504,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "MANCINO",
+    "Method": "NAG",
+    "FG": 43.0,
+    "Seconds": 0.03273900001659058,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "MANCINO",
+    "Method": "RNAG",
+    "FG": 35.0,
+    "Seconds": 0.029090950003592297,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "MANCINO",
+    "Method": "AC-FGM",
+    "FG": 132.0,
+    "Seconds": 0.08604389999527484,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "MANCINO",
+    "Method": "GD",
+    "FG": 34.0,
+    "Seconds": 0.02510870000696741,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "MANCINO",
+    "Method": "AdaNAG",
+    "FG": 125.0,
+    "Seconds": 0.08509330000379123,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "MANCINO",
+    "Method": "A-QNPE",
+    "FG": 108.0,
+    "Seconds": 0.07421324998722412,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "MOREBV",
+    "Method": "UAD",
+    "FG": 30.0,
+    "Seconds": 0.008646850008517504,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "MOREBV",
+    "Method": "NAG",
+    "FG": 43.0,
+    "Seconds": 0.011917050025658682,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "MOREBV",
+    "Method": "RNAG",
+    "FG": 43.0,
+    "Seconds": 0.011859599995659664,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "MOREBV",
+    "Method": "AC-FGM",
+    "FG": 52.0,
+    "Seconds": 0.01175445000990294,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "MOREBV",
+    "Method": "GD",
+    "FG": 52.0,
+    "Seconds": 0.014100550004513934,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "MOREBV",
+    "Method": "AdaNAG",
+    "FG": 46.0,
+    "Seconds": 0.013323599996510893,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "MOREBV",
+    "Method": "A-QNPE",
+    "FG": 56.0,
+    "Seconds": 0.018847049999749288,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "MSQRTALS",
+    "Method": "UAD",
+    "FG": 444.0,
+    "Seconds": 0.08160204999148846,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "MSQRTALS",
+    "Method": "NAG",
+    "FG": 3338.0,
+    "Seconds": 0.5805446000013035,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "MSQRTALS",
+    "Method": "RNAG",
+    "FG": 1225.0,
+    "Seconds": 0.21618149999994785,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "MSQRTALS",
+    "Method": "AC-FGM",
+    "FG": 894.0,
+    "Seconds": 0.1620513500238303,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "MSQRTALS",
+    "Method": "GD",
+    "FG": 16530.0,
+    "Seconds": 2.705301950016292,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "MSQRTALS",
+    "Method": "AdaNAG",
+    "FG": 3.0,
+    "Seconds": 0.0007189999741967767,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "MSQRTALS",
+    "Method": "A-QNPE",
+    "FG": 4376.0,
+    "Seconds": 2.162170499970671,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "NCB20B",
+    "Method": "UAD",
+    "FG": 374.0,
+    "Seconds": 0.0986210000119172,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "NCB20B",
+    "Method": "NAG",
+    "FG": 20000.0,
+    "Seconds": 4.26978494998184,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "NCB20B",
+    "Method": "RNAG",
+    "FG": 900.0,
+    "Seconds": 0.22338389998185448,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "NCB20B",
+    "Method": "AC-FGM",
+    "FG": 834.0,
+    "Seconds": 0.21025790000567213,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "NCB20B",
+    "Method": "GD",
+    "FG": 6331.0,
+    "Seconds": 1.5632334499969147,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "NCB20B",
+    "Method": "AdaNAG",
+    "FG": 1598.0,
+    "Seconds": 0.4061025499831885,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "NCB20B",
+    "Method": "A-QNPE",
+    "FG": 6439.5,
+    "Seconds": 30.03724550001789,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "NONDQUAR",
+    "Method": "UAD",
+    "FG": 165.0,
+    "Seconds": 0.004461899981833994,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "NONDQUAR",
+    "Method": "NAG",
+    "FG": 294.0,
+    "Seconds": 0.007338900002650917,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "NONDQUAR",
+    "Method": "RNAG",
+    "FG": 298.0,
+    "Seconds": 0.007674899999983609,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "NONDQUAR",
+    "Method": "AC-FGM",
+    "FG": 355.0,
+    "Seconds": 0.009845599997788668,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "NONDQUAR",
+    "Method": "GD",
+    "FG": 1028.0,
+    "Seconds": 0.01963185000931844,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "NONDQUAR",
+    "Method": "AdaNAG",
+    "FG": 20000.0,
+    "Seconds": 0.3708191000041552,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "NONDQUAR",
+    "Method": "A-QNPE",
+    "FG": 2104.0,
+    "Seconds": 0.9268334500375204,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "OSCIGRAD",
+    "Method": "UAD",
+    "FG": 83.0,
+    "Seconds": 0.03942160002770834,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "OSCIGRAD",
+    "Method": "NAG",
+    "FG": 234.0,
+    "Seconds": 0.09733374998904765,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "OSCIGRAD",
+    "Method": "RNAG",
+    "FG": 106.0,
+    "Seconds": 0.04533130003255792,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "OSCIGRAD",
+    "Method": "AC-FGM",
+    "FG": 221.0,
+    "Seconds": 0.08694959999411367,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "OSCIGRAD",
+    "Method": "GD",
+    "FG": 147.0,
+    "Seconds": 0.06149344998993911,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "OSCIGRAD",
+    "Method": "AdaNAG",
+    "FG": 1842.0,
+    "Seconds": 0.5753678500186652,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "OSCIGRAD",
+    "Method": "A-QNPE",
+    "FG": 333.0,
+    "Seconds": 0.25554230000125244,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "PENALTY1",
+    "Method": "UAD",
+    "FG": 31.0,
+    "Seconds": 0.001119100023061037,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "PENALTY1",
+    "Method": "NAG",
+    "FG": 39.0,
+    "Seconds": 0.0011421999952290207,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "PENALTY1",
+    "Method": "RNAG",
+    "FG": 39.0,
+    "Seconds": 0.0013659500109497458,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "PENALTY1",
+    "Method": "AC-FGM",
+    "FG": 38.0,
+    "Seconds": 0.0011623500031419098,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "PENALTY1",
+    "Method": "GD",
+    "FG": 38.0,
+    "Seconds": 0.0010239499970339239,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "PENALTY1",
+    "Method": "AdaNAG",
+    "FG": 240.0,
+    "Seconds": 0.005877649993635714,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "PENALTY1",
+    "Method": "A-QNPE",
+    "FG": 98.0,
+    "Seconds": 0.0030571999959647655,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "PENALTY2",
+    "Method": "UAD",
+    "FG": 31.0,
+    "Seconds": 0.003146749979350716,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "PENALTY2",
+    "Method": "NAG",
+    "FG": 48.0,
+    "Seconds": 0.0061028500203974545,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "PENALTY2",
+    "Method": "RNAG",
+    "FG": 48.0,
+    "Seconds": 0.005455950013129041,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "PENALTY2",
+    "Method": "AC-FGM",
+    "FG": 203.0,
+    "Seconds": 0.02094444999238476,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "PENALTY2",
+    "Method": "GD",
+    "FG": 37.0,
+    "Seconds": 0.004168200015556067,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "PENALTY2",
+    "Method": "AdaNAG",
+    "FG": 1749.0,
+    "Seconds": 0.11746190002304502,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "PENALTY2",
+    "Method": "A-QNPE",
+    "FG": 428.0,
+    "Seconds": 0.05281920000561513,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "POWELLSG",
+    "Method": "UAD",
+    "FG": 47.0,
+    "Seconds": 0.0013918000040575862,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "POWELLSG",
+    "Method": "NAG",
+    "FG": 305.0,
+    "Seconds": 0.0069370000273920596,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "POWELLSG",
+    "Method": "RNAG",
+    "FG": 534.0,
+    "Seconds": 0.010910800017882138,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "POWELLSG",
+    "Method": "AC-FGM",
+    "FG": 721.0,
+    "Seconds": 0.018098250002367422,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "POWELLSG",
+    "Method": "GD",
+    "FG": 9268.0,
+    "Seconds": 0.13503520001540892,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "POWELLSG",
+    "Method": "AdaNAG",
+    "FG": 974.0,
+    "Seconds": 0.024896550021367148,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "POWELLSG",
+    "Method": "A-QNPE",
+    "FG": 475.0,
+    "Seconds": 0.03569804999278858,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "POWER",
+    "Method": "UAD",
+    "FG": 46.0,
+    "Seconds": 0.013487500022165477,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "POWER",
+    "Method": "NAG",
+    "FG": 65.0,
+    "Seconds": 0.018701249995501712,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "POWER",
+    "Method": "RNAG",
+    "FG": 65.0,
+    "Seconds": 0.016923999966820702,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "POWER",
+    "Method": "AC-FGM",
+    "FG": 246.0,
+    "Seconds": 0.049676850001560524,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "POWER",
+    "Method": "GD",
+    "FG": 58.0,
+    "Seconds": 0.01590799997211434,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "POWER",
+    "Method": "AdaNAG",
+    "FG": 2462.0,
+    "Seconds": 0.4329663500247989,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "POWER",
+    "Method": "A-QNPE",
+    "FG": 526.0,
+    "Seconds": 0.1768216999771539,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "QING",
+    "Method": "UAD",
+    "FG": 187.0,
+    "Seconds": 0.04384340002434328,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "QING",
+    "Method": "NAG",
+    "FG": 1617.0,
+    "Seconds": 0.2949359500198625,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "QING",
+    "Method": "RNAG",
+    "FG": 955.0,
+    "Seconds": 0.17368120001628995,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "QING",
+    "Method": "AC-FGM",
+    "FG": 765.0,
+    "Seconds": 0.13887270001578145,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "QING",
+    "Method": "GD",
+    "FG": 1672.0,
+    "Seconds": 0.30592399998568,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "QING",
+    "Method": "AdaNAG",
+    "FG": 3.0,
+    "Seconds": 0.0008485500002279878,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "QING",
+    "Method": "A-QNPE",
+    "FG": 2343.0,
+    "Seconds": 15.389907250035321,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "SPARSINE",
+    "Method": "UAD",
+    "FG": 429.0,
+    "Seconds": 0.09266609998303466,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "SPARSINE",
+    "Method": "NAG",
+    "FG": 1814.0,
+    "Seconds": 0.3664124500064645,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "SPARSINE",
+    "Method": "RNAG",
+    "FG": 1314.0,
+    "Seconds": 0.27208759999484755,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "SPARSINE",
+    "Method": "AC-FGM",
+    "FG": 608.0,
+    "Seconds": 0.13160454999888316,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "SPARSINE",
+    "Method": "GD",
+    "FG": 7638.0,
+    "Seconds": 1.4407910500012804,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "SPARSINE",
+    "Method": "AdaNAG",
+    "FG": 1939.0,
+    "Seconds": 0.3859103999857325,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "SPARSINE",
+    "Method": "A-QNPE",
+    "FG": 2005.0,
+    "Seconds": 5.288253250007983,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "SPARSQUR",
+    "Method": "UAD",
+    "FG": 52.0,
+    "Seconds": 0.016740250022849068,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "SPARSQUR",
+    "Method": "NAG",
+    "FG": 41.0,
+    "Seconds": 0.012327050004387274,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "SPARSQUR",
+    "Method": "RNAG",
+    "FG": 41.0,
+    "Seconds": 0.013400750001892447,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "SPARSQUR",
+    "Method": "AC-FGM",
+    "FG": 166.0,
+    "Seconds": 0.03936220001196489,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "SPARSQUR",
+    "Method": "GD",
+    "FG": 29.0,
+    "Seconds": 0.00918955000815913,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "SPARSQUR",
+    "Method": "AdaNAG",
+    "FG": 1137.0,
+    "Seconds": 0.23087630001828074,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "SPARSQUR",
+    "Method": "A-QNPE",
+    "FG": 311.0,
+    "Seconds": 0.20480214999406599,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "TQUARTIC",
+    "Method": "UAD",
+    "FG": 91.0,
+    "Seconds": 0.022320549993310124,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "TQUARTIC",
+    "Method": "NAG",
+    "FG": 13110.0,
+    "Seconds": 2.03668769999058,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "TQUARTIC",
+    "Method": "RNAG",
+    "FG": 13110.0,
+    "Seconds": 1.6779800000076648,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "TQUARTIC",
+    "Method": "AC-FGM",
+    "FG": 20000.0,
+    "Seconds": 2.8060084500175435,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "TQUARTIC",
+    "Method": "GD",
+    "FG": 20000.0,
+    "Seconds": 3.288103900005808,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "TQUARTIC",
+    "Method": "AdaNAG",
+    "FG": 40.0,
+    "Seconds": 0.010288549994584173,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "TQUARTIC",
+    "Method": "A-QNPE",
+    "FG": 20000.0,
+    "Seconds": 4.22911970000132,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "TRIDIA",
+    "Method": "UAD",
+    "FG": 912.0,
+    "Seconds": 0.02124640002148226,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "TRIDIA",
+    "Method": "NAG",
+    "FG": 4183.0,
+    "Seconds": 0.058880550001049414,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "TRIDIA",
+    "Method": "RNAG",
+    "FG": 1739.0,
+    "Seconds": 0.03170799999497831,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "TRIDIA",
+    "Method": "AC-FGM",
+    "FG": 1426.0,
+    "Seconds": 0.030448650009930134,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "TRIDIA",
+    "Method": "GD",
+    "FG": 20000.0,
+    "Seconds": 0.29012545000296086,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "TRIDIA",
+    "Method": "AdaNAG",
+    "FG": 2496.0,
+    "Seconds": 0.041519699996570125,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "TRIDIA",
+    "Method": "A-QNPE",
+    "FG": 4687.5,
+    "Seconds": 30.017627000052016,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "VARDIM",
+    "Method": "UAD",
+    "FG": 53.0,
+    "Seconds": 0.00041199999395757914,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "VARDIM",
+    "Method": "NAG",
+    "FG": 62.0,
+    "Seconds": 0.00030154999694786966,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "VARDIM",
+    "Method": "RNAG",
+    "FG": 62.0,
+    "Seconds": 0.0003826000029221177,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "VARDIM",
+    "Method": "AC-FGM",
+    "FG": 206.0,
+    "Seconds": 0.0012045000039506704,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "VARDIM",
+    "Method": "GD",
+    "FG": 60.0,
+    "Seconds": 0.00040479996823705733,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "VARDIM",
+    "Method": "AdaNAG",
+    "FG": 242.0,
+    "Seconds": 0.0010937499755527824,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "VARDIM",
+    "Method": "A-QNPE",
+    "FG": 132.0,
+    "Seconds": 0.002699800010304898,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "VAREIGVL",
+    "Method": "UAD",
+    "FG": 74.0,
+    "Seconds": 0.024388199992245063,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "VAREIGVL",
+    "Method": "NAG",
+    "FG": 337.0,
+    "Seconds": 0.08803995000198483,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "VAREIGVL",
+    "Method": "RNAG",
+    "FG": 189.0,
+    "Seconds": 0.048679650004487485,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "VAREIGVL",
+    "Method": "AC-FGM",
+    "FG": 218.0,
+    "Seconds": 0.052508149994537234,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "VAREIGVL",
+    "Method": "GD",
+    "FG": 445.0,
+    "Seconds": 0.09896475001005456,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "VAREIGVL",
+    "Method": "AdaNAG",
+    "FG": 1585.0,
+    "Seconds": 0.3492479000124149,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "VAREIGVL",
+    "Method": "A-QNPE",
+    "FG": 383.0,
+    "Seconds": 0.19156745000509545,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "WOODS",
+    "Method": "UAD",
+    "FG": 230.0,
+    "Seconds": 0.02780700000585057,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "WOODS",
+    "Method": "NAG",
+    "FG": 183.0,
+    "Seconds": 0.02113680000184104,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "WOODS",
+    "Method": "RNAG",
+    "FG": 80.0,
+    "Seconds": 0.013348150008823723,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "WOODS",
+    "Method": "AC-FGM",
+    "FG": 244.0,
+    "Seconds": 0.029540900024585426,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "WOODS",
+    "Method": "GD",
+    "FG": 181.0,
+    "Seconds": 0.029483599995728582,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "WOODS",
+    "Method": "AdaNAG",
+    "FG": 150.0,
+    "Seconds": 0.020049600017955527,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "WOODS",
+    "Method": "A-QNPE",
+    "FG": 421.0,
+    "Seconds": 0.09284855000441894,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "TOINTGSS",
+    "Method": "UAD",
+    "FG": 3.0,
+    "Seconds": 0.0064221000066027045,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "TOINTGSS",
+    "Method": "NAG",
+    "FG": 4.0,
+    "Seconds": 0.007661900017410517,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "TOINTGSS",
+    "Method": "RNAG",
+    "FG": 4.0,
+    "Seconds": 0.008924099995056167,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "TOINTGSS",
+    "Method": "AC-FGM",
+    "FG": 98.0,
+    "Seconds": 0.12906160001875833,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "TOINTGSS",
+    "Method": "GD",
+    "FG": 4.0,
+    "Seconds": 0.008313550002640113,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "TOINTGSS",
+    "Method": "AdaNAG",
+    "FG": 143.0,
+    "Seconds": 0.1922093499742914,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "TOINTGSS",
+    "Method": "A-QNPE",
+    "FG": 4.0,
+    "Seconds": 0.008467100007692352,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "FMINSURF",
+    "Method": "UAD",
+    "FG": 387.0,
+    "Seconds": 0.26197160000447184,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "FMINSURF",
+    "Method": "NAG",
+    "FG": 4513.0,
+    "Seconds": 2.82687994997832,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "FMINSURF",
+    "Method": "RNAG",
+    "FG": 752.0,
+    "Seconds": 0.39731770000071265,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "FMINSURF",
+    "Method": "AC-FGM",
+    "FG": 1526.0,
+    "Seconds": 0.9058413499733433,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "FMINSURF",
+    "Method": "GD",
+    "FG": 6049.0,
+    "Seconds": 2.7549391000065953,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "FMINSURF",
+    "Method": "AdaNAG",
+    "FG": 7124.0,
+    "Seconds": 3.239712199982023,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "FMINSURF",
+    "Method": "A-QNPE",
+    "FG": 6673.0,
+    "Seconds": 25.65743674998521,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "SINQUAD",
+    "Method": "UAD",
+    "FG": 115.0,
+    "Seconds": 0.13447715001530014,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "SINQUAD",
+    "Method": "NAG",
+    "FG": 20000.0,
+    "Seconds": 18.570433400018374,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "SINQUAD",
+    "Method": "RNAG",
+    "FG": 20000.0,
+    "Seconds": 18.70613219999359,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "SINQUAD",
+    "Method": "AC-FGM",
+    "FG": 1470.0,
+    "Seconds": 1.6050953500089236,
+    "Success": true
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "SINQUAD",
+    "Method": "GD",
+    "FG": 20000.0,
+    "Seconds": 18.97140014998149,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "SINQUAD",
+    "Method": "AdaNAG",
+    "FG": 3.0,
+    "Seconds": 0.004910799994831905,
+    "Success": false
+  },
+  {
+    "Suite": "cutest",
+    "Problem": "SINQUAD",
+    "Method": "A-QNPE",
+    "FG": 4550.0,
+    "Seconds": 3.962335849995725,
+    "Success": true
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "suite": "cutest",
+    "problem": "ARWHEAD",
+    "construction_seconds": 0.010603400005493313,
+    "FG": 0
+  },
+  {
+    "suite": "cutest",
+    "problem": "ARWHEAD",
+    "FG": 1,
+    "seconds": 0.01050160004524514
+  }
+]

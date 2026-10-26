@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.venv/
+.env
+.env.*
+experiments/cases/data/
+experiments/validation/downloaded_data/
+experiments/runs/
+.DS_Store
+Thumbs.db

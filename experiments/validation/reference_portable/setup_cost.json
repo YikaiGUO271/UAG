@@ -1,0 +1,8 @@
+[
+  {
+    "suite": "specific",
+    "problem": "rosenbrock_d200",
+    "FG": 1,
+    "seconds": 0.0003160000196658075
+  }
+]

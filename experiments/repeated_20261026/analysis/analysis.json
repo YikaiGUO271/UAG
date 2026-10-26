@@ -1,0 +1,1556 @@
+{
+  "complete_repetitions": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "R": 4,
+  "partial_repetitions_excluded": [
+    {
+      "repeat": 5,
+      "observations": 44,
+      "expected": 457
+    }
+  ],
+  "used_observations": 1828,
+  "success_rule": "All R/R observations must succeed; otherwise cost is infinite.",
+  "cost_rule": "Median of all R costs for solved combinations; IQR uses numpy.quantile linear interpolation.",
+  "total_solver_seconds": 5953.556274001196,
+  "all_statuses": {
+    "stationarity": 1528,
+    "numerical_failure": 8,
+    "nonpositive_convexity_residual": 90,
+    "query_budget": 156,
+    "time_limit": 46
+  },
+  "combinations_with_FG_variation": 12,
+  "combinations_with_FG_variation_after_excluding_time_limits": 0,
+  "expected_case_method_set_sha256": "237746c98ee1497cd0db14f8f7f319950879e33860c83cbd94fa4c5a858dcdd0",
+  "case_method_set_hash_format": "sha256 of sorted [suite,problem,method] JSON arrays, ASCII, separators comma/colon",
+  "first_target_trace_audit": {
+    "passed": true,
+    "observations": 1872,
+    "trace_checks": 1872,
+    "successful_first_target_checks": 1557,
+    "all_recorded_FG_counters_verified": true,
+    "targets_match_protocol": true,
+    "statuses": {
+      "stationarity": 1557,
+      "numerical_failure": 10,
+      "nonpositive_convexity_residual": 95,
+      "query_budget": 162,
+      "time_limit": 48
+    },
+    "driver_sha256": "3aa91cb8960478232e5a53ecf8a5c4c1e2fa08ad1b0f38e133310d5f5fdde788",
+    "results_sha256": "fc847d42227a623dfc5992bc64e61f892c3655973ba71f8e8fe9e123fb6a8f0a"
+  },
+  "summary": {
+    "specific": {
+      "methods": {
+        "UAD": {
+          "solved": 9,
+          "cases": 9,
+          "sum_per_problem_median_FG": 7422.0,
+          "sum_per_problem_median_Seconds": 3.4995490999135654,
+          "all_observation_statuses": {
+            "stationarity": 36
+          },
+          "FG_best_cases": 9,
+          "Seconds_best_cases": 9
+        },
+        "NAG": {
+          "solved": 8,
+          "cases": 9,
+          "sum_per_problem_median_FG": 227102.0,
+          "sum_per_problem_median_Seconds": 66.99296775000403,
+          "all_observation_statuses": {
+            "stationarity": 32,
+            "query_budget": 4
+          },
+          "FG_best_cases": 0,
+          "Seconds_best_cases": 0
+        },
+        "RNAG": {
+          "solved": 9,
+          "cases": 9,
+          "sum_per_problem_median_FG": 22638.0,
+          "sum_per_problem_median_Seconds": 9.855505650077248,
+          "all_observation_statuses": {
+            "stationarity": 36
+          },
+          "FG_best_cases": 0,
+          "Seconds_best_cases": 0
+        },
+        "AC-FGM": {
+          "solved": 9,
+          "cases": 9,
+          "sum_per_problem_median_FG": 95981.0,
+          "sum_per_problem_median_Seconds": 8.939919099997496,
+          "all_observation_statuses": {
+            "stationarity": 36
+          },
+          "FG_best_cases": 0,
+          "Seconds_best_cases": 0
+        },
+        "GD": {
+          "solved": 7,
+          "cases": 9,
+          "sum_per_problem_median_FG": 285193.0,
+          "sum_per_problem_median_Seconds": 136.58862835000036,
+          "all_observation_statuses": {
+            "stationarity": 28,
+            "query_budget": 4,
+            "time_limit": 4
+          },
+          "FG_best_cases": 0,
+          "Seconds_best_cases": 0
+        },
+        "CUG": {
+          "solved": 2,
+          "cases": 9,
+          "sum_per_problem_median_FG": 502085.0,
+          "sum_per_problem_median_Seconds": 258.3544581999595,
+          "all_observation_statuses": {
+            "numerical_failure": 8,
+            "query_budget": 12,
+            "time_limit": 8,
+            "stationarity": 8
+          },
+          "FG_best_cases": 0,
+          "Seconds_best_cases": 0
+        },
+        "AdaNAG": {
+          "solved": 1,
+          "cases": 9,
+          "sum_per_problem_median_FG": 283654.0,
+          "sum_per_problem_median_Seconds": 189.67152370003168,
+          "all_observation_statuses": {
+            "nonpositive_convexity_residual": 26,
+            "query_budget": 4,
+            "stationarity": 4,
+            "time_limit": 2
+          },
+          "FG_best_cases": 0,
+          "Seconds_best_cases": 0
+        },
+        "A-QNPE": {
+          "solved": 7,
+          "cases": 9,
+          "sum_per_problem_median_FG": 160719.5,
+          "sum_per_problem_median_Seconds": 356.15506435005227,
+          "all_observation_statuses": {
+            "stationarity": 28,
+            "time_limit": 8
+          },
+          "FG_best_cases": 0,
+          "Seconds_best_cases": 0
+        }
+      },
+      "comparisons": {
+        "NAG": {
+          "common_successes": 8,
+          "UAG_only_successes": 1,
+          "comparator_only_successes": 0,
+          "FG_ratio_geomean": 0.0453254236021463,
+          "FG_UAG_wins": 8,
+          "Seconds_ratio_geomean": 0.054698721869991654,
+          "Seconds_UAG_wins": 8
+        },
+        "RNAG": {
+          "common_successes": 9,
+          "UAG_only_successes": 0,
+          "comparator_only_successes": 0,
+          "FG_ratio_geomean": 0.2898382229908131,
+          "FG_UAG_wins": 9,
+          "Seconds_ratio_geomean": 0.30260969936343307,
+          "Seconds_UAG_wins": 9
+        },
+        "AC-FGM": {
+          "common_successes": 9,
+          "UAG_only_successes": 0,
+          "comparator_only_successes": 0,
+          "FG_ratio_geomean": 0.15043010064194565,
+          "FG_UAG_wins": 9,
+          "Seconds_ratio_geomean": 0.16234097159213015,
+          "Seconds_UAG_wins": 9
+        },
+        "GD": {
+          "common_successes": 7,
+          "UAG_only_successes": 2,
+          "comparator_only_successes": 0,
+          "FG_ratio_geomean": 0.05630102725733194,
+          "FG_UAG_wins": 7,
+          "Seconds_ratio_geomean": 0.06311955302343861,
+          "Seconds_UAG_wins": 7
+        },
+        "CUG": {
+          "common_successes": 2,
+          "UAG_only_successes": 7,
+          "comparator_only_successes": 0,
+          "FG_ratio_geomean": 0.02064034544127909,
+          "FG_UAG_wins": 2,
+          "Seconds_ratio_geomean": 0.024987228290131974,
+          "Seconds_UAG_wins": 2
+        },
+        "AdaNAG": {
+          "common_successes": 1,
+          "UAG_only_successes": 8,
+          "comparator_only_successes": 0,
+          "FG_ratio_geomean": 0.040488922841864027,
+          "FG_UAG_wins": 1,
+          "Seconds_ratio_geomean": 0.0445113850615156,
+          "Seconds_UAG_wins": 1
+        },
+        "A-QNPE": {
+          "common_successes": 7,
+          "UAG_only_successes": 2,
+          "comparator_only_successes": 0,
+          "FG_ratio_geomean": 0.06065278945077778,
+          "FG_UAG_wins": 7,
+          "Seconds_ratio_geomean": 0.012559718026688862,
+          "Seconds_UAG_wins": 7
+        }
+      },
+      "UAG_time_relative_IQR": {
+        "min": 0.011717204272718574,
+        "median": 0.3128605822636575,
+        "max": 0.9222551522462222
+      },
+      "total_cost_scope": "Sum of per-problem median observed costs, including unsuccessful runs; not the median of suite totals.",
+      "ratios": {
+        "FG": {
+          "logsumexp_rho0p5": {
+            "UAD": 1.0,
+            "NAG": 7.319587628865979,
+            "RNAG": 1.8865979381443299,
+            "AC-FGM": 2.88659793814433,
+            "GD": 3.051546391752577,
+            "CUG": null,
+            "AdaNAG": null,
+            "A-QNPE": 18.010309278350515
+          },
+          "logsumexp_rho0p05": {
+            "UAD": 1.0,
+            "NAG": 26.123173277661795,
+            "RNAG": 3.008350730688935,
+            "AC-FGM": 5.427974947807933,
+            "GD": 18.210855949895617,
+            "CUG": null,
+            "AdaNAG": null,
+            "A-QNPE": 28.91858037578288
+          },
+          "logsumexp_rho0p005": {
+            "UAD": 1.0,
+            "NAG": null,
+            "RNAG": 2.1321052631578947,
+            "AC-FGM": 4.208947368421053,
+            "GD": null,
+            "CUG": null,
+            "AdaNAG": null,
+            "A-QNPE": null
+          },
+          "rosenbrock_d200": {
+            "UAD": 1.0,
+            "NAG": 340.9817073170732,
+            "RNAG": 27.048780487804876,
+            "AC-FGM": 370.1158536585366,
+            "GD": 507.3658536585366,
+            "CUG": null,
+            "AdaNAG": null,
+            "A-QNPE": null
+          },
+          "t_regression_s0": {
+            "UAD": 1.0,
+            "NAG": 25.1544477028348,
+            "RNAG": 3.239491691104594,
+            "AC-FGM": 11.869012707722385,
+            "GD": 30.752688172043012,
+            "CUG": null,
+            "AdaNAG": null,
+            "A-QNPE": 35.27956989247312
+          },
+          "super_logistic_a9a": {
+            "UAD": 1.0,
+            "NAG": 19.181750741839764,
+            "RNAG": 2.7181008902077153,
+            "AC-FGM": 1.7774480712166172,
+            "GD": null,
+            "CUG": null,
+            "AdaNAG": null,
+            "A-QNPE": 6.437685459940653
+          },
+          "super_logistic_australian": {
+            "UAD": 1.0,
+            "NAG": 9.251572327044025,
+            "RNAG": 2.647798742138365,
+            "AC-FGM": 3.8238993710691824,
+            "GD": 7.471698113207547,
+            "CUG": 50.534591194968556,
+            "AdaNAG": 24.69811320754717,
+            "A-QNPE": 11.522012578616351
+          },
+          "super_logistic_ionosphere": {
+            "UAD": 1.0,
+            "NAG": 13.52694610778443,
+            "RNAG": 2.6407185628742513,
+            "AC-FGM": 3.658682634730539,
+            "GD": 8.083832335329342,
+            "CUG": 46.449101796407184,
+            "AdaNAG": null,
+            "A-QNPE": 12.766467065868264
+          },
+          "super_logistic_w8a": {
+            "UAD": 1.0,
+            "NAG": 14.259459459459459,
+            "RNAG": 3.437837837837838,
+            "AC-FGM": 3.518918918918919,
+            "GD": 10.64864864864865,
+            "CUG": null,
+            "AdaNAG": null,
+            "A-QNPE": 19.032432432432433
+          }
+        },
+        "Seconds": {
+          "logsumexp_rho0p5": {
+            "UAD": 1.0,
+            "NAG": 6.9495542628149,
+            "RNAG": 2.050411855555502,
+            "AC-FGM": 3.147974651205868,
+            "GD": 3.4275109361581864,
+            "CUG": null,
+            "AdaNAG": null,
+            "A-QNPE": 226.69914276241275
+          },
+          "logsumexp_rho0p05": {
+            "UAD": 1.0,
+            "NAG": 21.57722767658847,
+            "RNAG": 2.666672323652632,
+            "AC-FGM": 4.483408993757696,
+            "GD": 15.155619201005804,
+            "CUG": null,
+            "AdaNAG": null,
+            "A-QNPE": 570.7544414777705
+          },
+          "logsumexp_rho0p005": {
+            "UAD": 1.0,
+            "NAG": null,
+            "RNAG": 1.9171823720069967,
+            "AC-FGM": 2.844258272233183,
+            "GD": null,
+            "CUG": null,
+            "AdaNAG": null,
+            "A-QNPE": null
+          },
+          "rosenbrock_d200": {
+            "UAD": 1.0,
+            "NAG": 175.90071581345507,
+            "RNAG": 15.167336910594575,
+            "AC-FGM": 241.67351165951067,
+            "GD": 296.6275357336185,
+            "CUG": null,
+            "AdaNAG": null,
+            "A-QNPE": null
+          },
+          "t_regression_s0": {
+            "UAD": 1.0,
+            "NAG": 21.65222493556298,
+            "RNAG": 3.7569989403617194,
+            "AC-FGM": 13.643443219003757,
+            "GD": 28.80247692087992,
+            "CUG": null,
+            "AdaNAG": null,
+            "A-QNPE": 1944.9521694841694
+          },
+          "super_logistic_a9a": {
+            "UAD": 1.0,
+            "NAG": 21.05864688755814,
+            "RNAG": 2.9710039951558462,
+            "AC-FGM": 2.074706307180399,
+            "GD": null,
+            "CUG": null,
+            "AdaNAG": null,
+            "A-QNPE": 8.362645946863738
+          },
+          "super_logistic_australian": {
+            "UAD": 1.0,
+            "NAG": 8.650276212402034,
+            "RNAG": 3.3156720908047963,
+            "AC-FGM": 4.269398849546164,
+            "GD": 8.021006781647642,
+            "CUG": 44.549061239376044,
+            "AdaNAG": 22.466162277762887,
+            "A-QNPE": 13.818304432980824
+          },
+          "super_logistic_ionosphere": {
+            "UAD": 1.0,
+            "NAG": 11.435070211452611,
+            "RNAG": 2.858851460557752,
+            "AC-FGM": 3.3234071909060323,
+            "GD": 6.7580197385550145,
+            "CUG": 35.95218368005898,
+            "AdaNAG": null,
+            "A-QNPE": 26.894616105527746
+          },
+          "super_logistic_w8a": {
+            "UAD": 1.0,
+            "NAG": 10.489639628855635,
+            "RNAG": 2.7935947855685708,
+            "AC-FGM": 3.2770130107328415,
+            "GD": 10.41382852013355,
+            "CUG": null,
+            "AdaNAG": null,
+            "A-QNPE": 25.933961107038694
+          }
+        }
+      }
+    },
+    "cutest": {
+      "methods": {
+        "UAD": {
+          "solved": 55,
+          "cases": 55,
+          "sum_per_problem_median_FG": 50044.0,
+          "sum_per_problem_median_Seconds": 4.540567750082118,
+          "all_observation_statuses": {
+            "stationarity": 220
+          },
+          "FG_best_cases": 52,
+          "Seconds_best_cases": 50
+        },
+        "NAG": {
+          "solved": 48,
+          "cases": 55,
+          "sum_per_problem_median_FG": 209404.0,
+          "sum_per_problem_median_Seconds": 45.393659550201846,
+          "all_observation_statuses": {
+            "stationarity": 192,
+            "query_budget": 28
+          },
+          "FG_best_cases": 0,
+          "Seconds_best_cases": 2
+        },
+        "RNAG": {
+          "solved": 53,
+          "cases": 55,
+          "sum_per_problem_median_FG": 114320.0,
+          "sum_per_problem_median_Seconds": 31.37284809994162,
+          "all_observation_statuses": {
+            "stationarity": 212,
+            "query_budget": 8
+          },
+          "FG_best_cases": 1,
+          "Seconds_best_cases": 1
+        },
+        "AC-FGM": {
+          "solved": 50,
+          "cases": 55,
+          "sum_per_problem_median_FG": 147129.0,
+          "sum_per_problem_median_Seconds": 21.461269400111632,
+          "all_observation_statuses": {
+            "stationarity": 200,
+            "query_budget": 20
+          },
+          "FG_best_cases": 0,
+          "Seconds_best_cases": 0
+        },
+        "GD": {
+          "solved": 41,
+          "cases": 55,
+          "sum_per_problem_median_FG": 378006.0,
+          "sum_per_problem_median_Seconds": 68.94207050008117,
+          "all_observation_statuses": {
+            "stationarity": 164,
+            "query_budget": 56
+          },
+          "FG_best_cases": 1,
+          "Seconds_best_cases": 2
+        },
+        "AdaNAG": {
+          "solved": 36,
+          "cases": 55,
+          "sum_per_problem_median_FG": 136588.0,
+          "sum_per_problem_median_Seconds": 20.788437849929323,
+          "all_observation_statuses": {
+            "stationarity": 144,
+            "query_budget": 12,
+            "nonpositive_convexity_residual": 64
+          },
+          "FG_best_cases": 1,
+          "Seconds_best_cases": 0
+        },
+        "A-QNPE": {
+          "solved": 47,
+          "cases": 55,
+          "sum_per_problem_median_FG": 153328.0,
+          "sum_per_problem_median_Seconds": 272.6048607000557,
+          "all_observation_statuses": {
+            "stationarity": 188,
+            "time_limit": 24,
+            "query_budget": 8
+          },
+          "FG_best_cases": 0,
+          "Seconds_best_cases": 0
+        }
+      },
+      "comparisons": {
+        "NAG": {
+          "common_successes": 48,
+          "UAG_only_successes": 7,
+          "comparator_only_successes": 0,
+          "FG_ratio_geomean": 0.2842489496499191,
+          "FG_UAG_wins": 46,
+          "Seconds_ratio_geomean": 0.3279017128946268,
+          "Seconds_UAG_wins": 44
+        },
+        "RNAG": {
+          "common_successes": 53,
+          "UAG_only_successes": 2,
+          "comparator_only_successes": 0,
+          "FG_ratio_geomean": 0.4069156627432485,
+          "FG_UAG_wins": 51,
+          "Seconds_ratio_geomean": 0.45513478091629944,
+          "Seconds_UAG_wins": 50
+        },
+        "AC-FGM": {
+          "common_successes": 50,
+          "UAG_only_successes": 5,
+          "comparator_only_successes": 0,
+          "FG_ratio_geomean": 0.23703231587846113,
+          "FG_UAG_wins": 50,
+          "Seconds_ratio_geomean": 0.27389757146004245,
+          "Seconds_UAG_wins": 50
+        },
+        "GD": {
+          "common_successes": 41,
+          "UAG_only_successes": 14,
+          "comparator_only_successes": 0,
+          "FG_ratio_geomean": 0.19475502405059716,
+          "FG_UAG_wins": 39,
+          "Seconds_ratio_geomean": 0.2332478406590391,
+          "Seconds_UAG_wins": 38
+        },
+        "AdaNAG": {
+          "common_successes": 36,
+          "UAG_only_successes": 19,
+          "comparator_only_successes": 0,
+          "FG_ratio_geomean": 0.07644143767902854,
+          "FG_UAG_wins": 35,
+          "Seconds_ratio_geomean": 0.09855999360607036,
+          "Seconds_UAG_wins": 35
+        },
+        "A-QNPE": {
+          "common_successes": 47,
+          "UAG_only_successes": 8,
+          "comparator_only_successes": 0,
+          "FG_ratio_geomean": 0.15120400554149782,
+          "FG_UAG_wins": 47,
+          "Seconds_ratio_geomean": 0.07114707379440235,
+          "Seconds_UAG_wins": 47
+        }
+      },
+      "UAG_time_relative_IQR": {
+        "min": 0.016750861499782208,
+        "median": 0.16482910199376719,
+        "max": 0.6222697332459758
+      },
+      "total_cost_scope": "Sum of per-problem median observed costs, including unsuccessful runs; not the median of suite totals.",
+      "ratios": {
+        "FG": {
+          "ARGLINA": {
+            "UAD": 1.0,
+            "NAG": 1.3333333333333333,
+            "RNAG": 1.3333333333333333,
+            "AC-FGM": 27.333333333333332,
+            "GD": 1.3333333333333333,
+            "AdaNAG": 27.0,
+            "A-QNPE": 1.3333333333333333
+          },
+          "ARGLINB": {
+            "UAD": 1.0,
+            "NAG": 1.6363636363636365,
+            "RNAG": 1.3181818181818181,
+            "AC-FGM": 3.409090909090909,
+            "GD": 1.3181818181818181,
+            "AdaNAG": 1.8409090909090908,
+            "A-QNPE": 3.3636363636363638
+          },
+          "ARGTRIGLS": {
+            "UAD": 1.0,
+            "NAG": 3.0195360195360195,
+            "RNAG": 1.8302808302808302,
+            "AC-FGM": 1.5360195360195361,
+            "GD": null,
+            "AdaNAG": 5.665445665445666,
+            "A-QNPE": 3.572649572649573
+          },
+          "ARWHEAD": {
+            "UAD": 1.0,
+            "NAG": 6.296296296296297,
+            "RNAG": 6.666666666666667,
+            "AC-FGM": 8.851851851851851,
+            "GD": 28.703703703703702,
+            "AdaNAG": 43.22222222222222,
+            "A-QNPE": 8.222222222222221
+          },
+          "BDQRTIC": {
+            "UAD": 1.0,
+            "NAG": 5.670498084291188,
+            "RNAG": 3.3409961685823757,
+            "AC-FGM": 1.8773946360153257,
+            "GD": 21.743295019157088,
+            "AdaNAG": null,
+            "A-QNPE": 4.272030651340996
+          },
+          "BROWNAL": {
+            "UAD": 1.0,
+            "NAG": 3.35,
+            "RNAG": 2.25,
+            "AC-FGM": 5.15,
+            "GD": 2.15,
+            "AdaNAG": 4.05,
+            "A-QNPE": 2.75
+          },
+          "BROYDN3DLS": {
+            "UAD": 1.0,
+            "NAG": 5.8,
+            "RNAG": 2.066666666666667,
+            "AC-FGM": 2.533333333333333,
+            "GD": 2.2666666666666666,
+            "AdaNAG": 3.933333333333333,
+            "A-QNPE": 7.711111111111111
+          },
+          "BRYBND": {
+            "UAD": 1.0,
+            "NAG": 5.4393939393939394,
+            "RNAG": 3.5,
+            "AC-FGM": 5.0,
+            "GD": 10.318181818181818,
+            "AdaNAG": 39.22727272727273,
+            "A-QNPE": 23.454545454545453
+          },
+          "CHANDHEULS": {
+            "UAD": 1.0,
+            "NAG": 8.473684210526315,
+            "RNAG": 8.473684210526315,
+            "AC-FGM": 29.526315789473685,
+            "GD": null,
+            "AdaNAG": 8.175438596491228,
+            "A-QNPE": 8.350877192982455
+          },
+          "COSINE": {
+            "UAD": 1.0,
+            "NAG": 8.125,
+            "RNAG": 3.75,
+            "AC-FGM": 15.1875,
+            "GD": 2.875,
+            "AdaNAG": null,
+            "A-QNPE": 9.1875
+          },
+          "CRAGGLVY": {
+            "UAD": 1.0,
+            "NAG": 3.518987341772152,
+            "RNAG": 2.0253164556962027,
+            "AC-FGM": 3.0126582278481013,
+            "GD": 3.7341772151898733,
+            "AdaNAG": 202.54430379746836,
+            "A-QNPE": 22.40506329113924
+          },
+          "CURLY10": {
+            "UAD": 1.0,
+            "NAG": null,
+            "RNAG": null,
+            "AC-FGM": null,
+            "GD": null,
+            "AdaNAG": null,
+            "A-QNPE": null
+          },
+          "CYCLIC3LS": {
+            "UAD": 1.0,
+            "NAG": 1.2962962962962963,
+            "RNAG": 1.2962962962962963,
+            "AC-FGM": 4.648148148148148,
+            "GD": 1.1666666666666667,
+            "AdaNAG": 30.12962962962963,
+            "A-QNPE": 7.666666666666667
+          },
+          "DIXMAANF": {
+            "UAD": 1.0,
+            "NAG": 2.5185185185185186,
+            "RNAG": 2.493827160493827,
+            "AC-FGM": 2.7777777777777777,
+            "GD": 8.296296296296296,
+            "AdaNAG": 61.44444444444444,
+            "A-QNPE": 5.506172839506172
+          },
+          "DIXON3DQ": {
+            "UAD": 1.0,
+            "NAG": null,
+            "RNAG": 1.5258361706388945,
+            "AC-FGM": null,
+            "GD": null,
+            "AdaNAG": null,
+            "A-QNPE": null
+          },
+          "DQRTIC": {
+            "UAD": 1.0,
+            "NAG": 1.4705882352941178,
+            "RNAG": 1.411764705882353,
+            "AC-FGM": 5.205882352941177,
+            "GD": 1.1470588235294117,
+            "AdaNAG": 15.176470588235293,
+            "A-QNPE": 5.911764705882353
+          },
+          "EDENSCH": {
+            "UAD": 1.0,
+            "NAG": 2.7058823529411766,
+            "RNAG": 1.5588235294117647,
+            "AC-FGM": 4.970588235294118,
+            "GD": 1.4705882352941178,
+            "AdaNAG": 57.088235294117645,
+            "A-QNPE": 6.970588235294118
+          },
+          "EG2": {
+            "UAD": 1.0,
+            "NAG": 1.8,
+            "RNAG": 1.4666666666666666,
+            "AC-FGM": 11.8,
+            "GD": 1.4,
+            "AdaNAG": null,
+            "A-QNPE": 13.866666666666667
+          },
+          "EIGENALS": {
+            "UAD": 1.0,
+            "NAG": null,
+            "RNAG": 5.2521008403361344,
+            "AC-FGM": 4.283313325330132,
+            "GD": null,
+            "AdaNAG": null,
+            "A-QNPE": 23.142857142857142
+          },
+          "ENGVAL1": {
+            "UAD": 1.0,
+            "NAG": 2.3636363636363638,
+            "RNAG": 1.878787878787879,
+            "AC-FGM": 4.151515151515151,
+            "GD": 1.9090909090909092,
+            "AdaNAG": 24.363636363636363,
+            "A-QNPE": 3.303030303030303
+          },
+          "EXTROSNB": {
+            "UAD": 1.0,
+            "NAG": 2.801324503311258,
+            "RNAG": 2.986754966887417,
+            "AC-FGM": 2.3642384105960264,
+            "GD": 37.82119205298013,
+            "AdaNAG": 6.079470198675497,
+            "A-QNPE": 3.185430463576159
+          },
+          "FLETCBV2": {
+            "UAD": 1.2180863755666906,
+            "NAG": 1.3280839895013123,
+            "RNAG": 1.3280839895013123,
+            "AC-FGM": 2.4912908613696017,
+            "GD": null,
+            "AdaNAG": 1.0,
+            "A-QNPE": null
+          },
+          "FREUROTH": {
+            "UAD": 1.0,
+            "NAG": 7.8431372549019605,
+            "RNAG": 10.941176470588236,
+            "AC-FGM": 9.176470588235293,
+            "GD": 183.7058823529412,
+            "AdaNAG": 12.588235294117647,
+            "A-QNPE": 10.901960784313726
+          },
+          "GENHUMPS": {
+            "UAD": 1.0,
+            "NAG": null,
+            "RNAG": 3.0735440931780365,
+            "AC-FGM": null,
+            "GD": null,
+            "AdaNAG": null,
+            "A-QNPE": null
+          },
+          "HILBERTA": {
+            "UAD": 1.0,
+            "NAG": 2.1710526315789473,
+            "RNAG": 2.719298245614035,
+            "AC-FGM": 2.030701754385965,
+            "GD": 16.93859649122807,
+            "AdaNAG": 5.456140350877193,
+            "A-QNPE": 4.62280701754386
+          },
+          "INTEQNELS": {
+            "UAD": 1.0,
+            "NAG": 3.4615384615384617,
+            "RNAG": 2.0,
+            "AC-FGM": 8.384615384615385,
+            "GD": 2.3076923076923075,
+            "AdaNAG": 9.23076923076923,
+            "A-QNPE": 7.538461538461538
+          },
+          "LIARWHD": {
+            "UAD": 1.0,
+            "NAG": 12.012820512820513,
+            "RNAG": 7.897435897435898,
+            "AC-FGM": 12.91025641025641,
+            "GD": 193.84615384615384,
+            "AdaNAG": 38.243589743589745,
+            "A-QNPE": 7.833333333333333
+          },
+          "LUKSAN11LS": {
+            "UAD": 1.0,
+            "NAG": 1.983754512635379,
+            "RNAG": 1.4950361010830324,
+            "AC-FGM": 4.406588447653429,
+            "GD": null,
+            "AdaNAG": null,
+            "A-QNPE": 2.871841155234657
+          },
+          "LUKSAN12LS": {
+            "UAD": 1.0,
+            "NAG": 39.598958333333336,
+            "RNAG": 4.03125,
+            "AC-FGM": 4.580729166666667,
+            "GD": null,
+            "AdaNAG": null,
+            "A-QNPE": 51.4140625
+          },
+          "LUKSAN13LS": {
+            "UAD": 1.0,
+            "NAG": 11.356643356643357,
+            "RNAG": 3.762237762237762,
+            "AC-FGM": 5.874125874125874,
+            "GD": 18.72027972027972,
+            "AdaNAG": null,
+            "A-QNPE": 14.167832167832168
+          },
+          "LUKSAN14LS": {
+            "UAD": 1.0,
+            "NAG": 5.9655172413793105,
+            "RNAG": 1.8817733990147782,
+            "AC-FGM": 2.3694581280788176,
+            "GD": 7.379310344827586,
+            "AdaNAG": null,
+            "A-QNPE": 6.8817733990147785
+          },
+          "LUKSAN17LS": {
+            "UAD": 1.0,
+            "NAG": 7.483050847457627,
+            "RNAG": 3.5084745762711864,
+            "AC-FGM": 2.8389830508474576,
+            "GD": 13.14406779661017,
+            "AdaNAG": 23.364406779661017,
+            "A-QNPE": 6.711864406779661
+          },
+          "LUKSAN21LS": {
+            "UAD": 1.0,
+            "NAG": null,
+            "RNAG": 2.8810310641110375,
+            "AC-FGM": null,
+            "GD": null,
+            "AdaNAG": null,
+            "A-QNPE": null
+          },
+          "LUKSAN22LS": {
+            "UAD": 1.0,
+            "NAG": 3.010968921389397,
+            "RNAG": 2.5594149908592323,
+            "AC-FGM": 1.9140767824497258,
+            "GD": null,
+            "AdaNAG": 6.431444241316271,
+            "A-QNPE": 3.13345521023766
+          },
+          "MANCINO": {
+            "UAD": 1.0,
+            "NAG": 1.5925925925925926,
+            "RNAG": 1.2962962962962963,
+            "AC-FGM": 4.888888888888889,
+            "GD": 1.2592592592592593,
+            "AdaNAG": 4.62962962962963,
+            "A-QNPE": 4.0
+          },
+          "MOREBV": {
+            "UAD": 1.0,
+            "NAG": 1.4333333333333333,
+            "RNAG": 1.4333333333333333,
+            "AC-FGM": 1.7333333333333334,
+            "GD": 1.7333333333333334,
+            "AdaNAG": 1.5333333333333334,
+            "A-QNPE": 1.8666666666666667
+          },
+          "MSQRTALS": {
+            "UAD": 1.0,
+            "NAG": 7.518018018018018,
+            "RNAG": 2.759009009009009,
+            "AC-FGM": 2.0135135135135136,
+            "GD": 37.229729729729726,
+            "AdaNAG": null,
+            "A-QNPE": 9.855855855855856
+          },
+          "NCB20B": {
+            "UAD": 1.0,
+            "NAG": null,
+            "RNAG": 2.406417112299465,
+            "AC-FGM": 2.229946524064171,
+            "GD": 16.927807486631018,
+            "AdaNAG": null,
+            "A-QNPE": null
+          },
+          "NONDQUAR": {
+            "UAD": 1.0,
+            "NAG": 1.7818181818181817,
+            "RNAG": 1.8060606060606061,
+            "AC-FGM": 2.1515151515151514,
+            "GD": 6.2303030303030305,
+            "AdaNAG": null,
+            "A-QNPE": 12.751515151515152
+          },
+          "OSCIGRAD": {
+            "UAD": 1.0,
+            "NAG": 2.819277108433735,
+            "RNAG": 1.2771084337349397,
+            "AC-FGM": 2.6626506024096384,
+            "GD": 1.7710843373493976,
+            "AdaNAG": 22.19277108433735,
+            "A-QNPE": 4.0120481927710845
+          },
+          "PENALTY1": {
+            "UAD": 1.0,
+            "NAG": 1.2580645161290323,
+            "RNAG": 1.2580645161290323,
+            "AC-FGM": 1.2258064516129032,
+            "GD": 1.2258064516129032,
+            "AdaNAG": 7.741935483870968,
+            "A-QNPE": 3.161290322580645
+          },
+          "PENALTY2": {
+            "UAD": 1.0,
+            "NAG": 1.5483870967741935,
+            "RNAG": 1.5483870967741935,
+            "AC-FGM": 6.548387096774194,
+            "GD": 1.1935483870967742,
+            "AdaNAG": 56.41935483870968,
+            "A-QNPE": 13.806451612903226
+          },
+          "POWELLSG": {
+            "UAD": 1.0,
+            "NAG": 6.48936170212766,
+            "RNAG": 11.361702127659575,
+            "AC-FGM": 15.340425531914894,
+            "GD": 197.19148936170214,
+            "AdaNAG": 20.72340425531915,
+            "A-QNPE": 10.106382978723405
+          },
+          "POWER": {
+            "UAD": 1.0,
+            "NAG": 1.4130434782608696,
+            "RNAG": 1.4130434782608696,
+            "AC-FGM": 5.3478260869565215,
+            "GD": 1.2608695652173914,
+            "AdaNAG": 53.52173913043478,
+            "A-QNPE": 11.434782608695652
+          },
+          "QING": {
+            "UAD": 1.0,
+            "NAG": 8.647058823529411,
+            "RNAG": 5.106951871657754,
+            "AC-FGM": 4.090909090909091,
+            "GD": 8.941176470588236,
+            "AdaNAG": null,
+            "A-QNPE": 12.529411764705882
+          },
+          "SPARSINE": {
+            "UAD": 1.0,
+            "NAG": 4.228438228438228,
+            "RNAG": 3.062937062937063,
+            "AC-FGM": 1.4172494172494172,
+            "GD": 17.804195804195803,
+            "AdaNAG": 4.519813519813519,
+            "A-QNPE": 4.673659673659674
+          },
+          "SPARSQUR": {
+            "UAD": 1.793103448275862,
+            "NAG": 1.4137931034482758,
+            "RNAG": 1.4137931034482758,
+            "AC-FGM": 5.724137931034483,
+            "GD": 1.0,
+            "AdaNAG": 39.206896551724135,
+            "A-QNPE": 10.724137931034482
+          },
+          "TQUARTIC": {
+            "UAD": 1.0,
+            "NAG": 144.06593406593407,
+            "RNAG": 144.06593406593407,
+            "AC-FGM": null,
+            "GD": null,
+            "AdaNAG": null,
+            "A-QNPE": null
+          },
+          "TRIDIA": {
+            "UAD": 1.0,
+            "NAG": 4.586622807017544,
+            "RNAG": 1.906798245614035,
+            "AC-FGM": 1.5635964912280702,
+            "GD": null,
+            "AdaNAG": 2.736842105263158,
+            "A-QNPE": null
+          },
+          "VARDIM": {
+            "UAD": 1.0,
+            "NAG": 1.169811320754717,
+            "RNAG": 1.169811320754717,
+            "AC-FGM": 3.8867924528301887,
+            "GD": 1.1320754716981132,
+            "AdaNAG": 4.566037735849057,
+            "A-QNPE": 2.490566037735849
+          },
+          "VAREIGVL": {
+            "UAD": 1.0,
+            "NAG": 4.554054054054054,
+            "RNAG": 2.554054054054054,
+            "AC-FGM": 2.945945945945946,
+            "GD": 6.013513513513513,
+            "AdaNAG": 21.41891891891892,
+            "A-QNPE": 5.175675675675675
+          },
+          "WOODS": {
+            "UAD": 2.875,
+            "NAG": 2.2875,
+            "RNAG": 1.0,
+            "AC-FGM": 3.05,
+            "GD": 2.2625,
+            "AdaNAG": null,
+            "A-QNPE": 5.2625
+          },
+          "TOINTGSS": {
+            "UAD": 1.0,
+            "NAG": 1.3333333333333333,
+            "RNAG": 1.3333333333333333,
+            "AC-FGM": 32.666666666666664,
+            "GD": 1.3333333333333333,
+            "AdaNAG": 47.666666666666664,
+            "A-QNPE": 1.3333333333333333
+          },
+          "FMINSURF": {
+            "UAD": 1.0,
+            "NAG": 11.661498708010337,
+            "RNAG": 1.9431524547803618,
+            "AC-FGM": 3.943152454780362,
+            "GD": 15.630490956072352,
+            "AdaNAG": 18.40826873385013,
+            "A-QNPE": 17.242894056847547
+          },
+          "SINQUAD": {
+            "UAD": 1.0,
+            "NAG": null,
+            "RNAG": null,
+            "AC-FGM": 12.782608695652174,
+            "GD": null,
+            "AdaNAG": null,
+            "A-QNPE": 39.56521739130435
+          }
+        },
+        "Seconds": {
+          "ARGLINA": {
+            "UAD": 1.0,
+            "NAG": 1.4917516772687935,
+            "RNAG": 1.4829380495445266,
+            "AC-FGM": 20.332432484694014,
+            "GD": 1.3100566673037721,
+            "AdaNAG": 20.14124587564132,
+            "A-QNPE": 1.7007912691389777
+          },
+          "ARGLINB": {
+            "UAD": 1.0,
+            "NAG": 1.5454374068494323,
+            "RNAG": 1.120047932976824,
+            "AC-FGM": 3.279232968731086,
+            "GD": 1.2771100782592575,
+            "AdaNAG": 1.9839924549478838,
+            "A-QNPE": 4.08255431715932
+          },
+          "ARGTRIGLS": {
+            "UAD": 1.0,
+            "NAG": 2.6049562170387914,
+            "RNAG": 1.9113827463821247,
+            "AC-FGM": 1.6621538778339358,
+            "GD": null,
+            "AdaNAG": 5.692870902476556,
+            "A-QNPE": 11.991498998030487
+          },
+          "ARWHEAD": {
+            "UAD": 1.0,
+            "NAG": 5.023288668654961,
+            "RNAG": 4.080952446638861,
+            "AC-FGM": 5.648204571037516,
+            "GD": 22.353964284050086,
+            "AdaNAG": 34.5285561322625,
+            "A-QNPE": 8.0027496887393
+          },
+          "BDQRTIC": {
+            "UAD": 1.0,
+            "NAG": 4.485504386776154,
+            "RNAG": 2.702152628046683,
+            "AC-FGM": 1.5671584161439414,
+            "GD": 16.431192474936783,
+            "AdaNAG": null,
+            "A-QNPE": 8.249621169939834
+          },
+          "BROWNAL": {
+            "UAD": 1.0,
+            "NAG": 2.7337107477247105,
+            "RNAG": 1.9192103446716495,
+            "AC-FGM": 4.0819352963446995,
+            "GD": 1.2697258223366896,
+            "AdaNAG": 3.472744509934112,
+            "A-QNPE": 3.4223436002927916
+          },
+          "BROYDN3DLS": {
+            "UAD": 1.0,
+            "NAG": 3.620207659749425,
+            "RNAG": 1.6578515090246961,
+            "AC-FGM": 2.1919225619484557,
+            "GD": 1.695342718227696,
+            "AdaNAG": 2.5434619325299272,
+            "A-QNPE": 18.33558533025543
+          },
+          "BRYBND": {
+            "UAD": 1.0,
+            "NAG": 5.101940351220548,
+            "RNAG": 3.474818836739483,
+            "AC-FGM": 4.375128142447314,
+            "GD": 9.149056113469737,
+            "AdaNAG": 31.491217513364635,
+            "A-QNPE": 80.37353661733928
+          },
+          "CHANDHEULS": {
+            "UAD": 1.0,
+            "NAG": 7.213368579497498,
+            "RNAG": 7.15268633707837,
+            "AC-FGM": 22.85498337564492,
+            "GD": null,
+            "AdaNAG": 6.811212596905654,
+            "A-QNPE": 7.747706121136561
+          },
+          "COSINE": {
+            "UAD": 1.0,
+            "NAG": 5.242463034724896,
+            "RNAG": 2.7460193157086352,
+            "AC-FGM": 8.522430305223011,
+            "GD": 2.0460271504100462,
+            "AdaNAG": null,
+            "A-QNPE": 10.458521615609786
+          },
+          "CRAGGLVY": {
+            "UAD": 1.0,
+            "NAG": 2.6877741461847067,
+            "RNAG": 1.7145211227770911,
+            "AC-FGM": 2.2498114772439326,
+            "GD": 2.784046112039012,
+            "AdaNAG": 111.72801197347782,
+            "A-QNPE": 132.9635752035862
+          },
+          "CURLY10": {
+            "UAD": 1.0,
+            "NAG": null,
+            "RNAG": null,
+            "AC-FGM": null,
+            "GD": null,
+            "AdaNAG": null,
+            "A-QNPE": null
+          },
+          "CYCLIC3LS": {
+            "UAD": 1.0,
+            "NAG": 1.0744720467874287,
+            "RNAG": 1.1320633292880051,
+            "AC-FGM": 3.9810345447403646,
+            "GD": 1.1901291459911514,
+            "AdaNAG": 21.35827602605184,
+            "A-QNPE": 13.903596513672655
+          },
+          "DIXMAANF": {
+            "UAD": 1.0,
+            "NAG": 3.3962322414930135,
+            "RNAG": 3.566928325181513,
+            "AC-FGM": 3.58085094473096,
+            "GD": 11.27565122335787,
+            "AdaNAG": 59.304964466224476,
+            "A-QNPE": 20.309608598518906
+          },
+          "DIXON3DQ": {
+            "UAD": 1.0,
+            "NAG": null,
+            "RNAG": 1.0622137307585118,
+            "AC-FGM": null,
+            "GD": null,
+            "AdaNAG": null,
+            "A-QNPE": null
+          },
+          "DQRTIC": {
+            "UAD": 1.0,
+            "NAG": 1.3877748296504235,
+            "RNAG": 1.1515696165350005,
+            "AC-FGM": 5.9497994145988535,
+            "GD": 1.0085050721604738,
+            "AdaNAG": 15.229567036352258,
+            "A-QNPE": 62.3278241592541
+          },
+          "EDENSCH": {
+            "UAD": 1.0,
+            "NAG": 3.2815088654123943,
+            "RNAG": 1.5813087097992697,
+            "AC-FGM": 5.366363004037815,
+            "GD": 1.5184297442401984,
+            "AdaNAG": 47.48726189641001,
+            "A-QNPE": 13.972321460415722
+          },
+          "EG2": {
+            "UAD": 1.0,
+            "NAG": 1.7258908081344966,
+            "RNAG": 1.4124782023952953,
+            "AC-FGM": 9.158348155357332,
+            "GD": 1.299290682957932,
+            "AdaNAG": null,
+            "A-QNPE": 10.728556528184624
+          },
+          "EIGENALS": {
+            "UAD": 1.0,
+            "NAG": null,
+            "RNAG": 4.806946201742223,
+            "AC-FGM": 4.203113758971022,
+            "GD": null,
+            "AdaNAG": null,
+            "A-QNPE": 24.83989971692945
+          },
+          "ENGVAL1": {
+            "UAD": 1.0,
+            "NAG": 1.7750087511498585,
+            "RNAG": 1.633759540568578,
+            "AC-FGM": 3.341837630549943,
+            "GD": 1.4734787925938249,
+            "AdaNAG": 16.071927370218592,
+            "A-QNPE": 3.370659069901895
+          },
+          "EXTROSNB": {
+            "UAD": 1.0,
+            "NAG": 2.3608145135094474,
+            "RNAG": 2.36612891760961,
+            "AC-FGM": 2.001323583029692,
+            "GD": 25.962502341859846,
+            "AdaNAG": 4.929871658839466,
+            "A-QNPE": 4.624624652508047
+          },
+          "FLETCBV2": {
+            "UAD": 1.125289905632452,
+            "NAG": 1.0,
+            "RNAG": 1.619805212664297,
+            "AC-FGM": 3.060882150655587,
+            "GD": null,
+            "AdaNAG": 1.0839938150204482,
+            "A-QNPE": null
+          },
+          "FREUROTH": {
+            "UAD": 1.0,
+            "NAG": 5.987467364859737,
+            "RNAG": 8.918180938696466,
+            "AC-FGM": 7.687387447368183,
+            "GD": 140.0873063683407,
+            "AdaNAG": 10.557809712016098,
+            "A-QNPE": 13.634972446988712
+          },
+          "GENHUMPS": {
+            "UAD": 1.0,
+            "NAG": null,
+            "RNAG": 3.648878692399782,
+            "AC-FGM": null,
+            "GD": null,
+            "AdaNAG": null,
+            "A-QNPE": null
+          },
+          "HILBERTA": {
+            "UAD": 1.0,
+            "NAG": 2.0647701482484453,
+            "RNAG": 2.645077459635556,
+            "AC-FGM": 1.8555578879701389,
+            "GD": 12.005787700064646,
+            "AdaNAG": 4.461355033086836,
+            "A-QNPE": 4.464955482118471
+          },
+          "INTEQNELS": {
+            "UAD": 1.0,
+            "NAG": 3.843560038456994,
+            "RNAG": 1.8742599291416164,
+            "AC-FGM": 7.025485095974857,
+            "GD": 2.6221132692080658,
+            "AdaNAG": 7.472691501432871,
+            "A-QNPE": 9.65771403718859
+          },
+          "LIARWHD": {
+            "UAD": 1.0,
+            "NAG": 9.350148986855743,
+            "RNAG": 6.0904704911062835,
+            "AC-FGM": 10.038579465920328,
+            "GD": 96.90193350058152,
+            "AdaNAG": 28.420759991897924,
+            "A-QNPE": 7.3209117413491915
+          },
+          "LUKSAN11LS": {
+            "UAD": 1.0,
+            "NAG": 1.7684645632253277,
+            "RNAG": 1.317371469631961,
+            "AC-FGM": 3.8536130980477536,
+            "GD": null,
+            "AdaNAG": null,
+            "A-QNPE": 42.973935602588384
+          },
+          "LUKSAN12LS": {
+            "UAD": 1.0,
+            "NAG": 32.31514980946732,
+            "RNAG": 3.54869953866441,
+            "AC-FGM": 4.099863615342523,
+            "GD": null,
+            "AdaNAG": null,
+            "A-QNPE": 217.4313459235229
+          },
+          "LUKSAN13LS": {
+            "UAD": 1.0,
+            "NAG": 9.253558375847147,
+            "RNAG": 3.04871830211992,
+            "AC-FGM": 3.6429317882460945,
+            "GD": 10.703830438409227,
+            "AdaNAG": null,
+            "A-QNPE": 23.60487089027603
+          },
+          "LUKSAN14LS": {
+            "UAD": 1.0,
+            "NAG": 5.801580779667944,
+            "RNAG": 2.014338471933759,
+            "AC-FGM": 3.4596031247331394,
+            "GD": 8.165259322561758,
+            "AdaNAG": null,
+            "A-QNPE": 100.64380105557332
+          },
+          "LUKSAN17LS": {
+            "UAD": 1.0,
+            "NAG": 6.632913157222154,
+            "RNAG": 3.1294663131436424,
+            "AC-FGM": 2.5574762031008,
+            "GD": 10.67117685600029,
+            "AdaNAG": 20.440878446018843,
+            "A-QNPE": 9.319798892393345
+          },
+          "LUKSAN21LS": {
+            "UAD": 1.0,
+            "NAG": null,
+            "RNAG": 2.2724026461264875,
+            "AC-FGM": null,
+            "GD": null,
+            "AdaNAG": null,
+            "A-QNPE": null
+          },
+          "LUKSAN22LS": {
+            "UAD": 1.0,
+            "NAG": 2.7176367842940996,
+            "RNAG": 2.091057703273229,
+            "AC-FGM": 1.6980059394232383,
+            "GD": null,
+            "AdaNAG": 4.942396869315872,
+            "A-QNPE": 5.437078175213717
+          },
+          "MANCINO": {
+            "UAD": 1.0,
+            "NAG": 1.3805477677287163,
+            "RNAG": 1.2267157233945787,
+            "AC-FGM": 3.628324445003011,
+            "GD": 1.0587910360005774,
+            "AdaNAG": 3.5882392653829673,
+            "A-QNPE": 3.129446120951651
+          },
+          "MOREBV": {
+            "UAD": 1.0,
+            "NAG": 1.3781955294610055,
+            "RNAG": 1.371551487995914,
+            "AC-FGM": 1.3593909919015967,
+            "GD": 1.6307152304740236,
+            "AdaNAG": 1.5408616991605726,
+            "A-QNPE": 2.1796434517985355
+          },
+          "MSQRTALS": {
+            "UAD": 1.0,
+            "NAG": 7.11433842730492,
+            "RNAG": 2.6492165334387647,
+            "AC-FGM": 1.9858735171571444,
+            "GD": 33.15237730300243,
+            "AdaNAG": null,
+            "A-QNPE": 26.496521842235545
+          },
+          "NCB20B": {
+            "UAD": 1.0,
+            "NAG": null,
+            "RNAG": 2.265074375182376,
+            "AC-FGM": 2.1319789900757944,
+            "GD": 15.850918666491072,
+            "AdaNAG": null,
+            "A-QNPE": null
+          },
+          "NONDQUAR": {
+            "UAD": 1.0,
+            "NAG": 1.644792584443898,
+            "RNAG": 1.7200968267399308,
+            "AC-FGM": 2.2065936121100114,
+            "GD": 4.399885718919472,
+            "AdaNAG": null,
+            "A-QNPE": 207.72170013021224
+          },
+          "OSCIGRAD": {
+            "UAD": 1.0,
+            "NAG": 2.4690461554232828,
+            "RNAG": 1.1499102015315417,
+            "AC-FGM": 2.205633458129534,
+            "GD": 1.55989229119866,
+            "AdaNAG": 14.595243460799542,
+            "A-QNPE": 6.48229142961318
+          },
+          "PENALTY1": {
+            "UAD": 1.0929244848896278,
+            "NAG": 1.1154841530715676,
+            "RNAG": 1.3340006981849635,
+            "AC-FGM": 1.1351628561051705,
+            "GD": 1.0,
+            "AdaNAG": 5.740172870415063,
+            "A-QNPE": 2.985692665482257
+          },
+          "PENALTY2": {
+            "UAD": 1.0,
+            "NAG": 1.9394136999904534,
+            "RNAG": 1.7338365135239606,
+            "AC-FGM": 6.655898984610888,
+            "GD": 1.3246047645692245,
+            "AdaNAG": 37.328005336884594,
+            "A-QNPE": 16.78531829736075
+          },
+          "POWELLSG": {
+            "UAD": 1.0,
+            "NAG": 4.9841931363473675,
+            "RNAG": 7.839344723432477,
+            "AC-FGM": 13.003484659868272,
+            "GD": 97.02198564573492,
+            "AdaNAG": 17.88802266761385,
+            "A-QNPE": 25.64883595970414
+          },
+          "POWER": {
+            "UAD": 1.0,
+            "NAG": 1.3865616285277413,
+            "RNAG": 1.2547914690645152,
+            "AC-FGM": 3.6831770098180647,
+            "GD": 1.1794624612397397,
+            "AdaNAG": 32.1013048610386,
+            "A-QNPE": 13.110042608827698
+          },
+          "QING": {
+            "UAD": 1.0,
+            "NAG": 6.72703188749286,
+            "RNAG": 3.9613989772658256,
+            "AC-FGM": 3.1674710432738977,
+            "GD": 6.977652276416086,
+            "AdaNAG": null,
+            "A-QNPE": 351.0199309700056
+          },
+          "SPARSINE": {
+            "UAD": 1.0,
+            "NAG": 3.9541153676862133,
+            "RNAG": 2.9362150780561764,
+            "AC-FGM": 1.4202016705459426,
+            "GD": 15.548199937895962,
+            "AdaNAG": 4.164526186559973,
+            "A-QNPE": 57.06783010158147
+          },
+          "SPARSQUR": {
+            "UAD": 1.8216615620988943,
+            "NAG": 1.3414204170435386,
+            "RNAG": 1.458259652539495,
+            "AC-FGM": 4.283365341830269,
+            "GD": 1.0,
+            "AdaNAG": 25.12378732509127,
+            "A-QNPE": 22.286417704047334
+          },
+          "TQUARTIC": {
+            "UAD": 1.0,
+            "NAG": 91.24720047673611,
+            "RNAG": 75.17646296845669,
+            "AC-FGM": null,
+            "GD": null,
+            "AdaNAG": null,
+            "A-QNPE": null
+          },
+          "TRIDIA": {
+            "UAD": 1.0,
+            "NAG": 2.7713189030384076,
+            "RNAG": 1.4923940038273926,
+            "AC-FGM": 1.4331204335390217,
+            "GD": null,
+            "AdaNAG": 1.9541992975087314,
+            "A-QNPE": null
+          },
+          "VARDIM": {
+            "UAD": 1.3662742435006672,
+            "NAG": 1.0,
+            "RNAG": 1.2687780029666509,
+            "AC-FGM": 3.9943625141501755,
+            "GD": 1.3423975205910448,
+            "AdaNAG": 3.627093306659406,
+            "A-QNPE": 8.953075899953085
+          },
+          "VAREIGVL": {
+            "UAD": 1.0,
+            "NAG": 3.6099404642400708,
+            "RNAG": 1.9960329183771903,
+            "AC-FGM": 2.153014573081807,
+            "GD": 4.0578948032869695,
+            "AdaNAG": 14.320363951561346,
+            "A-QNPE": 7.854923695312072
+          },
+          "WOODS": {
+            "UAD": 2.083210031912205,
+            "NAG": 1.583500334343611,
+            "RNAG": 1.0,
+            "AC-FGM": 2.2131081839099482,
+            "GD": 2.2088154520468084,
+            "AdaNAG": null,
+            "A-QNPE": 6.955911489085897
+          },
+          "TOINTGSS": {
+            "UAD": 1.0,
+            "NAG": 1.1930521183932274,
+            "RNAG": 1.3895921872722474,
+            "AC-FGM": 20.09647932702188,
+            "GD": 1.2945220401570774,
+            "AdaNAG": 29.929361077634525,
+            "A-QNPE": 1.3184316654968216
+          },
+          "FMINSURF": {
+            "UAD": 1.0,
+            "NAG": 10.79078781795456,
+            "RNAG": 1.516644170566315,
+            "AC-FGM": 3.457784545950327,
+            "GD": 10.516174653892135,
+            "AdaNAG": 12.366654247738003,
+            "A-QNPE": 97.93976427042946
+          },
+          "SINQUAD": {
+            "UAD": 1.0,
+            "NAG": null,
+            "RNAG": null,
+            "AC-FGM": 11.935822181138608,
+            "GD": null,
+            "AdaNAG": null,
+            "A-QNPE": 29.464751815047464
+          }
+        }
+      }
+    }
+  }
+}

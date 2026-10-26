@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite the UAG manuscript and identify the software version or commit used."
+type: software
+title: "UAG: Universal Accelerated Gradient Method for Unconstrained Smooth Optimization"
+version: 0.1.0
+authors:
+  - family-names: Guo
+    given-names: Yikai
+    affiliation: "Department of Statistics and Data Science, SUSTech"
+repository-code: "https://github.com/YikaiGUO271/UAG"
+license: MIT

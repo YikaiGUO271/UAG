@@ -1,0 +1,18 @@
+[
+  {
+    "problem": "ARWHEAD",
+    "method": "UAG-package",
+    "backend": "numba",
+    "success": true,
+    "status": 1,
+    "message": "Gradient norm satisfies the requested tolerance.",
+    "FG": 27,
+    "seconds": 0.04480689996853471,
+    "setup_seconds": 22.788570200034883,
+    "gradient": 0.0011599208548692395,
+    "verified_gradient": 0.0011599208548692395,
+    "tolerance": 0.007992999937445264,
+    "external_initial_FG": 1,
+    "external_endpoint_FG": 1
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "problem": "rosenbrock_d200",
+    "FG": 164,
+    "objective_gradient_trace_bitwise_equal": true,
+    "endpoint_bitwise_equal": true,
+    "phase_kind_counts_equal": true
+  },
+  {
+    "problem": "ARWHEAD",
+    "FG": 27,
+    "objective_gradient_trace_bitwise_equal": true,
+    "endpoint_bitwise_equal": true,
+    "phase_kind_counts_equal": true
+  }
+]

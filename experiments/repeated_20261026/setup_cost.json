@@ -1,0 +1,716 @@
+[
+  {
+    "suite": "cutest",
+    "problem": "ARGLINA",
+    "construction_and_first_fg_seconds": 0.039555100025609136,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "ARGLINB",
+    "construction_and_first_fg_seconds": 0.03756859997520223,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "ARGTRIGLS",
+    "construction_and_first_fg_seconds": 0.04005700000561774,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "ARWHEAD",
+    "construction_and_first_fg_seconds": 0.035090900026261806,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "BDQRTIC",
+    "construction_and_first_fg_seconds": 0.03712470002938062,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "BROWNAL",
+    "construction_and_first_fg_seconds": 0.03774209995754063,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "BROYDN3DLS",
+    "construction_and_first_fg_seconds": 0.03620289999525994,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "BRYBND",
+    "construction_and_first_fg_seconds": 0.04160050000064075,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "CHANDHEULS",
+    "construction_and_first_fg_seconds": 0.03493439999874681,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "COSINE",
+    "construction_and_first_fg_seconds": 0.035554900008719414,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "CRAGGLVY",
+    "construction_and_first_fg_seconds": 0.0471976000117138,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "CURLY10",
+    "construction_and_first_fg_seconds": 0.03775149997090921,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "CYCLIC3LS",
+    "construction_and_first_fg_seconds": 0.037049699982162565,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "DIXMAANF",
+    "construction_and_first_fg_seconds": 0.03927029995247722,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "DIXON3DQ",
+    "construction_and_first_fg_seconds": 0.03151050000451505,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "DQRTIC",
+    "construction_and_first_fg_seconds": 0.03210009995382279,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "EDENSCH",
+    "construction_and_first_fg_seconds": 0.0412837999756448,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "EG2",
+    "construction_and_first_fg_seconds": 0.03757779998704791,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "EIGENALS",
+    "construction_and_first_fg_seconds": 0.03925370000069961,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "ENGVAL1",
+    "construction_and_first_fg_seconds": 0.03625170001760125,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "EXTROSNB",
+    "construction_and_first_fg_seconds": 0.03571150003699586,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "FLETCBV2",
+    "construction_and_first_fg_seconds": 0.03914660000009462,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "FREUROTH",
+    "construction_and_first_fg_seconds": 0.038089699984993786,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "GENHUMPS",
+    "construction_and_first_fg_seconds": 0.03503229998750612,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "HILBERTA",
+    "construction_and_first_fg_seconds": 0.034741400042548776,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "INTEQNELS",
+    "construction_and_first_fg_seconds": 0.03674990002764389,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "LIARWHD",
+    "construction_and_first_fg_seconds": 0.038990700035355985,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "LUKSAN11LS",
+    "construction_and_first_fg_seconds": 0.037343000003602356,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "LUKSAN12LS",
+    "construction_and_first_fg_seconds": 0.04820810002274811,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "LUKSAN13LS",
+    "construction_and_first_fg_seconds": 0.04311070003313944,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "LUKSAN14LS",
+    "construction_and_first_fg_seconds": 0.03423849999671802,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "LUKSAN17LS",
+    "construction_and_first_fg_seconds": 0.04737560002831742,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "LUKSAN21LS",
+    "construction_and_first_fg_seconds": 0.03364580002380535,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "LUKSAN22LS",
+    "construction_and_first_fg_seconds": 0.04389369999989867,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "MANCINO",
+    "construction_and_first_fg_seconds": 0.03876859997399151,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "MOREBV",
+    "construction_and_first_fg_seconds": 0.03208899998571724,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "MSQRTALS",
+    "construction_and_first_fg_seconds": 0.031489399960264564,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "NCB20B",
+    "construction_and_first_fg_seconds": 0.038331200019456446,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "NONDQUAR",
+    "construction_and_first_fg_seconds": 0.0330052999779582,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "OSCIGRAD",
+    "construction_and_first_fg_seconds": 0.039209900016430765,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "PENALTY1",
+    "construction_and_first_fg_seconds": 0.03377589996671304,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "PENALTY2",
+    "construction_and_first_fg_seconds": 0.03851240000221878,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "POWELLSG",
+    "construction_and_first_fg_seconds": 0.03727100003743544,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "POWER",
+    "construction_and_first_fg_seconds": 0.040383399988058954,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "QING",
+    "construction_and_first_fg_seconds": 0.03525160002755001,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "SPARSINE",
+    "construction_and_first_fg_seconds": 0.037415699975099415,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "SPARSQUR",
+    "construction_and_first_fg_seconds": 0.03512919996865094,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "TQUARTIC",
+    "construction_and_first_fg_seconds": 0.0351276999572292,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "TRIDIA",
+    "construction_and_first_fg_seconds": 0.03202799998689443,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "VARDIM",
+    "construction_and_first_fg_seconds": 0.032760599977336824,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "VAREIGVL",
+    "construction_and_first_fg_seconds": 0.041144900023937225,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "WOODS",
+    "construction_and_first_fg_seconds": 0.03633530001388863,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "TOINTGSS",
+    "construction_and_first_fg_seconds": 0.04274289996828884,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "FMINSURF",
+    "construction_and_first_fg_seconds": 0.046952499949838966,
+    "FG": 1
+  },
+  {
+    "suite": "cutest",
+    "problem": "SINQUAD",
+    "construction_and_first_fg_seconds": 0.05269129999214783,
+    "FG": 1
+  },
+  {
+    "suite": "specific",
+    "problem": "logsumexp_rho0p5",
+    "FG": 1,
+    "seconds": 0.00025270000332966447
+  },
+  {
+    "suite": "specific",
+    "problem": "logsumexp_rho0p05",
+    "FG": 1,
+    "seconds": 0.00020860001677647233
+  },
+  {
+    "suite": "specific",
+    "problem": "logsumexp_rho0p005",
+    "FG": 1,
+    "seconds": 0.0003533000126481056
+  },
+  {
+    "suite": "specific",
+    "problem": "rosenbrock_d200",
+    "FG": 1,
+    "seconds": 2.0700041204690933e-05
+  },
+  {
+    "suite": "specific",
+    "problem": "t_regression_s0",
+    "FG": 1,
+    "seconds": 0.0001534000039100647
+  },
+  {
+    "suite": "specific",
+    "problem": "super_logistic_a9a",
+    "FG": 1,
+    "seconds": 0.0015495999832637608
+  },
+  {
+    "suite": "specific",
+    "problem": "super_logistic_australian",
+    "FG": 1,
+    "seconds": 4.429998807609081e-05
+  },
+  {
+    "suite": "specific",
+    "problem": "super_logistic_ionosphere",
+    "FG": 1,
+    "seconds": 4.080001963302493e-05
+  },
+  {
+    "suite": "specific",
+    "problem": "super_logistic_w8a",
+    "FG": 1,
+    "seconds": 0.0025171999586746097
+  },
+  {
+    "suite": "cutest",
+    "problem": "ARGLINA",
+    "FG": 1,
+    "seconds": 6.160000339150429e-05
+  },
+  {
+    "suite": "cutest",
+    "problem": "ARGLINB",
+    "FG": 1,
+    "seconds": 5.989999044686556e-05
+  },
+  {
+    "suite": "cutest",
+    "problem": "ARGTRIGLS",
+    "FG": 1,
+    "seconds": 9.649997809901834e-05
+  },
+  {
+    "suite": "cutest",
+    "problem": "ARWHEAD",
+    "FG": 1,
+    "seconds": 0.00036910001654177904
+  },
+  {
+    "suite": "cutest",
+    "problem": "BDQRTIC",
+    "FG": 1,
+    "seconds": 0.0002109999768435955
+  },
+  {
+    "suite": "cutest",
+    "problem": "BROWNAL",
+    "FG": 1,
+    "seconds": 3.739999374374747e-05
+  },
+  {
+    "suite": "cutest",
+    "problem": "BROYDN3DLS",
+    "FG": 1,
+    "seconds": 0.000159399991389364
+  },
+  {
+    "suite": "cutest",
+    "problem": "BRYBND",
+    "FG": 1,
+    "seconds": 0.0003738999948836863
+  },
+  {
+    "suite": "cutest",
+    "problem": "CHANDHEULS",
+    "FG": 1,
+    "seconds": 0.000450999999884516
+  },
+  {
+    "suite": "cutest",
+    "problem": "COSINE",
+    "FG": 1,
+    "seconds": 0.00019019999308511615
+  },
+  {
+    "suite": "cutest",
+    "problem": "CRAGGLVY",
+    "FG": 1,
+    "seconds": 0.0003171000280417502
+  },
+  {
+    "suite": "cutest",
+    "problem": "CURLY10",
+    "FG": 1,
+    "seconds": 4.190002800896764e-05
+  },
+  {
+    "suite": "cutest",
+    "problem": "CYCLIC3LS",
+    "FG": 1,
+    "seconds": 4.309997893869877e-05
+  },
+  {
+    "suite": "cutest",
+    "problem": "DIXMAANF",
+    "FG": 1,
+    "seconds": 0.00032029999420046806
+  },
+  {
+    "suite": "cutest",
+    "problem": "DIXON3DQ",
+    "FG": 1,
+    "seconds": 2.0299979951232672e-05
+  },
+  {
+    "suite": "cutest",
+    "problem": "DQRTIC",
+    "FG": 1,
+    "seconds": 1.6600009985268116e-05
+  },
+  {
+    "suite": "cutest",
+    "problem": "EDENSCH",
+    "FG": 1,
+    "seconds": 0.00019310001516714692
+  },
+  {
+    "suite": "cutest",
+    "problem": "EG2",
+    "FG": 1,
+    "seconds": 0.00020050001330673695
+  },
+  {
+    "suite": "cutest",
+    "problem": "EIGENALS",
+    "FG": 1,
+    "seconds": 0.00022149999858811498
+  },
+  {
+    "suite": "cutest",
+    "problem": "ENGVAL1",
+    "FG": 1,
+    "seconds": 0.0003695000195875764
+  },
+  {
+    "suite": "cutest",
+    "problem": "EXTROSNB",
+    "FG": 1,
+    "seconds": 0.0001835999428294599
+  },
+  {
+    "suite": "cutest",
+    "problem": "FLETCBV2",
+    "FG": 1,
+    "seconds": 0.00019650004105642438
+  },
+  {
+    "suite": "cutest",
+    "problem": "FREUROTH",
+    "FG": 1,
+    "seconds": 0.00045659998431801796
+  },
+  {
+    "suite": "cutest",
+    "problem": "GENHUMPS",
+    "FG": 1,
+    "seconds": 0.0005110999918542802
+  },
+  {
+    "suite": "cutest",
+    "problem": "HILBERTA",
+    "FG": 1,
+    "seconds": 0.00023780000628903508
+  },
+  {
+    "suite": "cutest",
+    "problem": "INTEQNELS",
+    "FG": 1,
+    "seconds": 7.959996582940221e-05
+  },
+  {
+    "suite": "cutest",
+    "problem": "LIARWHD",
+    "FG": 1,
+    "seconds": 0.00019749999046325684
+  },
+  {
+    "suite": "cutest",
+    "problem": "LUKSAN11LS",
+    "FG": 1,
+    "seconds": 2.7999980375170708e-05
+  },
+  {
+    "suite": "cutest",
+    "problem": "LUKSAN12LS",
+    "FG": 1,
+    "seconds": 6.920000305399299e-05
+  },
+  {
+    "suite": "cutest",
+    "problem": "LUKSAN13LS",
+    "FG": 1,
+    "seconds": 8.839997462928295e-05
+  },
+  {
+    "suite": "cutest",
+    "problem": "LUKSAN14LS",
+    "FG": 1,
+    "seconds": 2.2899999748915434e-05
+  },
+  {
+    "suite": "cutest",
+    "problem": "LUKSAN17LS",
+    "FG": 1,
+    "seconds": 0.000292200013063848
+  },
+  {
+    "suite": "cutest",
+    "problem": "LUKSAN21LS",
+    "FG": 1,
+    "seconds": 0.0003016000264324248
+  },
+  {
+    "suite": "cutest",
+    "problem": "LUKSAN22LS",
+    "FG": 1,
+    "seconds": 0.0002497999812476337
+  },
+  {
+    "suite": "cutest",
+    "problem": "MANCINO",
+    "FG": 1,
+    "seconds": 0.0007942999945953488
+  },
+  {
+    "suite": "cutest",
+    "problem": "MOREBV",
+    "FG": 1,
+    "seconds": 0.00019569997675716877
+  },
+  {
+    "suite": "cutest",
+    "problem": "MSQRTALS",
+    "FG": 1,
+    "seconds": 0.00018710002768784761
+  },
+  {
+    "suite": "cutest",
+    "problem": "NCB20B",
+    "FG": 1,
+    "seconds": 0.00039929995546117425
+  },
+  {
+    "suite": "cutest",
+    "problem": "NONDQUAR",
+    "FG": 1,
+    "seconds": 2.3200002033263445e-05
+  },
+  {
+    "suite": "cutest",
+    "problem": "OSCIGRAD",
+    "FG": 1,
+    "seconds": 0.000360800011549145
+  },
+  {
+    "suite": "cutest",
+    "problem": "PENALTY1",
+    "FG": 1,
+    "seconds": 2.659996971487999e-05
+  },
+  {
+    "suite": "cutest",
+    "problem": "PENALTY2",
+    "FG": 1,
+    "seconds": 0.00012959999730810523
+  },
+  {
+    "suite": "cutest",
+    "problem": "POWELLSG",
+    "FG": 1,
+    "seconds": 2.500001573935151e-05
+  },
+  {
+    "suite": "cutest",
+    "problem": "POWER",
+    "FG": 1,
+    "seconds": 0.00017070001922547817
+  },
+  {
+    "suite": "cutest",
+    "problem": "QING",
+    "FG": 1,
+    "seconds": 0.00018590001855045557
+  },
+  {
+    "suite": "cutest",
+    "problem": "SPARSINE",
+    "FG": 1,
+    "seconds": 0.00023030000738799572
+  },
+  {
+    "suite": "cutest",
+    "problem": "SPARSQUR",
+    "FG": 1,
+    "seconds": 0.0002031000331044197
+  },
+  {
+    "suite": "cutest",
+    "problem": "TQUARTIC",
+    "FG": 1,
+    "seconds": 0.00019020005129277706
+  },
+  {
+    "suite": "cutest",
+    "problem": "TRIDIA",
+    "FG": 1,
+    "seconds": 1.850002445280552e-05
+  },
+  {
+    "suite": "cutest",
+    "problem": "VARDIM",
+    "FG": 1,
+    "seconds": 9.100011084228754e-06
+  },
+  {
+    "suite": "cutest",
+    "problem": "VAREIGVL",
+    "FG": 1,
+    "seconds": 0.00021109997760504484
+  },
+  {
+    "suite": "cutest",
+    "problem": "WOODS",
+    "FG": 1,
+    "seconds": 0.0001078000059351325
+  },
+  {
+    "suite": "cutest",
+    "problem": "TOINTGSS",
+    "FG": 1,
+    "seconds": 0.0012712000170722604
+  },
+  {
+    "suite": "cutest",
+    "problem": "FMINSURF",
+    "FG": 1,
+    "seconds": 0.0006395000382326543
+  },
+  {
+    "suite": "cutest",
+    "problem": "SINQUAD",
+    "FG": 1,
+    "seconds": 0.001045399985741824
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "problem": "rosenbrock_d200",
+    "method": "UAG-package",
+    "backend": "numba",
+    "success": true,
+    "status": 1,
+    "message": "Gradient norm satisfies the requested tolerance.",
+    "FG": 164,
+    "seconds": 0.046543599979486316,
+    "setup_seconds": 22.03590030001942,
+    "gradient": 2.6641140240852202e-08,
+    "verified_gradient": 2.6641140240852202e-08,
+    "tolerance": 1e-07,
+    "external_initial_FG": 1,
+    "external_endpoint_FG": 1
+  }
+]

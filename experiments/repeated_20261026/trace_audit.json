@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "observations": 1872,
+  "trace_checks": 1872,
+  "successful_first_target_checks": 1557,
+  "all_recorded_FG_counters_verified": true,
+  "targets_match_protocol": true,
+  "statuses": {
+    "stationarity": 1557,
+    "numerical_failure": 10,
+    "nonpositive_convexity_residual": 95,
+    "query_budget": 162,
+    "time_limit": 48
+  },
+  "driver_sha256": "3aa91cb8960478232e5a53ecf8a5c4c1e2fa08ad1b0f38e133310d5f5fdde788",
+  "results_sha256": "fc847d42227a623dfc5992bc64e61f892c3655973ba71f8e8fe9e123fb6a8f0a"
+}

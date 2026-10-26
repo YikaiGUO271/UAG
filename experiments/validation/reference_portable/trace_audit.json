@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "observations": 2,
+  "trace_checks": 2,
+  "successful_first_target_checks": 1,
+  "all_recorded_FG_counters_verified": true,
+  "targets_match_protocol": true,
+  "statuses": {
+    "stationarity": 1,
+    "query_budget": 1
+  },
+  "driver_sha256": "14c189efcbf580ea26d42cec6fc6e95691cc12f1f8a85c0a55a2619d9ba7cabc",
+  "results_sha256": "a78d2a91f894f12c5b1e14ad97e1852c113d6b2268a3ac7c0e19f5c8c60d966b"
+}

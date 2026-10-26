@@ -1,0 +1,15 @@
+{
+  "source": "importable UAG package; separate from historical timing campaign",
+  "suite": "specific",
+  "problems": [
+    "rosenbrock_d200"
+  ],
+  "config": {
+    "eps": 1e-07,
+    "max_fg": 100000,
+    "seconds": 120.0
+  },
+  "max_evals_override": 256,
+  "time_limit_override": null,
+  "numerical_threads": 1
+}

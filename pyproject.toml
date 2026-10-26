@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uag-optimization"
+version = "0.1.0"
+description = "Universal Accelerated Gradient method for unconstrained smooth optimization"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Yikai Guo", email = "12532255@mail.sustech.edu.cn"}]
+license = {file = "LICENSE"}
+dependencies = ["numpy>=1.24"]
+classifiers = ["Programming Language :: Python :: 3", "Topic :: Scientific/Engineering :: Mathematics"]
+
+[project.urls]
+Repository = "https://github.com/YikaiGUO271/UAG"
+Issues = "https://github.com/YikaiGUO271/UAG/issues"
+
+[project.optional-dependencies]
+accelerated = ["numba>=0.59", "scipy>=1.10"]
+test = ["pytest>=7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+markers = ["accelerated: tests requiring optional Numba dependency"]

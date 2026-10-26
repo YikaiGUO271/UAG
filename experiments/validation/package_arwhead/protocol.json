@@ -1,0 +1,15 @@
+{
+  "source": "importable UAG package; separate from historical timing campaign",
+  "suite": "cutest",
+  "problems": [
+    "ARWHEAD"
+  ],
+  "config": {
+    "relative_eps": 1e-06,
+    "max_fg": 20000,
+    "seconds": 30.0
+  },
+  "max_evals_override": 256,
+  "time_limit_override": null,
+  "numerical_threads": 1
+}

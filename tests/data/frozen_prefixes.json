@@ -1,0 +1,32 @@
+{
+  "source": "frozen formal implementation of 2026-10-24",
+  "fixture": "tests/test_api.py:nonlinear",
+  "initial_point": [
+    2.0,
+    -1.0,
+    0.5,
+    -2.0
+  ],
+  "tolerance": 1e-15,
+  "initial_scale": 1.0,
+  "evaluations_per_prefix": 128,
+  "validation": [
+    {
+      "secant": false,
+      "evals_each": 128,
+      "native_bitwise_query_values_counts_events": true
+    },
+    {
+      "secant": true,
+      "evals_each": 128,
+      "native_bitwise_query_values_counts_events": true
+    }
+  ],
+  "reference_source_sha256": {
+    "native_api.py": "e5d9a85003e3e9f4a32a50df1acea07fbd0288cc9ab6e2b5cc408225693b765a",
+    "optimized_uad\\core.py": "5450d212680ae364aafc66ebe1258e76ab8efa6ee93a9a560d0eccdd698ad930",
+    "optimized_uad\\secant.py": "421526b42d2b98e8c790eeab03fbe78f788a89a59fbe6fff82e5cc842370cdcf",
+    "optimized_uad\\runtime.py": "d246dbc482fac320a5d8cfddf516e1f92bbc1a151226802a17d648c781404e8b"
+  },
+  "numpy": "2.1.3"
+}

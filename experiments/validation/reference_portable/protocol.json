@@ -1,0 +1,54 @@
+{
+  "source_protocol_sha256": "0b43c1abf25da7108d97e2d8869782a9a9a30037e68d6371934efb9b8127c091",
+  "repeats": 1,
+  "suites": "specific",
+  "problems": [
+    "rosenbrock_d200"
+  ],
+  "methods": [
+    "UAD",
+    "GD"
+  ],
+  "config": {
+    "specific": {
+      "eps": 1e-07,
+      "max_fg": 100000,
+      "seconds": 120.0
+    },
+    "cutest": {
+      "relative_eps": 1e-06,
+      "max_fg": 20000,
+      "seconds": 30.0
+    }
+  },
+  "max_fg_override": 256,
+  "seconds_override": null,
+  "diagnostic": true,
+  "numerical_threads": 1,
+  "solver_parallelism": 1,
+  "source_hashes": {
+    "adanag_theory.py": "71e4a1c0dbe484d05adcec145ce41c2d1fa60f782d916cb3630df676c7507b73",
+    "aqnpe\\__init__.py": "c873f5a78d7b1cd29608d460d5e0562bdd31aac246b26dc0fea867b18a1f7214",
+    "aqnpe\\native.py": "876c7973f8bb3052a6fe98dc1ae0e4ee57b129830aa479437b57b14b681f2794",
+    "aqnpe\\solver.py": "b47f13ce552ca52de5ec8a50e57733c8b84a333294592057899a23a92de2fcc6",
+    "baselines_native.py": "d9fa4d9879cd9f56a7a8cb42943616ffff9f3b50db7875de933eccab8c3eae5f",
+    "cug_native.py": "94ac32ece936efdea2fd4725241109edf74bc59681ee7d57b2037c4da940eaee",
+    "environment.py": "547e6f2c7cc1e14514588a69205db2e42bd5cbbed9e24587910a88be7a30a3fb",
+    "formal_cases.py": "887e380cb24789afbaeb800770babfcc9b2c62bfe326eded385d8f5e62758c39",
+    "native_api.py": "c4b86d4c8e8cf14e98015d98a973f4d774682d82da68454fc17b32ea3bafe7ed",
+    "native_api_windows.py": "e5d9a85003e3e9f4a32a50df1acea07fbd0288cc9ab6e2b5cc408225693b765a",
+    "optimized_uad\\__init__.py": "57558f82d04d00184e87025029587bc1a80503cc6888cf349e758d993bb71b12",
+    "optimized_uad\\core.py": "5450d212680ae364aafc66ebe1258e76ab8efa6ee93a9a560d0eccdd698ad930",
+    "optimized_uad\\runtime.py": "d246dbc482fac320a5d8cfddf516e1f92bbc1a151226802a17d648c781404e8b",
+    "optimized_uad\\secant.py": "421526b42d2b98e8c790eeab03fbe78f788a89a59fbe6fff82e5cc842370cdcf",
+    "runner.py": "29a6fb3809150a075f068b10f9b26b704614e50b0876a8a56623699722357d79"
+  },
+  "reference_runtime": "portable reference; monotonic Python clock bridge",
+  "clock": "portable",
+  "method_order": "For zero-based repetition r and within-suite case index i rotate methods by (i+r) modulo m, reverse when (i+r) is odd.",
+  "timing": "One observation per repetition; all FG history timestamps from that run; JIT/object construction/endpoint checks excluded; every FG checks the soft time budget.",
+  "driver_sha256": "14c189efcbf580ea26d42cec6fc6e95691cc12f1f8a85c0a55a2619d9ba7cabc",
+  "created_utc": "2026-10-26T11:35:52.531059+00:00",
+  "stop_before_utc": null,
+  "aggregation": "Use only complete repetitions shared by every method/problem. Solved requires R/R successes; medians of all R costs are used only for solved entries, otherwise infinity. Report all statuses and IQR; also report problem-by-repeat profiles as sensitivity analysis."
+}

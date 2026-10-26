@@ -1,0 +1,16 @@
+{
+  "seconds": 23.775943199987523,
+  "total_FG": 32,
+  "records": [
+    {
+      "method": "UAD",
+      "FG": 16,
+      "status": "query_budget"
+    },
+    {
+      "method": "GD",
+      "FG": 16,
+      "status": "query_budget"
+    }
+  ]
+}

@@ -1,0 +1,1872 @@
+[
+  {
+    "name": "ARGLINA",
+    "dimension": 100,
+    "source_sha256": "c651b8430c586f2c3116edfcb2be291e4be1ea167de3db91882a5ea97ba9774a",
+    "generated_sha256": "8bacb06a6c543ba87066a6a57e14192645bc8158ccc32ff91c8cbe70eb7e545b",
+    "compile_seconds": 0.6198510000249371,
+    "setup_seconds": 0.32543809997150674,
+    "n_elements": 0,
+    "n_groups": 200,
+    "linear_nnz": 20000,
+    "group_element_links": 0,
+    "checks": [
+      {
+        "f_relative_error": 1.1368683772161603e-16,
+        "g_relative_infinity_error": 2.2204460492503106e-16
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 3.31962535146266e-16
+      },
+      {
+        "f_relative_error": 1.126174453646191e-16,
+        "g_relative_infinity_error": 2.0277619984636984e-16
+      }
+    ],
+    "original_fg_seconds": 0.013299499987624586,
+    "warmed_native_fg_seconds": 1.984699978493154e-05,
+    "speedup": 670.1012813897433,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "4f76c8fcd9a84f3dc57db8667dbc1e4d60f1380e2cf7e6ef05c9d4f6fed16722"
+  },
+  {
+    "name": "ARGLINB",
+    "dimension": 100,
+    "source_sha256": "e03eb7c854857876aa91ceee46bc5630baf125aed88429d8c49434243eea9d78",
+    "generated_sha256": "8bacb06a6c543ba87066a6a57e14192645bc8158ccc32ff91c8cbe70eb7e545b",
+    "compile_seconds": 0.40677899995353073,
+    "setup_seconds": 0.1764602000475861,
+    "n_elements": 0,
+    "n_groups": 200,
+    "linear_nnz": 20000,
+    "group_element_links": 0,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 2.6989068687993596e-16
+      },
+      {
+        "f_relative_error": 1.1110722823855234e-16,
+        "g_relative_infinity_error": 3.552520572694333e-16
+      }
+    ],
+    "original_fg_seconds": 0.01351080002496019,
+    "warmed_native_fg_seconds": 1.9898999598808588e-05,
+    "speedup": 678.9688073449241,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "293e77ecc05f9e1c45b2af4092a8a72ccfeba8323b504c420458ded9ae8f2bc7"
+  },
+  {
+    "name": "ARGTRIGLS",
+    "dimension": 100,
+    "source_sha256": "4b9b12e97c8203e323e86619c77798eea2f65e0455d136f1d562c32a62557e37",
+    "generated_sha256": "3ac603df20d78ae2ea62d12d28dc5371d28badb8c73ba469d9107f9cd69f9061",
+    "compile_seconds": 0.5011622000019997,
+    "setup_seconds": 0.061555199965368956,
+    "n_elements": 200,
+    "n_groups": 100,
+    "linear_nnz": 0,
+    "group_element_links": 10100,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 1.4574343726202855e-16
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 1.306146256636979e-16
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 1.8035513138497304e-16
+      }
+    ],
+    "original_fg_seconds": 0.13807829999132082,
+    "warmed_native_fg_seconds": 3.726899973116815e-05,
+    "speedup": 3704.9102736139603,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "41c6302308dc205f1daee783052352b6c58d59a11c9da605663be9f863ed512e"
+  },
+  {
+    "name": "ARWHEAD",
+    "dimension": 1000,
+    "source_sha256": "19d648e1762318447edce1f64207f040618902fbc9f3d8cfaa5ba63bdd0c1e8b",
+    "generated_sha256": "63a679b8fef2c9d678b63060e366f899ce29b1adcdfb1cff418c19de197777db",
+    "compile_seconds": 0.4565874999971129,
+    "setup_seconds": 0.06499450001865625,
+    "n_elements": 1998,
+    "n_groups": 1998,
+    "linear_nnz": 999,
+    "group_element_links": 1998,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      }
+    ],
+    "original_fg_seconds": 0.16704719996778294,
+    "warmed_native_fg_seconds": 0.00018109399999957532,
+    "speedup": 922.4336530651192,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "dde2509fd2e2620f1c490a5d016a168be619cbed19f2c7a97e64111a5c320fa8"
+  },
+  {
+    "name": "BDQRTIC",
+    "dimension": 1000,
+    "source_sha256": "12993cf7f45cb616530a3afd5cba59a9402529a70dc52ef49dd849b4f91012ef",
+    "generated_sha256": "63a679b8fef2c9d678b63060e366f899ce29b1adcdfb1cff418c19de197777db",
+    "compile_seconds": 0.4849265000084415,
+    "setup_seconds": 0.06981749995611608,
+    "n_elements": 1000,
+    "n_groups": 1992,
+    "linear_nnz": 996,
+    "group_element_links": 4980,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 7.572361904966844e-19
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 7.605575944058551e-19
+      }
+    ],
+    "original_fg_seconds": 0.22918260004371405,
+    "warmed_native_fg_seconds": 0.0001024079998023808,
+    "speedup": 2237.9364940822325,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "c945c949c72271fbba6319cbe43944ec4ec938e4ca61a855de566fc60b5b2634"
+  },
+  {
+    "name": "BROWNAL",
+    "dimension": 100,
+    "source_sha256": "4a46526b730b7c57e51136401fa448635e13a0d729e7f77bf63b9332216d65df",
+    "generated_sha256": "2006a147ff3d97aa3311361675a33dd2472651dcdc5ec63d2b85e4e211c9e3e1",
+    "compile_seconds": 0.584365600021556,
+    "setup_seconds": 0.16204059997107834,
+    "n_elements": 1,
+    "n_groups": 100,
+    "linear_nnz": 9900,
+    "group_element_links": 1,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 2.30578010866475e-16,
+        "g_relative_infinity_error": 7.204387241214651e-16
+      },
+      {
+        "f_relative_error": 2.7399947125825075e-15,
+        "g_relative_infinity_error": 2.1969792302397346e-15
+      }
+    ],
+    "original_fg_seconds": 0.00706430000718683,
+    "warmed_native_fg_seconds": 1.1632000096142291e-05,
+    "speedup": 607.3160203574687,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "193261ff2cb6ed641438f5076c6a603d359732267dd7c9d4c6e8227c7ccc0e2b"
+  },
+  {
+    "name": "BROYDN3DLS",
+    "dimension": 1000,
+    "source_sha256": "8ca9bbc16da94ba9d9df1e571b14ac86d27797febc598a1a77285d5fd80bf122",
+    "generated_sha256": "a5523c743fed1b9b4194ef81829e10ffd6a4bd7965ea0936d8136aac6e45c466",
+    "compile_seconds": 0.4867843000101857,
+    "setup_seconds": 0.054212799994274974,
+    "n_elements": 1000,
+    "n_groups": 1000,
+    "linear_nnz": 1998,
+    "group_element_links": 1000,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 4.250734086148663e-16
+      },
+      {
+        "f_relative_error": 1.8613173160026308e-16,
+        "g_relative_infinity_error": 5.669928497679057e-16
+      }
+    ],
+    "original_fg_seconds": 0.09218949999194592,
+    "warmed_native_fg_seconds": 7.625700032804162e-05,
+    "speedup": 1208.9316337564555,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "4151bfd120ca825dda5c4f935972ae9876b3a90f6e9cb5ae6dd20964e571b585"
+  },
+  {
+    "name": "BRYBND",
+    "dimension": 1000,
+    "source_sha256": "901901e7733b23e3461ca8df1e349424e28c2b2c2dbce3314df51eacfd3b3ed0",
+    "generated_sha256": "8038015b155203d1c461ac35cdfa56963411befe1400ceaa2d2019bddb5e937e",
+    "compile_seconds": 0.5510782999917865,
+    "setup_seconds": 0.11526029999367893,
+    "n_elements": 2000,
+    "n_groups": 1000,
+    "linear_nnz": 6984,
+    "group_element_links": 6984,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 6.899358828515494e-16
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 4.777090109070029e-16
+      }
+    ],
+    "original_fg_seconds": 0.1768321999697946,
+    "warmed_native_fg_seconds": 0.00019499499991070478,
+    "speedup": 906.8550478257002,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "713029030931bb17a84c632afe0519fd9cd90212fa1d3c9acbef564a00e3b5f6"
+  },
+  {
+    "name": "CHANDHEULS",
+    "dimension": 50,
+    "source_sha256": "567cb94b0035568e5cbe2cf2731203bfa5e9e262e7e5815aca01cd293decd847",
+    "generated_sha256": "90690bd715847f2e31eae662ee18ab9b61827a043f1f781891fd7e2224721ede",
+    "compile_seconds": 0.5261823000037111,
+    "setup_seconds": 0.06570649996865541,
+    "n_elements": 2500,
+    "n_groups": 50,
+    "linear_nnz": 50,
+    "group_element_links": 2500,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 5.551115123125783e-16
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 4.996003610813204e-16
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 5.551115123125783e-16
+      }
+    ],
+    "original_fg_seconds": 0.039744899957440794,
+    "warmed_native_fg_seconds": 0.00021319599996786565,
+    "speedup": 186.42422917611688,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "b1c986980a926efc731cd612dc4b187d027f332d431c9dcdcf3f44710e172066"
+  },
+  {
+    "name": "COSINE",
+    "dimension": 1000,
+    "source_sha256": "b982f691cc0fd99ce7b0abe874bced1e42a6065b6915e34a5478cdcec12f518a",
+    "generated_sha256": "618e36f0253f98f0de62b2036939de2a3963c3d3d1af3e59233c86cbb8965754",
+    "compile_seconds": 0.5513512000325136,
+    "setup_seconds": 0.04445269994903356,
+    "n_elements": 999,
+    "n_groups": 999,
+    "linear_nnz": 999,
+    "group_element_links": 999,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      }
+    ],
+    "original_fg_seconds": 0.09360189997823909,
+    "warmed_native_fg_seconds": 8.914900012314319e-05,
+    "speedup": 1049.948960155975,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "8c7424aae0e0f31f1fefdef11df9e1b56c575491716bd1d5d9ce7eb62b4f5e45"
+  },
+  {
+    "name": "CRAGGLVY",
+    "dimension": 500,
+    "source_sha256": "64ad607edde6d54167ddfa69d42dc7231f4e298cbd6cbe78766145cefbb4a23b",
+    "generated_sha256": "1a958c0d8a97aa6b425f4e94b485887568a756d027c8dfedfa0596e2e5b34f5c",
+    "compile_seconds": 1.3915929999784566,
+    "setup_seconds": 0.051925200037658215,
+    "n_elements": 498,
+    "n_groups": 1245,
+    "linear_nnz": 1743,
+    "group_element_links": 498,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 2.1315020234876142e-16,
+        "g_relative_infinity_error": 3.082212320971048e-16
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 1.2080604546673474e-16
+      }
+    ],
+    "original_fg_seconds": 0.0997868999838829,
+    "warmed_native_fg_seconds": 0.00013824600027874113,
+    "speedup": 721.8067776477126,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "a3f7019070d0d05b89e8d38fe938057213dc8275955961a0dc1768038c37be7e"
+  },
+  {
+    "name": "CURLY10",
+    "dimension": 1000,
+    "source_sha256": "02c0c3fa846dc0945d0d4ad93b329f3f2b683a3eded63079261c3077ddd7e7fd",
+    "generated_sha256": "10f6c42a0d32790e88255f00ebf56e3e160ca671c8c5907ca0169dcd292eba2f",
+    "compile_seconds": 0.4794337000348605,
+    "setup_seconds": 0.09511809999821708,
+    "n_elements": 0,
+    "n_groups": 1000,
+    "linear_nnz": 10945,
+    "group_element_links": 0,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 2.8130390885895894e-16
+      },
+      {
+        "f_relative_error": 2.7755575615628914e-17,
+        "g_relative_infinity_error": 2.0583808244699753e-16
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 2.403969027498594e-16
+      }
+    ],
+    "original_fg_seconds": 0.07182960002683103,
+    "warmed_native_fg_seconds": 1.3811999815516174e-05,
+    "speedup": 5200.521357243202,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "ab71aad4703c5c5a3a6f0b8a530b60d5170fdfbdaaa24d511d6cb8a99b6c0642"
+  },
+  {
+    "name": "CYCLIC3LS",
+    "dimension": 100,
+    "source_sha256": "902e89db414f21d045959bce39421675962056a64173318b6c23108e4ace2ea6",
+    "generated_sha256": "5670fb41e7891d39a32fd706ee01aeae5fbc8fce2cf8a1190189cf50031652d0",
+    "compile_seconds": 0.5219477000064217,
+    "setup_seconds": 0.024546699947677553,
+    "n_elements": 196,
+    "n_groups": 100,
+    "linear_nnz": 4,
+    "group_element_links": 196,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 1.6749438546474768e-16,
+        "g_relative_infinity_error": 1.6418929480988673e-16
+      },
+      {
+        "f_relative_error": 1.597652345257336e-16,
+        "g_relative_infinity_error": 2.1189883694597538e-16
+      }
+    ],
+    "original_fg_seconds": 0.010679099999833852,
+    "warmed_native_fg_seconds": 1.734299992676824e-05,
+    "speedup": 615.7585218778141,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "7cdffc1a5beeffd9db583b16a0679ab8cd678e63debd8a6a0351a5fa83c0b2eb"
+  },
+  {
+    "name": "DIXMAANF",
+    "dimension": 600,
+    "source_sha256": "b31802d0ba98120f2728dc41d58f7506c3bb6273cd287b0cdf3ed32d491ce39f",
+    "generated_sha256": "7ce08e7fcc550e641f20803d6225fda09b3ab6d651858da7510469a8ed92ea56",
+    "compile_seconds": 0.6668280999874696,
+    "setup_seconds": 0.05658420000690967,
+    "n_elements": 1799,
+    "n_groups": 4,
+    "linear_nnz": 0,
+    "group_element_links": 1799,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 9.188052617587501e-17
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 3.6517467775723967e-16
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 2.917307735139285e-16
+      }
+    ],
+    "original_fg_seconds": 0.024948099977336824,
+    "warmed_native_fg_seconds": 0.00015694200003053992,
+    "speedup": 158.96382085408675,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "c142e48285058098fb5218d9fb176e789b538e130ec152d758921434d6e98c4e"
+  },
+  {
+    "name": "DIXON3DQ",
+    "dimension": 1000,
+    "source_sha256": "e98d43ffce1ec04c6d39f5e699237b995788138166c9cbddf97fa0a788868398",
+    "generated_sha256": "8bacb06a6c543ba87066a6a57e14192645bc8158ccc32ff91c8cbe70eb7e545b",
+    "compile_seconds": 0.45230559998890385,
+    "setup_seconds": 0.034766800003126264,
+    "n_elements": 0,
+    "n_groups": 1000,
+    "linear_nnz": 1998,
+    "group_element_links": 0,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      }
+    ],
+    "original_fg_seconds": 0.0712855999590829,
+    "warmed_native_fg_seconds": 4.875999875366687e-06,
+    "speedup": 14619.688634368975,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "1c08746d323d2f5ad0adf31f42d41c46a459a02850ba10542e86b1c97f678632"
+  },
+  {
+    "name": "DQRTIC",
+    "dimension": 1000,
+    "source_sha256": "9651a6527a1acdc2b3703ccde7dc7d6a3f72037f36a674434b84f23820c75479",
+    "generated_sha256": "b1e9c433eb10e1ac02f3a311ef30a068dcd26a4ff04b47f846948359ca5f3294",
+    "compile_seconds": 0.4040124000166543,
+    "setup_seconds": 0.030426999961491674,
+    "n_elements": 0,
+    "n_groups": 1000,
+    "linear_nnz": 1000,
+    "group_element_links": 0,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 1.5742716740304433e-16,
+        "g_relative_infinity_error": 1.1992903669874314e-16
+      },
+      {
+        "f_relative_error": 1.5742743474728347e-16,
+        "g_relative_infinity_error": 1.1992715383400854e-16
+      }
+    ],
+    "original_fg_seconds": 0.07393980002962053,
+    "warmed_native_fg_seconds": 3.851999645121396e-06,
+    "speedup": 19195.173115674133,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "1329444be90acf2c54d627d8857269d233f658281539030189c4036403c75ca9"
+  },
+  {
+    "name": "EDENSCH",
+    "dimension": 1000,
+    "source_sha256": "7606d6a297777794cf5da306e12a39fe9397148f700081604db688a5b14b1801",
+    "generated_sha256": "6f599a68ccd1cd77c46298211f4f4e59b4221cbd23ca6fe114ab9f3685e3cf8c",
+    "compile_seconds": 0.5691128000034951,
+    "setup_seconds": 0.08555459999479353,
+    "n_elements": 999,
+    "n_groups": 2998,
+    "linear_nnz": 2998,
+    "group_element_links": 999,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 4.0446039867408895e-16
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 3.1478733984242885e-16
+      }
+    ],
+    "original_fg_seconds": 0.2556965000112541,
+    "warmed_native_fg_seconds": 9.520399966277182e-05,
+    "speedup": 2685.774766994801,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "75173222bfa840cac6e0c71311dd6aa039cdf5819e34fc34b06176e742b9c568"
+  },
+  {
+    "name": "EG2",
+    "dimension": 1000,
+    "source_sha256": "d8891977e2ce40e43bed0c456cf566a8a14d25ed552066ad7fff0d4e653242db",
+    "generated_sha256": "71a144cb437bf6e6afeff3c37f3466789a42632c5925826a28f8585851e86efc",
+    "compile_seconds": 0.5293424999690615,
+    "setup_seconds": 0.04851260001305491,
+    "n_elements": 1000,
+    "n_groups": 1000,
+    "linear_nnz": 999,
+    "group_element_links": 1000,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      }
+    ],
+    "original_fg_seconds": 0.09195019997423515,
+    "warmed_native_fg_seconds": 9.340099990367889e-05,
+    "speedup": 984.4669764677049,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "bb30cab6173e63beac4861267162e2819efae6986f8a8b153fe3dfd95aeb5477"
+  },
+  {
+    "name": "EIGENALS",
+    "dimension": 110,
+    "source_sha256": "7efa2d83ac565b9efdd84e05e2514fb478caf94aee05ee6f56952c57d0c5067b",
+    "generated_sha256": "98f05f8f1f570d1d8f57266fe14a079e56d6d92549e3bcd1a4387401cdde8bd9",
+    "compile_seconds": 0.6539938999922015,
+    "setup_seconds": 0.04683800000930205,
+    "n_elements": 1100,
+    "n_groups": 110,
+    "linear_nnz": 0,
+    "group_element_links": 1100,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 1.9749158385924788e-16
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 2.089147494131476e-16
+      }
+    ],
+    "original_fg_seconds": 0.017286899965256453,
+    "warmed_native_fg_seconds": 0.00010756000003311783,
+    "speedup": 160.71866827755485,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "429673599d4681732b634e8e64f97955a09cb57741c1f5c7db7e4e482d9dd3f9"
+  },
+  {
+    "name": "ENGVAL1",
+    "dimension": 1000,
+    "source_sha256": "03d778934fb91bb7ac9c02ff5cf5223c46ddcca4b554d69f4d59b151814f8011",
+    "generated_sha256": "63a679b8fef2c9d678b63060e366f899ce29b1adcdfb1cff418c19de197777db",
+    "compile_seconds": 0.47145210002781823,
+    "setup_seconds": 0.0639577999827452,
+    "n_elements": 1998,
+    "n_groups": 1998,
+    "linear_nnz": 999,
+    "group_element_links": 1998,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      }
+    ],
+    "original_fg_seconds": 0.1693381000077352,
+    "warmed_native_fg_seconds": 0.0001884870004141703,
+    "speedup": 898.4073152824416,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "481254922e32e489c6ab89a7bb0caa55e0bacf8bae96e7eb648c06e6150e20cd"
+  },
+  {
+    "name": "EXTROSNB",
+    "dimension": 1000,
+    "source_sha256": "c368ebee51541487aa3d4a47375c13e4533ba2de7aaa55a2f310d1ad26e02813",
+    "generated_sha256": "f69800d76ae9f361f45dcdc975eda08969a21cbd0c1136b50eb90c0fea9eada2",
+    "compile_seconds": 0.529630399949383,
+    "setup_seconds": 0.049504200054798275,
+    "n_elements": 999,
+    "n_groups": 1000,
+    "linear_nnz": 1000,
+    "group_element_links": 999,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 1.8740846305129007e-16
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 2.834919628997404e-16
+      }
+    ],
+    "original_fg_seconds": 0.09334370004944503,
+    "warmed_native_fg_seconds": 8.921700005885213e-05,
+    "speedup": 1046.2546374331205,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "e250a09e53c37ea95d1c552478b569cfb6644ab8fb9792df3abf3289120a4ab8"
+  },
+  {
+    "name": "FLETCBV2",
+    "dimension": 1000,
+    "source_sha256": "dcad24ccd6f60a9363e8e60b4c0e89cc9bfe21a604e89ad85179652ad2ba89dc",
+    "generated_sha256": "8a099c2af7e66d6862e2a586b59ac4e8e46ceb81597e6b9a55205c457c9cc28f",
+    "compile_seconds": 0.5196578999748453,
+    "setup_seconds": 0.06739400001242757,
+    "n_elements": 1000,
+    "n_groups": 3001,
+    "linear_nnz": 3000,
+    "group_element_links": 1000,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      }
+    ],
+    "original_fg_seconds": 0.21915710001485422,
+    "warmed_native_fg_seconds": 9.560499980580061e-05,
+    "speedup": 2292.318398201151,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "1650843fb7adc089f32a990bb1c40fcc5cac44ec9cacb98d9b7398112ff83654"
+  },
+  {
+    "name": "FREUROTH",
+    "dimension": 1000,
+    "source_sha256": "0aaa086b67229050d7e4a6853778755c9082b0e4c7904ec5dc69fd8552d5c00b",
+    "generated_sha256": "05f43c9bc02b331a8300781e92c03493882fab96a7ce78aef37562e47acc830f",
+    "compile_seconds": 0.6587215000181459,
+    "setup_seconds": 0.1001778999925591,
+    "n_elements": 1998,
+    "n_groups": 1998,
+    "linear_nnz": 3996,
+    "group_element_links": 1998,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 2.4986171045436995e-16
+      },
+      {
+        "f_relative_error": 1.1547608952811393e-16,
+        "g_relative_infinity_error": 3.460851931074639e-16
+      }
+    ],
+    "original_fg_seconds": 0.18793029995867983,
+    "warmed_native_fg_seconds": 0.00018836000002920628,
+    "speedup": 997.7187297172445,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "601a97e4eb27200789062922c0dfed594ed29f75608e59bcbc1c0bcbd57ef6ba"
+  },
+  {
+    "name": "GENHUMPS",
+    "dimension": 1000,
+    "source_sha256": "03e1aa94d46acbf672fe088df988f4580f73599874a75ba8c8de4d4d337e72a0",
+    "generated_sha256": "ce143314c14fc01d3eeb194a5ad8f82e0918248eb5c4d049ec3e1c7f739ac47a",
+    "compile_seconds": 0.5639286999939941,
+    "setup_seconds": 0.0872423000400886,
+    "n_elements": 2997,
+    "n_groups": 1,
+    "linear_nnz": 0,
+    "group_element_links": 2997,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 1.0107794762277269e-16
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      }
+    ],
+    "original_fg_seconds": 0.04202380002243444,
+    "warmed_native_fg_seconds": 0.00025610400014556943,
+    "speedup": 164.08880766621422,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "a68504148e73ea3db1cb425b7e0fe6fcc3461d7e81240c9011ce7bcd55ea0ecb"
+  },
+  {
+    "name": "HILBERTA",
+    "dimension": 50,
+    "source_sha256": "7c2a399b98db37f21666bbbcf23526c8c6852b2cd2aaad19d7a6be876c67bae7",
+    "generated_sha256": "0b193b40894215f225b91565f3af520bf77232dc8485d46dba764a7c7e25c5aa",
+    "compile_seconds": 0.48663529998157173,
+    "setup_seconds": 0.04998220002744347,
+    "n_elements": 1275,
+    "n_groups": 1275,
+    "linear_nnz": 0,
+    "group_element_links": 1275,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      }
+    ],
+    "original_fg_seconds": 0.020331600040663034,
+    "warmed_native_fg_seconds": 0.00011157699977047741,
+    "speedup": 182.22035081142815,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "6c1bd8b58a4bbe8834e7d31e1baa46b62809d1ef143fa51ffecd9a551ef82728"
+  },
+  {
+    "name": "INTEQNELS",
+    "dimension": 102,
+    "source_sha256": "0e3ae0d53f3a4f741e9e25141038d32f5122985278399538eae3355fe362b917",
+    "generated_sha256": "df0eaeab908fce5383f9bf86a679b372e6cab1b7f01b164d13241d2212ecf547",
+    "compile_seconds": 0.6505357999703847,
+    "setup_seconds": 0.06228390004253015,
+    "n_elements": 100,
+    "n_groups": 102,
+    "linear_nnz": 102,
+    "group_element_links": 10000,
+    "checks": [
+      {
+        "f_relative_error": 1.1102230246251565e-16,
+        "g_relative_infinity_error": 1.1102230246251565e-16
+      },
+      {
+        "f_relative_error": 1.1102230246251565e-16,
+        "g_relative_infinity_error": 1.6653345369377348e-16
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 8.326672684688674e-17
+      }
+    ],
+    "original_fg_seconds": 0.13972790003754199,
+    "warmed_native_fg_seconds": 2.8215000056661666e-05,
+    "speedup": 4952.255883641287,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "13d147039d2c0aeb4fea0fc4e56cdfe3e305503071aa969395d245aee9331650"
+  },
+  {
+    "name": "LIARWHD",
+    "dimension": 1000,
+    "source_sha256": "86b5a0b50698bfaf2b0c10f87933339cfe4199953d517af623a6fce178856163",
+    "generated_sha256": "63a679b8fef2c9d678b63060e366f899ce29b1adcdfb1cff418c19de197777db",
+    "compile_seconds": 0.486076699977275,
+    "setup_seconds": 0.06458649999694899,
+    "n_elements": 1000,
+    "n_groups": 2000,
+    "linear_nnz": 2000,
+    "group_element_links": 1000,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      }
+    ],
+    "original_fg_seconds": 0.16669679997721687,
+    "warmed_native_fg_seconds": 9.283400024287403e-05,
+    "speedup": 1795.6438324439496,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "6e3e5a0de01508c1eba38b57e1d69ce0eb72cdc23438803af8ddc5ac94bd16cc"
+  },
+  {
+    "name": "LUKSAN11LS",
+    "dimension": 100,
+    "source_sha256": "907d4194c74c44008172aba7cc39512d7119d9c494423c1207b70f8b60988e26",
+    "generated_sha256": "70d1e8de6f16ecc1bed00ee435c619caed6512124c10fa1dda41a62c9302d81b",
+    "compile_seconds": 0.4701014999882318,
+    "setup_seconds": 0.022511999995913357,
+    "n_elements": 99,
+    "n_groups": 198,
+    "linear_nnz": 198,
+    "group_element_links": 99,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      }
+    ],
+    "original_fg_seconds": 0.01574970001820475,
+    "warmed_native_fg_seconds": 1.1274999706074595e-05,
+    "speedup": 1396.869217630164,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "f76e83b244146caa1415ff3d34eac7d6e4f58b1f890fdf68a523c8a1e572daf1"
+  },
+  {
+    "name": "LUKSAN12LS",
+    "dimension": 98,
+    "source_sha256": "50181dd8303f2fc4d35235f4c8d784b85ccba736810375c99b89d75cabaf235f",
+    "generated_sha256": "c87808e29279fb7e678f4b527e6d99c59b442b5f8b88939965eedf6136d32181",
+    "compile_seconds": 0.9913569000200368,
+    "setup_seconds": 0.036771199957001954,
+    "n_elements": 192,
+    "n_groups": 192,
+    "linear_nnz": 96,
+    "group_element_links": 192,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 1.3370131468422307e-16
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 1.0355575373331436e-16
+      }
+    ],
+    "original_fg_seconds": 0.017395799979567528,
+    "warmed_native_fg_seconds": 2.9191000503487885e-05,
+    "speedup": 595.9302414964842,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "b50f6e9936294f9434a6581fc8428bbf860e480032d5a038efa27bd625446e5b"
+  },
+  {
+    "name": "LUKSAN13LS",
+    "dimension": 98,
+    "source_sha256": "059b454b9facfe3a484a5b80f963c292789d78a35749a5d5f73ee36663a26dda",
+    "generated_sha256": "ba0d840b4fd50a9569f2668cbad0e536880e5d79c3ea932c409956d1a6ae05db",
+    "compile_seconds": 0.8987088000285439,
+    "setup_seconds": 0.0289475999888964,
+    "n_elements": 192,
+    "n_groups": 224,
+    "linear_nnz": 192,
+    "group_element_links": 224,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 2.0565009103493838e-16
+      },
+      {
+        "f_relative_error": 2.282067572274452e-16,
+        "g_relative_infinity_error": 3.382906394989245e-16
+      }
+    ],
+    "original_fg_seconds": 0.02101359999505803,
+    "warmed_native_fg_seconds": 4.4540000380948186e-05,
+    "speedup": 471.7916438107288,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "2978ec1c311a33b8178e6b9c41dad79c21e1e598cd93733d99ce9e4b33cc65ec"
+  },
+  {
+    "name": "LUKSAN14LS",
+    "dimension": 98,
+    "source_sha256": "f5e36c134e35161a2799232f7ef03c0b33b6de1d11bbb5d5c13564a22e6d662e",
+    "generated_sha256": "17afda69edb8960dd2e2f4b7df3e277ef3fcd1e776fff3a85192f3717f276d9b",
+    "compile_seconds": 0.4580044000176713,
+    "setup_seconds": 0.02334989997325465,
+    "n_elements": 64,
+    "n_groups": 224,
+    "linear_nnz": 352,
+    "group_element_links": 64,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 1.3817023929803012e-16
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 2.2479440537464907e-16
+      }
+    ],
+    "original_fg_seconds": 0.01801950001390651,
+    "warmed_native_fg_seconds": 7.861999911256135e-06,
+    "speedup": 2291.974080043901,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "5efb45a2d5a6b92aa1e588154192fb1cc2bdc7b109d3ae560ccd0d2339ec740f"
+  },
+  {
+    "name": "LUKSAN17LS",
+    "dimension": 100,
+    "source_sha256": "a4700c152cc652b58a90d85871e4085c33d3c6ef87ce5480492fb57bda8972d5",
+    "generated_sha256": "7693ad280753916a2a5af50a28323a612b8ba649752f13bc1b765c3d03b59537",
+    "compile_seconds": 0.5498973000212573,
+    "setup_seconds": 0.0514911999925971,
+    "n_elements": 1568,
+    "n_groups": 196,
+    "linear_nnz": 0,
+    "group_element_links": 1568,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 2.609122417681834e-16
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 3.899396795285899e-16
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 4.903119244684984e-16
+      }
+    ],
+    "original_fg_seconds": 0.02472230000421405,
+    "warmed_native_fg_seconds": 0.0001462329999776557,
+    "speedup": 169.06101911327536,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "45f40934694fb5163b9659a3510fe9e459bb8fe1178467754cdc2faad9a320ab"
+  },
+  {
+    "name": "LUKSAN21LS",
+    "dimension": 100,
+    "source_sha256": "f0f58020e25ab5eadf031d91daf80fbd3112d91db19f7fd4210b4e53b2f92040",
+    "generated_sha256": "45bc89db69298e4f18a3d5d64f3ab6548e40a9ca82d45ceacd624c4e6b95f223",
+    "compile_seconds": 0.5643519000150263,
+    "setup_seconds": 0.025584699993487448,
+    "n_elements": 100,
+    "n_groups": 100,
+    "linear_nnz": 298,
+    "group_element_links": 100,
+    "checks": [
+      {
+        "f_relative_error": 1.421263027063439e-16,
+        "g_relative_infinity_error": 6.656196409029694e-16
+      },
+      {
+        "f_relative_error": 2.842618116625727e-16,
+        "g_relative_infinity_error": 6.661880331933853e-16
+      },
+      {
+        "f_relative_error": 1.4097389393105925e-16,
+        "g_relative_infinity_error": 6.708253914844245e-16
+      }
+    ],
+    "original_fg_seconds": 0.009305300016421825,
+    "warmed_native_fg_seconds": 8.061999687924981e-06,
+    "speedup": 1154.2173625185103,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "325d822dc81f4021deae001576e05b90ed4e8d5c56fcc52784f32c1fcdda71a3"
+  },
+  {
+    "name": "LUKSAN22LS",
+    "dimension": 100,
+    "source_sha256": "d3a1684680570210f5a0fa4f7c30d173624e717a1f9b2b6f7b96a18eca076aca",
+    "generated_sha256": "457256c998b84431cb627242eeebaddaf885956de24fef5647d8b3417b99d297",
+    "compile_seconds": 0.8770266000065021,
+    "setup_seconds": 0.030362799996510148,
+    "n_elements": 295,
+    "n_groups": 198,
+    "linear_nnz": 100,
+    "group_element_links": 295,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 2.0103947036862297e-16
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 1.9320714187026657e-16
+      }
+    ],
+    "original_fg_seconds": 0.019655900017824024,
+    "warmed_native_fg_seconds": 0.00010294899984728545,
+    "speedup": 190.92851846041813,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "f8cc87c76a62ca1a1b2efa6bebde90debe66f63c13b61f50b41efbda67f49b6b"
+  },
+  {
+    "name": "MANCINO",
+    "dimension": 50,
+    "source_sha256": "93047edf7d2546ab27942515c5c4caafce445465380c54a911fd4d3370050312",
+    "generated_sha256": "f1c7f6f456a5ef6978815b2bb12e68c49fa5e0a56a826925c9f0460e22fbd11b",
+    "compile_seconds": 0.567518099967856,
+    "setup_seconds": 0.08774930000072345,
+    "n_elements": 2450,
+    "n_groups": 50,
+    "linear_nnz": 50,
+    "group_element_links": 2450,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      }
+    ],
+    "original_fg_seconds": 0.04607530002249405,
+    "warmed_native_fg_seconds": 0.00031482999969739467,
+    "speedup": 146.34977628174022,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "545dc6bede60e41947a4a7fd2df0cd24e9b0f6e40de11a78d58d4fc6e376685b"
+  },
+  {
+    "name": "MOREBV",
+    "dimension": 1000,
+    "source_sha256": "692f291ac1284a94352af46fccf2a6089e1a35eb2f6ac596b97bf33f0775c08f",
+    "generated_sha256": "dfe854ac64b2c101ae118d7f93c862df6b0bb59b85767b107cd3dd4a273a1b44",
+    "compile_seconds": 0.5126988999545574,
+    "setup_seconds": 0.05774509999901056,
+    "n_elements": 1000,
+    "n_groups": 1000,
+    "linear_nnz": 2998,
+    "group_element_links": 1000,
+    "checks": [
+      {
+        "f_relative_error": 3.1846453583291565e-23,
+        "g_relative_infinity_error": 1.1102272597898928e-16
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 2.220446049250313e-16
+      },
+      {
+        "f_relative_error": 1.2616732442718828e-16,
+        "g_relative_infinity_error": 2.3912644037798754e-16
+      }
+    ],
+    "original_fg_seconds": 0.09368609997909516,
+    "warmed_native_fg_seconds": 8.074400015175343e-05,
+    "speedup": 1160.2855915364341,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "588be530f1291390e8fb0bf9d22bbfde29309750ebc0c44aa6047655d0325ae0"
+  },
+  {
+    "name": "MSQRTALS",
+    "dimension": 100,
+    "source_sha256": "09fe16374388908baa46e5c787a86102119e8191b00e1d0634a0c1a6fd02e383",
+    "generated_sha256": "90690bd715847f2e31eae662ee18ab9b61827a043f1f781891fd7e2224721ede",
+    "compile_seconds": 0.5897274999879301,
+    "setup_seconds": 0.03790510003454983,
+    "n_elements": 1000,
+    "n_groups": 100,
+    "linear_nnz": 0,
+    "group_element_links": 1000,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 2.827007435583847e-16
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 1.4153891489964886e-16
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 1.2642855787370607e-16
+      }
+    ],
+    "original_fg_seconds": 0.01565289997961372,
+    "warmed_native_fg_seconds": 8.835400047246366e-05,
+    "speedup": 177.16119129763786,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "fe2e163deab9dcb628fab4dc0c44da1cf419f9c0334f3bf15f412c0f99f7c1ba"
+  },
+  {
+    "name": "NCB20B",
+    "dimension": 500,
+    "source_sha256": "7cf5a6b44860d6cc565be8a8398f1f31e1b47af8cc93c76947b8097be41c6eac",
+    "generated_sha256": "f94d83b937db5ae188f4173a256803d6d0f3c5679a9e6a9f7eadc258d58b971f",
+    "compile_seconds": 1.4323252000031061,
+    "setup_seconds": 0.1814732999773696,
+    "n_elements": 981,
+    "n_groups": 500,
+    "linear_nnz": 9620,
+    "group_element_links": 981,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 2.2737456694308447e-16,
+        "g_relative_infinity_error": 9.696056623664768e-16
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 8.389112986943889e-16
+      }
+    ],
+    "original_fg_seconds": 0.06508020003093407,
+    "warmed_native_fg_seconds": 0.00011953100038226694,
+    "speedup": 544.4629411851644,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "37d18952867f74c61a42465081981dacae02f5745bf968c955d4eaaaff7227a9"
+  },
+  {
+    "name": "NONDQUAR",
+    "dimension": 1000,
+    "source_sha256": "1a1d8e45c1fa9fcd97bf656727284145366cb7578f082946580a08ff5a83c28c",
+    "generated_sha256": "728225d3554d659db7c76bcb39279e528207209c8b24c32f619860ef83bd5292",
+    "compile_seconds": 0.5270260000252165,
+    "setup_seconds": 0.04057930002454668,
+    "n_elements": 0,
+    "n_groups": 1000,
+    "linear_nnz": 2998,
+    "group_element_links": 0,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 3.428789260603962e-16,
+        "g_relative_infinity_error": 1.7933660615912e-18
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 2.2152026855914617e-16
+      }
+    ],
+    "original_fg_seconds": 0.06889300001785159,
+    "warmed_native_fg_seconds": 5.918000242672861e-06,
+    "speedup": 11641.26346617656,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "7c74974cd1071eae6a4960e86c9baf1c31202c662f0feb3c0bbf7ce6a20e7108"
+  },
+  {
+    "name": "OSCIGRAD",
+    "dimension": 1000,
+    "source_sha256": "1fbdc89cad4b2029eb37e7408bbc6f1b448311a7111735cbb0d64dbb021406eb",
+    "generated_sha256": "68898a9c14b2c171b7ed6d40cefedfcdf5222e6f122724d8ae7d065795ac8c1b",
+    "compile_seconds": 0.6236046000267379,
+    "setup_seconds": 0.06988329999148846,
+    "n_elements": 1998,
+    "n_groups": 1000,
+    "linear_nnz": 1,
+    "group_element_links": 1998,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 4.355997467041969e-18
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 2.8227034850364486e-18
+      }
+    ],
+    "original_fg_seconds": 0.1182997000287287,
+    "warmed_native_fg_seconds": 0.00017943000013474376,
+    "speedup": 659.3083650442568,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "22e4b0275c3bd4721b92c3b6c743a4f97b6db391d765a652ea813e5b172f5a80"
+  },
+  {
+    "name": "PENALTY1",
+    "dimension": 100,
+    "source_sha256": "8d919b03cf89e3f4da17d556afdc0e9ee0b080c9ce23b610ee157f1d05a45e9a",
+    "generated_sha256": "63a679b8fef2c9d678b63060e366f899ce29b1adcdfb1cff418c19de197777db",
+    "compile_seconds": 0.44273700000485405,
+    "setup_seconds": 0.02056619996437803,
+    "n_elements": 100,
+    "n_groups": 101,
+    "linear_nnz": 100,
+    "group_element_links": 100,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      }
+    ],
+    "original_fg_seconds": 0.008139699988532811,
+    "warmed_native_fg_seconds": 1.0337000130675733e-05,
+    "speedup": 787.4334802780656,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "de4cb98c47e290595d335ece1ec07571713b3eba6e92ec908a0b676d5176e14f"
+  },
+  {
+    "name": "PENALTY2",
+    "dimension": 100,
+    "source_sha256": "9a05d3791d20370498c4400a896cca579ac6c96c9302318e1f79a5d2b321e016",
+    "generated_sha256": "489f642b9ca0a01c05bbe6a4de0b9d042cf6d1a8f4f4ef7ec716406205e09ce1",
+    "compile_seconds": 0.642072000016924,
+    "setup_seconds": 0.027656599995680153,
+    "n_elements": 397,
+    "n_groups": 200,
+    "linear_nnz": 1,
+    "group_element_links": 397,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 1.1601567765207872e-16
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 1.043717646356991e-16
+      }
+    ],
+    "original_fg_seconds": 0.020228800014592707,
+    "warmed_native_fg_seconds": 3.21649998659268e-05,
+    "speedup": 628.9072003392603,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "1fb1932bacce3b5627e55b16e175d8e9bd3e9da146074ae7fe8f9105c0b3ad3d"
+  },
+  {
+    "name": "POWELLSG",
+    "dimension": 1000,
+    "source_sha256": "f054a8606012bdde1ed0f52b32c69398e84a5ebba3e4f3cbbf2652c868a5c625",
+    "generated_sha256": "9524d605d81a1d359ea97d1fc9c530ef8a02d7915f11976d747b0b5218671486",
+    "compile_seconds": 0.4097339999862015,
+    "setup_seconds": 0.03814109996892512,
+    "n_elements": 0,
+    "n_groups": 1000,
+    "linear_nnz": 2000,
+    "group_element_links": 0,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 3.5992022702359117e-16
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 2.246561877924791e-16
+      }
+    ],
+    "original_fg_seconds": 0.07082530000479892,
+    "warmed_native_fg_seconds": 4.92399965878576e-06,
+    "speedup": 14383.693117936602,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "bf4974f7d2f0f617d44e02758373f12bfa5bbee4e857af5c7963198ffbcf6c87"
+  },
+  {
+    "name": "POWER",
+    "dimension": 1000,
+    "source_sha256": "9d7b7aa8503221506d5a029bc05f9b9748468d3c50a0ea8fff10cf307358a0fb",
+    "generated_sha256": "63a679b8fef2c9d678b63060e366f899ce29b1adcdfb1cff418c19de197777db",
+    "compile_seconds": 0.462078400014434,
+    "setup_seconds": 0.03570250002667308,
+    "n_elements": 1000,
+    "n_groups": 1,
+    "linear_nnz": 0,
+    "group_element_links": 1000,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 1.1876307896375884e-16
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 2.1132298165440058e-16
+      }
+    ],
+    "original_fg_seconds": 0.012395899975672364,
+    "warmed_native_fg_seconds": 8.57549998909235e-05,
+    "speedup": 144.5501719018062,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "78ef42fdeff585a559c169ddc7b96cb27e76136aeefb3967be66bbd577ffdb9d"
+  },
+  {
+    "name": "QING",
+    "dimension": 1000,
+    "source_sha256": "2f32028f9b54b13e9857a3c4b28bf3a0bda3deb923fc1cd4d3d6b2663edff3f7",
+    "generated_sha256": "0d5d53535acc8b86b888953d68a513476faa674f7e04d42c05c1266c139b9e33",
+    "compile_seconds": 0.48699750000378117,
+    "setup_seconds": 0.040421699988655746,
+    "n_elements": 1000,
+    "n_groups": 1000,
+    "linear_nnz": 0,
+    "group_element_links": 1000,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      }
+    ],
+    "original_fg_seconds": 0.026648800005204976,
+    "warmed_native_fg_seconds": 8.825300028547645e-05,
+    "speedup": 301.9591392814154,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "076c3200e40383ad79bbe44c9448f185d2fb0fabcbe87fbfbeb8781802d0cd69"
+  },
+  {
+    "name": "SPARSINE",
+    "dimension": 1000,
+    "source_sha256": "8f834fc26c9fa7a971789d4449649ddb516f90f9af3afb9fd7948e4e1b318cc2",
+    "generated_sha256": "9f8c83040326393543c649cd4005bd27133d83353d20b531ce8e99c519918e5b",
+    "compile_seconds": 0.6636514000128955,
+    "setup_seconds": 0.08028529997682199,
+    "n_elements": 1000,
+    "n_groups": 1000,
+    "linear_nnz": 0,
+    "group_element_links": 6000,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 8.477169037788862e-17
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 1.6930512081751014e-16
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 1.7143923884884626e-16
+      }
+    ],
+    "original_fg_seconds": 0.09808080003131181,
+    "warmed_native_fg_seconds": 9.935400041285902e-05,
+    "speedup": 987.1852127115515,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "e762eeb0f7c8ac172acf3bb8d27e3a1a23fbc108d33a9f31dbc379d78b7d0be5"
+  },
+  {
+    "name": "SPARSQUR",
+    "dimension": 1000,
+    "source_sha256": "c168490a2af731cdb19b0baaacc1b195dcfef29bd4a46f56d708dec3a8605071",
+    "generated_sha256": "42cb95451559801ac3c1576c1551c087282b411a57b0fabad0a04c0b7f76fd73",
+    "compile_seconds": 0.5165920999716036,
+    "setup_seconds": 0.07956730003934354,
+    "n_elements": 1000,
+    "n_groups": 1000,
+    "linear_nnz": 0,
+    "group_element_links": 6000,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 1.4120847239466945e-16
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 1.4572773046077966e-16
+      }
+    ],
+    "original_fg_seconds": 0.09041229996364564,
+    "warmed_native_fg_seconds": 9.77419997798279e-05,
+    "speedup": 925.0097211772521,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "e762eeb0f7c8ac172acf3bb8d27e3a1a23fbc108d33a9f31dbc379d78b7d0be5"
+  },
+  {
+    "name": "TQUARTIC",
+    "dimension": 1000,
+    "source_sha256": "6106337ddaedb774664d894e77a2ac9431e6c52a95b647e661fa387b8376795a",
+    "generated_sha256": "63a679b8fef2c9d678b63060e366f899ce29b1adcdfb1cff418c19de197777db",
+    "compile_seconds": 0.48939750000135973,
+    "setup_seconds": 0.04530739999609068,
+    "n_elements": 1000,
+    "n_groups": 1000,
+    "linear_nnz": 1,
+    "group_element_links": 1998,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      }
+    ],
+    "original_fg_seconds": 0.11313249997328967,
+    "warmed_native_fg_seconds": 9.067100007086992e-05,
+    "speedup": 1247.725291271338,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "8161bb0a73209b05dcb29cbcb485358047ed1883aee6d524e622b6684ed46d8a"
+  },
+  {
+    "name": "TRIDIA",
+    "dimension": 1000,
+    "source_sha256": "3c1d37fe1e7e215ad26ab02c6e2973426a93e690e78938810995ad1aae6b67ba",
+    "generated_sha256": "8bacb06a6c543ba87066a6a57e14192645bc8158ccc32ff91c8cbe70eb7e545b",
+    "compile_seconds": 0.3905677000293508,
+    "setup_seconds": 0.04159139998955652,
+    "n_elements": 0,
+    "n_groups": 1000,
+    "linear_nnz": 1999,
+    "group_element_links": 0,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      }
+    ],
+    "original_fg_seconds": 0.07439940003678203,
+    "warmed_native_fg_seconds": 4.909000126644969e-06,
+    "speedup": 15155.713611201294,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "87a7b0491fe55812ed24741540b87512c5c532be3051a86c38f584428ca54afa"
+  },
+  {
+    "name": "VARDIM",
+    "dimension": 100,
+    "source_sha256": "d93e89efe23a4b98fc6b6357aaa44fc959a6feb80f0681d060b494808ce93430",
+    "generated_sha256": "9524d605d81a1d359ea97d1fc9c530ef8a02d7915f11976d747b0b5218671486",
+    "compile_seconds": 0.6111025999998674,
+    "setup_seconds": 0.020082100003492087,
+    "n_elements": 0,
+    "n_groups": 102,
+    "linear_nnz": 300,
+    "group_element_links": 0,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 3.697288306392667e-15,
+        "g_relative_infinity_error": 2.7740797110276995e-15
+      },
+      {
+        "f_relative_error": 1.129285469035392e-15,
+        "g_relative_infinity_error": 7.859179557912915e-16
+      }
+    ],
+    "original_fg_seconds": 0.007979299989528954,
+    "warmed_native_fg_seconds": 1.829999964684248e-06,
+    "speedup": 4360.273302467369,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "196c9a193135a98ba47b0406e8c4e3ade90c036aab25e12386bc61518a8e536b"
+  },
+  {
+    "name": "VAREIGVL",
+    "dimension": 501,
+    "source_sha256": "a013bf577f62247128e5f59189ecddaad583a51614184194fb5b26dac4ab9b7f",
+    "generated_sha256": "244c54f736f595a99007195a1fab0a55e2262b21a59d1c23d82d19622ecc26b9",
+    "compile_seconds": 0.6796258999966085,
+    "setup_seconds": 0.09268000000156462,
+    "n_elements": 1000,
+    "n_groups": 501,
+    "linear_nnz": 6458,
+    "group_element_links": 1000,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 4.170441971017994e-16
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 2.0870633498646126e-16
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 1.9410550291164143e-16
+      }
+    ],
+    "original_fg_seconds": 0.05390030000125989,
+    "warmed_native_fg_seconds": 0.00011022999999113381,
+    "speedup": 488.980313939901,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "ae80420e263b843b2ac2de8c2e1f5e41523d14eed0a27e3a2fc840f040df68ff"
+  },
+  {
+    "name": "WOODS",
+    "dimension": 1000,
+    "source_sha256": "3d4f6d32a500928eb760c25673d860f463f76e30bed1e2d0e171f0c730ea4360",
+    "generated_sha256": "2fe9cf89f85ee722c4992762011228cc40a779fd69b1ef3236180d479650c8b3",
+    "compile_seconds": 0.48060210002586246,
+    "setup_seconds": 0.06840599997667596,
+    "n_elements": 500,
+    "n_groups": 1501,
+    "linear_nnz": 2000,
+    "group_element_links": 500,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 1.5009123965647786e-16
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 2.1570419045453396e-16
+      }
+    ],
+    "original_fg_seconds": 0.11772320000454783,
+    "warmed_native_fg_seconds": 5.566700012423098e-05,
+    "speedup": 2114.7753559887765,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "c167eea8c3d6ceb8316ac96276c4ad4ce7c5185c3abfd238793eb3dce4485177"
+  },
+  {
+    "name": "TOINTGSS",
+    "dimension": 1000,
+    "source_sha256": "6b41d5ff6094c2d0bfb4e35abde20aacf9c30e3406ad2eb042157359c97b9c39",
+    "generated_sha256": "110998bc752d00557815d99f7c8c0958247d3df69770ac88bd7abf3adb60d4e6",
+    "compile_seconds": 0.9133321999688633,
+    "setup_seconds": 0.05026049999287352,
+    "n_elements": 998,
+    "n_groups": 998,
+    "linear_nnz": 0,
+    "group_element_links": 998,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      }
+    ],
+    "original_fg_seconds": 0.021477699978277087,
+    "warmed_native_fg_seconds": 0.000641194999916479,
+    "speedup": 33.496362231575006,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "2ae7c765386aa4ea62b0d698922ac029c9e2d27ba33a246f2dceff4d5b4e3689"
+  },
+  {
+    "name": "FMINSURF",
+    "dimension": 400,
+    "source_sha256": "608c20765fb1e49e257a4e4e8087abf09f78eb1c9aecd88e53cbd82b0c6ab6b5",
+    "generated_sha256": "14e4319c2e2f37dfdeb4624526e119ea747d3913ee14d84a364eea3b1e919617",
+    "compile_seconds": 0.7033690999960527,
+    "setup_seconds": 0.03833480004686862,
+    "n_elements": 722,
+    "n_groups": 362,
+    "linear_nnz": 400,
+    "group_element_links": 722,
+    "checks": [
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 1.3877787807814457e-17
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 2.7755575615628914e-17
+      },
+      {
+        "f_relative_error": 1.2377091479893143e-16,
+        "g_relative_infinity_error": 2.7755575615628914e-17
+      }
+    ],
+    "original_fg_seconds": 0.043212999997194856,
+    "warmed_native_fg_seconds": 0.0003334620001260191,
+    "speedup": 129.5889785968541,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "fc755b6587d7716643a8972f713e974123d204be8f9a5cb2fae4aabf9eb320bf"
+  },
+  {
+    "name": "SINQUAD",
+    "dimension": 1000,
+    "source_sha256": "f0e62266159f04c719cc414121906f921831104b3c620acf7f63504122282904",
+    "generated_sha256": "cef507a2cb46c2b874e8ccb7e4ac897cefac70c4bf40da9b00aac5a4e4e2751b",
+    "compile_seconds": 0.7846106999786571,
+    "setup_seconds": 0.06720839999616146,
+    "n_elements": 1998,
+    "n_groups": 1000,
+    "linear_nnz": 1,
+    "group_element_links": 2996,
+    "checks": [
+      {
+        "f_relative_error": 1.1102230246251565e-16,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      },
+      {
+        "f_relative_error": 0.0,
+        "g_relative_infinity_error": 0.0
+      }
+    ],
+    "original_fg_seconds": 0.11697060003643855,
+    "warmed_native_fg_seconds": 0.0005556440004147589,
+    "speedup": 210.51356614869624,
+    "exact_x0": true,
+    "native_nopython_signatures": [
+      "(Array(float64, 1, 'C', False, aligned=True),) -> Tuple(float64, array(float64, 1d, C))"
+    ],
+    "generated_data_sha256": "192373d2924cf5765f16adc355e53d415e73e03b549fbeeb83f8f94eb1feaba5"
+  }
+]

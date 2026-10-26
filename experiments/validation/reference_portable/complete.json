@@ -1,0 +1,12 @@
+{
+  "completed": true,
+  "deadline_stopped": false,
+  "completed_repeats": [
+    1
+  ],
+  "observations": 2,
+  "started_utc": "2026-10-26T11:35:52.531059+00:00",
+  "finished_utc": "2026-10-26T11:36:18.072539+00:00",
+  "source_hashes_unchanged": true,
+  "frozen_files_unchanged": true
+}

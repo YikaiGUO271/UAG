@@ -1,0 +1,1341 @@
+{
+  "version": "uad-simplified-formal-20261024",
+  "methods_specific": [
+    "UAD",
+    "NAG",
+    "RNAG",
+    "AC-FGM",
+    "GD",
+    "CUG",
+    "AdaNAG",
+    "A-QNPE"
+  ],
+  "methods_cutest": [
+    "UAD",
+    "NAG",
+    "RNAG",
+    "AC-FGM",
+    "GD",
+    "AdaNAG",
+    "A-QNPE"
+  ],
+  "config": {
+    "specific": {
+      "eps": 1e-07,
+      "max_fg": 100000,
+      "seconds": 120.0
+    },
+    "cutest": {
+      "relative_eps": 1e-06,
+      "max_fg": 20000,
+      "seconds": 30.0
+    }
+  },
+  "repeats": 1,
+  "source_sha256": {
+    "output\\uad_formal_rerun_20261024\\adanag_theory.py": "71e4a1c0dbe484d05adcec145ce41c2d1fa60f782d916cb3630df676c7507b73",
+    "output\\uad_formal_rerun_20261024\\aqnpe\\__init__.py": "c873f5a78d7b1cd29608d460d5e0562bdd31aac246b26dc0fea867b18a1f7214",
+    "output\\uad_formal_rerun_20261024\\aqnpe\\native.py": "876c7973f8bb3052a6fe98dc1ae0e4ee57b129830aa479437b57b14b681f2794",
+    "output\\uad_formal_rerun_20261024\\aqnpe\\solver.py": "b47f13ce552ca52de5ec8a50e57733c8b84a333294592057899a23a92de2fcc6",
+    "output\\uad_formal_rerun_20261024\\baselines_native.py": "d9fa4d9879cd9f56a7a8cb42943616ffff9f3b50db7875de933eccab8c3eae5f",
+    "output\\uad_formal_rerun_20261024\\cug_native.py": "94ac32ece936efdea2fd4725241109edf74bc59681ee7d57b2037c4da940eaee",
+    "output\\uad_formal_rerun_20261024\\environment.py": "cc32bcbddb52a313c58ab2bb64a9699f35f19035c3724ac627039f101427562a",
+    "output\\uad_formal_rerun_20261024\\formal_cases.py": "0e267a4e17024439aa33d8ab885ff254bee95ca52585c20bd159152b717b1537",
+    "output\\uad_formal_rerun_20261024\\native_api.py": "e5d9a85003e3e9f4a32a50df1acea07fbd0288cc9ab6e2b5cc408225693b765a",
+    "output\\uad_formal_rerun_20261024\\optimized_uad\\__init__.py": "57558f82d04d00184e87025029587bc1a80503cc6888cf349e758d993bb71b12",
+    "output\\uad_formal_rerun_20261024\\optimized_uad\\core.py": "5450d212680ae364aafc66ebe1258e76ab8efa6ee93a9a560d0eccdd698ad930",
+    "output\\uad_formal_rerun_20261024\\optimized_uad\\runtime.py": "d246dbc482fac320a5d8cfddf516e1f92bbc1a151226802a17d648c781404e8b",
+    "output\\uad_formal_rerun_20261024\\optimized_uad\\secant.py": "421526b42d2b98e8c790eeab03fbe78f788a89a59fbe6fff82e5cc842370cdcf",
+    "output\\uad_formal_rerun_20261024\\optimized_uad\\validate_optimization.py": "151c50bfa8502272d3fb9ee71671d67c6d700c3e6177acc544b5ec223b0bc2c1",
+    "output\\uad_formal_rerun_20261024\\run_campaign.py": "93c6bc9afb05066ede99ea9e955fada946d9e7caad22ec595c628f43bd848cc7",
+    "output\\ued_formal_benchmark_20261020\\baseline_solvers\\cug.py": "956a7026cdbdae7a8ca14d956a1e0832f53deb274e8275089f70407d782ee150",
+    "output\\ued_formal_benchmark_20261020\\data\\super_logistic_a9a.npz": "2cab336701b1f724dea6ecfa186c52bd3a8fc8de183016e447958841b347445d",
+    "output\\ued_formal_benchmark_20261020\\data\\super_logistic_australian.npz": "6e814768bf7285f71eeefc75f26302d4fb92a5725cc1687dfbb349d325896dde",
+    "output\\ued_formal_benchmark_20261020\\data\\super_logistic_ionosphere.npz": "680420bea6326b76c852fc0de1f713589d940c6ec6965bf9b0cc778bba34b0f2",
+    "output\\ued_formal_benchmark_20261020\\data\\super_logistic_w8a.npz": "4ad8a6ac1cbc175232a26fa065e543f32b541ded52896c03dd102590e9fe6499",
+    "output\\ued_formal_benchmark_20261020\\problems.py": "b67f36621aea54a7a51c7e8260e70923f360ef7bd8975628eaac09abf95a72b2",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_ARGLINA.npz": "4f76c8fcd9a84f3dc57db8667dbc1e4d60f1380e2cf7e6ef05c9d4f6fed16722",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_ARGLINA.py": "8bacb06a6c543ba87066a6a57e14192645bc8158ccc32ff91c8cbe70eb7e545b",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_ARGLINB.npz": "293e77ecc05f9e1c45b2af4092a8a72ccfeba8323b504c420458ded9ae8f2bc7",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_ARGLINB.py": "8bacb06a6c543ba87066a6a57e14192645bc8158ccc32ff91c8cbe70eb7e545b",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_ARGTRIGLS.npz": "41c6302308dc205f1daee783052352b6c58d59a11c9da605663be9f863ed512e",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_ARGTRIGLS.py": "3ac603df20d78ae2ea62d12d28dc5371d28badb8c73ba469d9107f9cd69f9061",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_ARWHEAD.npz": "dde2509fd2e2620f1c490a5d016a168be619cbed19f2c7a97e64111a5c320fa8",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_ARWHEAD.py": "63a679b8fef2c9d678b63060e366f899ce29b1adcdfb1cff418c19de197777db",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_BDQRTIC.npz": "c945c949c72271fbba6319cbe43944ec4ec938e4ca61a855de566fc60b5b2634",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_BDQRTIC.py": "63a679b8fef2c9d678b63060e366f899ce29b1adcdfb1cff418c19de197777db",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_BROWNAL.npz": "193261ff2cb6ed641438f5076c6a603d359732267dd7c9d4c6e8227c7ccc0e2b",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_BROWNAL.py": "2006a147ff3d97aa3311361675a33dd2472651dcdc5ec63d2b85e4e211c9e3e1",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_BROYDN3DLS.npz": "4151bfd120ca825dda5c4f935972ae9876b3a90f6e9cb5ae6dd20964e571b585",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_BROYDN3DLS.py": "a5523c743fed1b9b4194ef81829e10ffd6a4bd7965ea0936d8136aac6e45c466",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_BRYBND.npz": "713029030931bb17a84c632afe0519fd9cd90212fa1d3c9acbef564a00e3b5f6",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_BRYBND.py": "8038015b155203d1c461ac35cdfa56963411befe1400ceaa2d2019bddb5e937e",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_CHANDHEULS.npz": "b1c986980a926efc731cd612dc4b187d027f332d431c9dcdcf3f44710e172066",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_CHANDHEULS.py": "90690bd715847f2e31eae662ee18ab9b61827a043f1f781891fd7e2224721ede",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_COSINE.npz": "8c7424aae0e0f31f1fefdef11df9e1b56c575491716bd1d5d9ce7eb62b4f5e45",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_COSINE.py": "618e36f0253f98f0de62b2036939de2a3963c3d3d1af3e59233c86cbb8965754",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_CRAGGLVY.npz": "a3f7019070d0d05b89e8d38fe938057213dc8275955961a0dc1768038c37be7e",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_CRAGGLVY.py": "1a958c0d8a97aa6b425f4e94b485887568a756d027c8dfedfa0596e2e5b34f5c",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_CURLY10.npz": "ab71aad4703c5c5a3a6f0b8a530b60d5170fdfbdaaa24d511d6cb8a99b6c0642",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_CURLY10.py": "10f6c42a0d32790e88255f00ebf56e3e160ca671c8c5907ca0169dcd292eba2f",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_CYCLIC3LS.npz": "7cdffc1a5beeffd9db583b16a0679ab8cd678e63debd8a6a0351a5fa83c0b2eb",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_CYCLIC3LS.py": "5670fb41e7891d39a32fd706ee01aeae5fbc8fce2cf8a1190189cf50031652d0",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_DIXMAANF.npz": "c142e48285058098fb5218d9fb176e789b538e130ec152d758921434d6e98c4e",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_DIXMAANF.py": "7ce08e7fcc550e641f20803d6225fda09b3ab6d651858da7510469a8ed92ea56",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_DIXON3DQ.npz": "1c08746d323d2f5ad0adf31f42d41c46a459a02850ba10542e86b1c97f678632",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_DIXON3DQ.py": "8bacb06a6c543ba87066a6a57e14192645bc8158ccc32ff91c8cbe70eb7e545b",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_DQRTIC.npz": "1329444be90acf2c54d627d8857269d233f658281539030189c4036403c75ca9",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_DQRTIC.py": "b1e9c433eb10e1ac02f3a311ef30a068dcd26a4ff04b47f846948359ca5f3294",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_EDENSCH.npz": "75173222bfa840cac6e0c71311dd6aa039cdf5819e34fc34b06176e742b9c568",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_EDENSCH.py": "6f599a68ccd1cd77c46298211f4f4e59b4221cbd23ca6fe114ab9f3685e3cf8c",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_EG2.npz": "bb30cab6173e63beac4861267162e2819efae6986f8a8b153fe3dfd95aeb5477",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_EG2.py": "71a144cb437bf6e6afeff3c37f3466789a42632c5925826a28f8585851e86efc",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_EIGENALS.npz": "429673599d4681732b634e8e64f97955a09cb57741c1f5c7db7e4e482d9dd3f9",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_EIGENALS.py": "98f05f8f1f570d1d8f57266fe14a079e56d6d92549e3bcd1a4387401cdde8bd9",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_ENGVAL1.npz": "481254922e32e489c6ab89a7bb0caa55e0bacf8bae96e7eb648c06e6150e20cd",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_ENGVAL1.py": "63a679b8fef2c9d678b63060e366f899ce29b1adcdfb1cff418c19de197777db",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_EXTROSNB.npz": "e250a09e53c37ea95d1c552478b569cfb6644ab8fb9792df3abf3289120a4ab8",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_EXTROSNB.py": "f69800d76ae9f361f45dcdc975eda08969a21cbd0c1136b50eb90c0fea9eada2",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_FLETCBV2.npz": "1650843fb7adc089f32a990bb1c40fcc5cac44ec9cacb98d9b7398112ff83654",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_FLETCBV2.py": "8a099c2af7e66d6862e2a586b59ac4e8e46ceb81597e6b9a55205c457c9cc28f",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_FMINSURF.npz": "fc755b6587d7716643a8972f713e974123d204be8f9a5cb2fae4aabf9eb320bf",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_FMINSURF.py": "14e4319c2e2f37dfdeb4624526e119ea747d3913ee14d84a364eea3b1e919617",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_FREUROTH.npz": "601a97e4eb27200789062922c0dfed594ed29f75608e59bcbc1c0bcbd57ef6ba",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_FREUROTH.py": "05f43c9bc02b331a8300781e92c03493882fab96a7ce78aef37562e47acc830f",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_GENHUMPS.npz": "a68504148e73ea3db1cb425b7e0fe6fcc3461d7e81240c9011ce7bcd55ea0ecb",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_GENHUMPS.py": "ce143314c14fc01d3eeb194a5ad8f82e0918248eb5c4d049ec3e1c7f739ac47a",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_HILBERTA.npz": "6c1bd8b58a4bbe8834e7d31e1baa46b62809d1ef143fa51ffecd9a551ef82728",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_HILBERTA.py": "0b193b40894215f225b91565f3af520bf77232dc8485d46dba764a7c7e25c5aa",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_INTEQNELS.npz": "13d147039d2c0aeb4fea0fc4e56cdfe3e305503071aa969395d245aee9331650",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_INTEQNELS.py": "df0eaeab908fce5383f9bf86a679b372e6cab1b7f01b164d13241d2212ecf547",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_LIARWHD.npz": "6e3e5a0de01508c1eba38b57e1d69ce0eb72cdc23438803af8ddc5ac94bd16cc",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_LIARWHD.py": "63a679b8fef2c9d678b63060e366f899ce29b1adcdfb1cff418c19de197777db",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_LUKSAN11LS.npz": "f76e83b244146caa1415ff3d34eac7d6e4f58b1f890fdf68a523c8a1e572daf1",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_LUKSAN11LS.py": "70d1e8de6f16ecc1bed00ee435c619caed6512124c10fa1dda41a62c9302d81b",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_LUKSAN12LS.npz": "b50f6e9936294f9434a6581fc8428bbf860e480032d5a038efa27bd625446e5b",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_LUKSAN12LS.py": "c87808e29279fb7e678f4b527e6d99c59b442b5f8b88939965eedf6136d32181",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_LUKSAN13LS.npz": "2978ec1c311a33b8178e6b9c41dad79c21e1e598cd93733d99ce9e4b33cc65ec",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_LUKSAN13LS.py": "ba0d840b4fd50a9569f2668cbad0e536880e5d79c3ea932c409956d1a6ae05db",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_LUKSAN14LS.npz": "5efb45a2d5a6b92aa1e588154192fb1cc2bdc7b109d3ae560ccd0d2339ec740f",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_LUKSAN14LS.py": "17afda69edb8960dd2e2f4b7df3e277ef3fcd1e776fff3a85192f3717f276d9b",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_LUKSAN17LS.npz": "45f40934694fb5163b9659a3510fe9e459bb8fe1178467754cdc2faad9a320ab",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_LUKSAN17LS.py": "7693ad280753916a2a5af50a28323a612b8ba649752f13bc1b765c3d03b59537",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_LUKSAN21LS.npz": "325d822dc81f4021deae001576e05b90ed4e8d5c56fcc52784f32c1fcdda71a3",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_LUKSAN21LS.py": "45bc89db69298e4f18a3d5d64f3ab6548e40a9ca82d45ceacd624c4e6b95f223",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_LUKSAN22LS.npz": "f8cc87c76a62ca1a1b2efa6bebde90debe66f63c13b61f50b41efbda67f49b6b",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_LUKSAN22LS.py": "457256c998b84431cb627242eeebaddaf885956de24fef5647d8b3417b99d297",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_MANCINO.npz": "545dc6bede60e41947a4a7fd2df0cd24e9b0f6e40de11a78d58d4fc6e376685b",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_MANCINO.py": "f1c7f6f456a5ef6978815b2bb12e68c49fa5e0a56a826925c9f0460e22fbd11b",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_MOREBV.npz": "588be530f1291390e8fb0bf9d22bbfde29309750ebc0c44aa6047655d0325ae0",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_MOREBV.py": "dfe854ac64b2c101ae118d7f93c862df6b0bb59b85767b107cd3dd4a273a1b44",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_MSQRTALS.npz": "fe2e163deab9dcb628fab4dc0c44da1cf419f9c0334f3bf15f412c0f99f7c1ba",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_MSQRTALS.py": "90690bd715847f2e31eae662ee18ab9b61827a043f1f781891fd7e2224721ede",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_NCB20B.npz": "37d18952867f74c61a42465081981dacae02f5745bf968c955d4eaaaff7227a9",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_NCB20B.py": "f94d83b937db5ae188f4173a256803d6d0f3c5679a9e6a9f7eadc258d58b971f",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_NONDQUAR.npz": "7c74974cd1071eae6a4960e86c9baf1c31202c662f0feb3c0bbf7ce6a20e7108",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_NONDQUAR.py": "728225d3554d659db7c76bcb39279e528207209c8b24c32f619860ef83bd5292",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_OSCIGRAD.npz": "22e4b0275c3bd4721b92c3b6c743a4f97b6db391d765a652ea813e5b172f5a80",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_OSCIGRAD.py": "68898a9c14b2c171b7ed6d40cefedfcdf5222e6f122724d8ae7d065795ac8c1b",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_PENALTY1.npz": "de4cb98c47e290595d335ece1ec07571713b3eba6e92ec908a0b676d5176e14f",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_PENALTY1.py": "63a679b8fef2c9d678b63060e366f899ce29b1adcdfb1cff418c19de197777db",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_PENALTY2.npz": "1fb1932bacce3b5627e55b16e175d8e9bd3e9da146074ae7fe8f9105c0b3ad3d",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_PENALTY2.py": "489f642b9ca0a01c05bbe6a4de0b9d042cf6d1a8f4f4ef7ec716406205e09ce1",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_POWELLSG.npz": "bf4974f7d2f0f617d44e02758373f12bfa5bbee4e857af5c7963198ffbcf6c87",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_POWELLSG.py": "9524d605d81a1d359ea97d1fc9c530ef8a02d7915f11976d747b0b5218671486",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_POWER.npz": "78ef42fdeff585a559c169ddc7b96cb27e76136aeefb3967be66bbd577ffdb9d",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_POWER.py": "63a679b8fef2c9d678b63060e366f899ce29b1adcdfb1cff418c19de197777db",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_QING.npz": "076c3200e40383ad79bbe44c9448f185d2fb0fabcbe87fbfbeb8781802d0cd69",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_QING.py": "0d5d53535acc8b86b888953d68a513476faa674f7e04d42c05c1266c139b9e33",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_SINQUAD.npz": "192373d2924cf5765f16adc355e53d415e73e03b549fbeeb83f8f94eb1feaba5",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_SINQUAD.py": "cef507a2cb46c2b874e8ccb7e4ac897cefac70c4bf40da9b00aac5a4e4e2751b",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_SPARSINE.npz": "e762eeb0f7c8ac172acf3bb8d27e3a1a23fbc108d33a9f31dbc379d78b7d0be5",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_SPARSINE.py": "9f8c83040326393543c649cd4005bd27133d83353d20b531ce8e99c519918e5b",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_SPARSQUR.npz": "e762eeb0f7c8ac172acf3bb8d27e3a1a23fbc108d33a9f31dbc379d78b7d0be5",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_SPARSQUR.py": "42cb95451559801ac3c1576c1551c087282b411a57b0fabad0a04c0b7f76fd73",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_TOINTGSS.npz": "2ae7c765386aa4ea62b0d698922ac029c9e2d27ba33a246f2dceff4d5b4e3689",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_TOINTGSS.py": "110998bc752d00557815d99f7c8c0958247d3df69770ac88bd7abf3adb60d4e6",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_TQUARTIC.npz": "8161bb0a73209b05dcb29cbcb485358047ed1883aee6d524e622b6684ed46d8a",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_TQUARTIC.py": "63a679b8fef2c9d678b63060e366f899ce29b1adcdfb1cff418c19de197777db",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_TRIDIA.npz": "87a7b0491fe55812ed24741540b87512c5c532be3051a86c38f584428ca54afa",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_TRIDIA.py": "8bacb06a6c543ba87066a6a57e14192645bc8158ccc32ff91c8cbe70eb7e545b",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_VARDIM.npz": "196c9a193135a98ba47b0406e8c4e3ade90c036aab25e12386bc61518a8e536b",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_VARDIM.py": "9524d605d81a1d359ea97d1fc9c530ef8a02d7915f11976d747b0b5218671486",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_VAREIGVL.npz": "ae80420e263b843b2ac2de8c2e1f5e41523d14eed0a27e3a2fc840f040df68ff",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_VAREIGVL.py": "244c54f736f595a99007195a1fab0a55e2262b21a59d1c23d82d19622ecc26b9",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_WOODS.npz": "c167eea8c3d6ceb8316ac96276c4ad4ce7c5185c3abfd238793eb3dce4485177",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\generated\\cutest_native_WOODS.py": "2fe9cf89f85ee722c4992762011228cc40a779fd69b1ef3236180d479650c8b3",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\cutest_fast\\validation.json": "91addbff34206824174423346aff8250d8c2e9e76aa6177e134329ed2a6fbaaa",
+    "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\recorded\\manifest.json": "f6455e3463546927e2d66db3fdeee11a0ebfd71c107f1a0a595323c496067c93"
+  },
+  "numerical_threads": 1,
+  "dtype": "float64",
+  "AdaNAG": "Original Algorithm 1 with exact theoretical r0/coefficients; no G12 near-zero keep-step heuristic.",
+  "AQNPE": "Original recurrence with supplied L1 for concrete problems; labelled online-scale extension on CUTEst.",
+  "timing": "One observation; all FG history timestamps from that run; JIT/object construction/endpoint checks excluded; every FG checks the soft time budget.",
+  "changes_from_historical_specific": "Native FG for every method; one run replaces full warm solve, three timings and separate trace; time check each FG instead of every 64.",
+  "failures": "Retain all outcomes; profile failures receive infinite cost; no tuned reruns.",
+  "specific": [
+    {
+      "name": "logsumexp_rho0p5",
+      "family": "logsumexp",
+      "dimension": 200,
+      "L1": 521.4322698587774,
+      "L2": 33677.65555104259,
+      "x0_sha256": "e61f41d57db208c5f92a35c4ce7198570924a3fc87eeba83441fceee5d6a2865"
+    },
+    {
+      "name": "logsumexp_rho0p05",
+      "family": "logsumexp",
+      "dimension": 200,
+      "L1": 5214.322698587774,
+      "L2": 3367765.5551042585,
+      "x0_sha256": "e61f41d57db208c5f92a35c4ce7198570924a3fc87eeba83441fceee5d6a2865"
+    },
+    {
+      "name": "logsumexp_rho0p005",
+      "family": "logsumexp",
+      "dimension": 200,
+      "L1": 52143.22698587774,
+      "L2": 336776555.51042587,
+      "x0_sha256": "e61f41d57db208c5f92a35c4ce7198570924a3fc87eeba83441fceee5d6a2865"
+    },
+    {
+      "name": "rosenbrock_d200",
+      "family": "rosenbrock",
+      "dimension": 200,
+      "L1": 5401739.511264948,
+      "L2": 155824.6654047925,
+      "x0_sha256": "e61f41d57db208c5f92a35c4ce7198570924a3fc87eeba83441fceee5d6a2865"
+    },
+    {
+      "name": "t_regression_s0",
+      "family": "t_regression",
+      "dimension": 200,
+      "L1": 2592181.20797567,
+      "L2": 1928001154.4964504,
+      "x0_sha256": "cdfd83b6de64ecc179eaeb3eec0472a6009b6afb62aafb6fa026ce53f41aaeeb"
+    },
+    {
+      "name": "super_logistic_a9a",
+      "family": "logistic",
+      "dimension": 123,
+      "L1": 1.5719504108101432,
+      "L2": 2.263823104306965,
+      "x0_sha256": "77f3ea088c1912c736945e6e81b45af66d6137fee50b828b5ecdebbe52137169"
+    },
+    {
+      "name": "super_logistic_australian",
+      "family": "logistic",
+      "dimension": 14,
+      "L1": 1.0553317120687018,
+      "L2": 1.4282070418097463,
+      "x0_sha256": "b5fdab78d8947eacc864bfeecb4d2100780e5afe1cd8efafb124887913ac49fa"
+    },
+    {
+      "name": "super_logistic_ionosphere",
+      "family": "logistic",
+      "dimension": 34,
+      "L1": 1.5290364320457497,
+      "L2": 3.374527374935138,
+      "x0_sha256": "e4d879a3407de578f579dfab4366fcea75a6649c683d9efe4f056f6505437574"
+    },
+    {
+      "name": "super_logistic_w8a",
+      "family": "logistic",
+      "dimension": 300,
+      "L1": 0.6612194854010298,
+      "L2": 2.7172711630214894,
+      "x0_sha256": "a0ee989ed2a0a2e3626520afa4032e06144865c8c8f6357293c9f4cd2069eaf2"
+    }
+  ],
+  "cutest": [
+    {
+      "name": "ARGLINA",
+      "args": [
+        100,
+        200
+      ],
+      "family": "full-rank-linear-least-squares",
+      "selection_reason": "Dense full rank least squares baseline; 100 variables and 200 residuals.",
+      "expected_dimension": 100,
+      "dimension": 100,
+      "classification": "C-CSUR2-AN-V-0",
+      "f0": 500.0,
+      "initial_gradient": 40.000000000000036,
+      "tolerance": 4.000000000000003e-05,
+      "gradient_check_errors": [
+        9.235082920611148e-09,
+        4.638243733534608e-09
+      ],
+      "source_sha256": "c651b8430c586f2c3116edfcb2be291e4be1ea167de3db91882a5ea97ba9774a",
+      "setup_and_first_fg_seconds": 0.4836465999833308
+    },
+    {
+      "name": "ARGLINB",
+      "args": [
+        100,
+        200
+      ],
+      "family": "rank-one-linear-least-squares",
+      "selection_reason": "Rank deficient least squares baseline; 100 variables and 200 residuals.",
+      "expected_dimension": 100,
+      "dimension": 100,
+      "classification": "C-CSUR2-AN-V-0",
+      "f0": 68517363740200.0,
+      "initial_gradient": 15784215299179.113,
+      "tolerance": 15784215.299179113,
+      "gradient_check_errors": [
+        2.0601502600239178e-11,
+        5.304125281927012e-11
+      ],
+      "source_sha256": "e03eb7c854857876aa91ceee46bc5630baf125aed88429d8c49434243eea9d78",
+      "setup_and_first_fg_seconds": 0.2785039999871515
+    },
+    {
+      "name": "ARGTRIGLS",
+      "args": [
+        100
+      ],
+      "family": "dense-trigonometric-least-squares",
+      "selection_reason": "Dense trigonometric residual system; n=100 bounds Python element cost.",
+      "expected_dimension": 100,
+      "dimension": 100,
+      "classification": "C-CSUR2-AN-V-0",
+      "f0": 32.99641404238618,
+      "initial_gradient": 879.0391321211006,
+      "tolerance": 0.0008790391321211005,
+      "gradient_check_errors": [
+        3.0850891563627414e-08,
+        5.159979152913972e-10
+      ],
+      "source_sha256": "4b9b12e97c8203e323e86619c77798eea2f65e0455d136f1d562c32a62557e37",
+      "setup_and_first_fg_seconds": 0.2845044999849051
+    },
+    {
+      "name": "ARWHEAD",
+      "args": [
+        1000
+      ],
+      "family": "arrowhead-quartic",
+      "selection_reason": "Sparse quartic arrowhead Hessian; n=1000.",
+      "expected_dimension": 1000,
+      "dimension": 1000,
+      "classification": "C-COUR2-AN-V-0",
+      "f0": 2997.0,
+      "initial_gradient": 7992.999937445265,
+      "tolerance": 0.007992999937445264,
+      "gradient_check_errors": [
+        8.793004197936965e-11,
+        8.939806354366021e-11
+      ],
+      "source_sha256": "19d648e1762318447edce1f64207f040618902fbc9f3d8cfaa5ba63bdd0c1e8b",
+      "setup_and_first_fg_seconds": 0.5427307999925688
+    },
+    {
+      "name": "BDQRTIC",
+      "args": [
+        1000
+      ],
+      "family": "banded-quartic-least-squares",
+      "selection_reason": "Banded quartic least squares; n=1000.",
+      "expected_dimension": 1000,
+      "dimension": 1000,
+      "classification": "C-CSUR2-AN-V-0",
+      "f0": 225096.0,
+      "initial_gradient": 299414.79145827115,
+      "tolerance": 0.29941479145827116,
+      "gradient_check_errors": [
+        5.569651452978211e-10,
+        6.291803481846109e-11
+      ],
+      "source_sha256": "12993cf7f45cb616530a3afd5cba59a9402529a70dc52ef49dd849b4f91012ef",
+      "setup_and_first_fg_seconds": 0.4987607999937609
+    },
+    {
+      "name": "BROWNAL",
+      "args": [
+        100
+      ],
+      "family": "brown-almost-linear",
+      "selection_reason": "Dense Brown almost linear residuals with product coupling; n=100.",
+      "expected_dimension": 100,
+      "dimension": 100,
+      "classification": "C-CSUR2-AN-V-0",
+      "f0": 252475.74804782867,
+      "initial_gradient": 100989.95390281196,
+      "tolerance": 0.10098995390281196,
+      "gradient_check_errors": [
+        7.886159307802172e-12,
+        5.918575477292385e-11
+      ],
+      "source_sha256": "4a46526b730b7c57e51136401fa448635e13a0d729e7f77bf63b9332216d65df",
+      "setup_and_first_fg_seconds": 0.1408403999521397
+    },
+    {
+      "name": "BROYDN3DLS",
+      "args": [
+        1000
+      ],
+      "family": "broyden-tridiagonal",
+      "selection_reason": "Tridiagonal nonlinear system in least squares form; n=1000.",
+      "expected_dimension": 1000,
+      "dimension": 1000,
+      "classification": "C-CSUR2-AN-V-0",
+      "f0": 1011.0,
+      "initial_gradient": 256.70216204777086,
+      "tolerance": 0.00025670216204777086,
+      "gradient_check_errors": [
+        4.956108634601719e-09,
+        5.509328326880336e-09
+      ],
+      "source_sha256": "8ca9bbc16da94ba9d9df1e571b14ac86d27797febc598a1a77285d5fd80bf122",
+      "setup_and_first_fg_seconds": 0.2667710000532679
+    },
+    {
+      "name": "BRYBND",
+      "args": [
+        1000
+      ],
+      "family": "broyden-banded",
+      "selection_reason": "Banded nonlinear system in least squares form; n=1000; other parameters remain original.",
+      "expected_dimension": 1000,
+      "dimension": 1000,
+      "classification": "C-CSUR2-AN-V-0",
+      "f0": 24904.0,
+      "initial_gradient": 3481.3974205769728,
+      "tolerance": 0.0034813974205769728,
+      "gradient_check_errors": [
+        7.324264572616812e-08,
+        9.411253960911125e-10
+      ],
+      "source_sha256": "901901e7733b23e3461ca8df1e349424e28c2b2c2dbce3314df51eacfd3b3ed0",
+      "setup_and_first_fg_seconds": 0.6701911000418477
+    },
+    {
+      "name": "CHANDHEULS",
+      "args": [
+        50
+      ],
+      "family": "chandrasekhar-radiative-transfer",
+      "selection_reason": "Radiative transfer equations in least squares form; dense n=50.",
+      "expected_dimension": 50,
+      "dimension": 50,
+      "classification": "C-CNSUR2-RN-V-V",
+      "f0": 3.451903120447889,
+      "initial_gradient": 1.8443407454336427,
+      "tolerance": 1.8443407454336425e-06,
+      "gradient_check_errors": [
+        3.950617610826157e-12,
+        2.391459252848449e-11
+      ],
+      "source_sha256": "567cb94b0035568e5cbe2cf2731203bfa5e9e262e7e5815aca01cd293decd847",
+      "setup_and_first_fg_seconds": 0.1625857000472024
+    },
+    {
+      "name": "COSINE",
+      "args": [
+        1000
+      ],
+      "family": "cosine-chain",
+      "selection_reason": "Bounded cosine objective with repeated elements; n=1000.",
+      "expected_dimension": 1000,
+      "dimension": 1000,
+      "classification": "C-COUR2-AN-V-0",
+      "f0": 876.7049793284716,
+      "initial_gradient": 22.739886624312273,
+      "tolerance": 2.2739886624312272e-05,
+      "gradient_check_errors": [
+        1.1235646302232283e-09,
+        5.117263168763486e-09
+      ],
+      "source_sha256": "b982f691cc0fd99ce7b0abe874bced1e42a6065b6915e34a5478cdcec12f518a",
+      "setup_and_first_fg_seconds": 0.29043799999635667
+    },
+    {
+      "name": "CRAGGLVY",
+      "args": [
+        249
+      ],
+      "family": "cragg-levy",
+      "selection_reason": "Extended Cragg and Levy chain; parameter M=249 gives n=500.",
+      "expected_dimension": 500,
+      "dimension": 500,
+      "classification": "C-COUR2-AY-V-0",
+      "f0": 272909.76047543564,
+      "initial_gradient": 89514.25590384558,
+      "tolerance": 0.08951425590384558,
+      "gradient_check_errors": [
+        2.221704204655836e-09,
+        2.524599542950673e-10
+      ],
+      "source_sha256": "64ad607edde6d54167ddfa69d42dc7231f4e298cbd6cbe78766145cefbb4a23b",
+      "setup_and_first_fg_seconds": 0.3176990000065416
+    },
+    {
+      "name": "CURLY10",
+      "args": [
+        1000
+      ],
+      "family": "curly-banded",
+      "selection_reason": "Banded quartic with negative curvature near original start; n=1000; only one CURLY bandwidth.",
+      "expected_dimension": 1000,
+      "dimension": 1000,
+      "classification": "C-COUR2-AN-V-0",
+      "f0": -0.06301648215739497,
+      "initial_gradient": 42.538289271481226,
+      "tolerance": 4.2538289271481224e-05,
+      "gradient_check_errors": [
+        1.7696955012524995e-12,
+        7.096046869730711e-13
+      ],
+      "source_sha256": "02c0c3fa846dc0945d0d4ad93b329f3f2b683a3eded63079261c3077ddd7e7fd",
+      "setup_and_first_fg_seconds": 0.28785809996770695
+    },
+    {
+      "name": "CYCLIC3LS",
+      "args": [
+        98
+      ],
+      "family": "cyclic-cubic-least-squares",
+      "selection_reason": "Cyclic cubic system with high root multiplicity; parameter N=98 gives n=100.",
+      "expected_dimension": 100,
+      "dimension": 100,
+      "classification": "C-CSUR2-AN-V-0",
+      "f0": 9.780409799999975e+19,
+      "initial_gradient": 5.929862008722935e+16,
+      "tolerance": 59298620087.22935,
+      "gradient_check_errors": [
+        4.834931741554611e-09,
+        1.3646207921933726e-10
+      ],
+      "source_sha256": "902e89db414f21d045959bce39421675962056a64173318b6c23108e4ace2ea6",
+      "setup_and_first_fg_seconds": 0.04045629996107891
+    },
+    {
+      "name": "DIXMAANF",
+      "args": [
+        200
+      ],
+      "family": "dixon-maany",
+      "selection_reason": "Dixon Maany sparse Hessian family; M=200 gives n=600; only version F used.",
+      "expected_dimension": 600,
+      "dimension": 600,
+      "classification": "C-COUR2-AN-V-0",
+      "f0": 8202.375,
+      "initial_gradient": 838.108808086819,
+      "tolerance": 0.0008381088080868189,
+      "gradient_check_errors": [
+        4.624593158921609e-10,
+        3.5566789499848735e-10
+      ],
+      "source_sha256": "b31802d0ba98120f2728dc41d58f7506c3bb6273cd287b0cdf3ed32d491ce39f",
+      "setup_and_first_fg_seconds": 0.11715829995227978
+    },
+    {
+      "name": "DIXON3DQ",
+      "args": [
+        1000
+      ],
+      "family": "dixon-tridiagonal-quadratic",
+      "selection_reason": "Convex tridiagonal quadratic; n=1000.",
+      "expected_dimension": 1000,
+      "dimension": 1000,
+      "classification": "C-CQUR2-AN-V-0",
+      "f0": 8.0,
+      "initial_gradient": 5.656854249492381,
+      "tolerance": 5.656854249492381e-06,
+      "gradient_check_errors": [
+        6.354256010254744e-11,
+        1.0722750291847216e-10
+      ],
+      "source_sha256": "e98d43ffce1ec04c6d39f5e699237b995788138166c9cbddf97fa0a788868398",
+      "setup_and_first_fg_seconds": 0.2276308999862522
+    },
+    {
+      "name": "DQRTIC",
+      "args": [
+        1000
+      ],
+      "family": "diagonal-quartic",
+      "selection_reason": "Separable shifted diagonal quartic; n=1000; QUARTC duplicate omitted.",
+      "expected_dimension": 1000,
+      "dimension": 1000,
+      "classification": "C-COUR2-AN-V-0",
+      "f0": 198504327337300.0,
+      "initial_gradient": 47558574894.87442,
+      "tolerance": 47558.574894874415,
+      "gradient_check_errors": [
+        3.5778202983010207e-06,
+        4.892300040111815e-08
+      ],
+      "source_sha256": "9651a6527a1acdc2b3703ccde7dc7d6a3f72037f36a674434b84f23820c75479",
+      "setup_and_first_fg_seconds": 0.172924000013154
+    },
+    {
+      "name": "EDENSCH",
+      "args": [
+        1000
+      ],
+      "family": "extended-dennis-schnabel",
+      "selection_reason": "Extended Dennis and Schnabel sparse nonlinear objective; n=1000.",
+      "expected_dimension": 1000,
+      "dimension": 1000,
+      "classification": "C-COUR2-AN-V-0",
+      "f0": 3677335.0,
+      "initial_gradient": 70343.3160150984,
+      "tolerance": 0.0703433160150984,
+      "gradient_check_errors": [
+        1.49260487299888e-09,
+        7.702452211765028e-09
+      ],
+      "source_sha256": "7606d6a297777794cf5da306e12a39fe9397148f700081604db688a5b14b1801",
+      "setup_and_first_fg_seconds": 0.5827632999862544
+    },
+    {
+      "name": "EG2",
+      "args": [
+        1000
+      ],
+      "family": "eg2-sine-coupling",
+      "selection_reason": "Bounded nonconvex sine coupling objective; n=1000.",
+      "expected_dimension": 1000,
+      "dimension": 1000,
+      "classification": "C-COUR2-AN-1000-0",
+      "f0": -840.6295138230707,
+      "initial_gradient": 539.7620035622692,
+      "tolerance": 0.0005397620035622692,
+      "gradient_check_errors": [
+        2.8012647518469594e-10,
+        3.4606720572977584e-10
+      ],
+      "source_sha256": "d8891977e2ce40e43bed0c456cf566a8a14d25ed552066ad7fff0d4e653242db",
+      "setup_and_first_fg_seconds": 0.2454204999958165
+    },
+    {
+      "name": "EIGENALS",
+      "args": [
+        10
+      ],
+      "family": "symmetric-eigenvalue-least-squares",
+      "selection_reason": "Matrix eigenvalue residuals including orthogonality; order 10 gives 110 unknowns.",
+      "expected_dimension": 110,
+      "dimension": 110,
+      "classification": "C-CSUR2-AN-V-0",
+      "f0": 285.0,
+      "initial_gradient": 75.49834435270749,
+      "tolerance": 7.549834435270748e-05,
+      "gradient_check_errors": [
+        5.643153865476339e-10,
+        2.047133987894607e-11
+      ],
+      "source_sha256": "7efa2d83ac565b9efdd84e05e2514fb478caf94aee05ee6f56952c57d0c5067b",
+      "setup_and_first_fg_seconds": 0.06989100005012006
+    },
+    {
+      "name": "ENGVAL1",
+      "args": [
+        1000
+      ],
+      "family": "engval",
+      "selection_reason": "Sparse quartic objective with linear terms; n=1000.",
+      "expected_dimension": 1000,
+      "dimension": 1000,
+      "classification": "C-COUR2-AN-V-0",
+      "f0": 58941.0,
+      "initial_gradient": 3918.283297567954,
+      "tolerance": 0.003918283297567954,
+      "gradient_check_errors": [
+        2.699581164576997e-09,
+        9.468738423362815e-10
+      ],
+      "source_sha256": "03d778934fb91bb7ac9c02ff5cf5223c46ddcca4b554d69f4d59b151814f8011",
+      "setup_and_first_fg_seconds": 0.37667420000070706
+    },
+    {
+      "name": "EXTROSNB",
+      "args": [
+        1000
+      ],
+      "family": "extended-rosenbrock",
+      "selection_reason": "Nonseparable extended Rosenbrock; n=1000; nearby CHNROSNB/ERRINROS/GENROSE/FLETCHCR/NONDIA variants omitted.",
+      "expected_dimension": 1000,
+      "dimension": 1000,
+      "classification": "C-CSUR2-AN-V-0",
+      "f0": 399604.0,
+      "initial_gradient": 37920.000210970466,
+      "tolerance": 0.037920000210970466,
+      "gradient_check_errors": [
+        1.203248640798647e-09,
+        4.943323317090593e-09
+      ],
+      "source_sha256": "c368ebee51541487aa3d4a47375c13e4533ba2de7aaa55a2f310d1ad26e02813",
+      "setup_and_first_fg_seconds": 0.18849860003683716
+    },
+    {
+      "name": "FLETCBV2",
+      "args": [
+        1000
+      ],
+      "family": "fletcher-boundary-value",
+      "selection_reason": "Corrected Fletcher boundary value formulation; n=1000; incorrect and scaled duplicates omitted.",
+      "expected_dimension": 1000,
+      "dimension": 1000,
+      "classification": "C-COUR2-AN-V-0",
+      "f0": -0.5013383641678881,
+      "initial_gradient": 4.92335006070102e-05,
+      "tolerance": 1e-06,
+      "gradient_check_errors": [
+        9.73164680265849e-12,
+        3.0634383918481944e-12
+      ],
+      "source_sha256": "dcad24ccd6f60a9363e8e60b4c0e89cc9bfe21a604e89ad85179652ad2ba89dc",
+      "setup_and_first_fg_seconds": 0.39766959997359663
+    },
+    {
+      "name": "FREUROTH",
+      "args": [
+        1000
+      ],
+      "family": "freudenstein-roth",
+      "selection_reason": "Extended Freudenstein Roth least squares; n=1000.",
+      "expected_dimension": 1000,
+      "dimension": 1000,
+      "classification": "C-CSUR2-AN-V-0",
+      "f0": 1008556.5,
+      "initial_gradient": 24683.73205169753,
+      "tolerance": 0.024683732051697528,
+      "gradient_check_errors": [
+        3.1194123252791627e-09,
+        3.8228234768403165e-09
+      ],
+      "source_sha256": "0aaa086b67229050d7e4a6853778755c9082b0e4c7904ec5dc69fd8552d5c00b",
+      "setup_and_first_fg_seconds": 0.534539699961897
+    },
+    {
+      "name": "GENHUMPS",
+      "args": [
+        1000
+      ],
+      "family": "generalized-humps",
+      "selection_reason": "Coercive multimodal generalized HUMPS; n=1000; default oscillation density.",
+      "expected_dimension": 1000,
+      "dimension": 1000,
+      "classification": "C-COUR2-AN-V-0",
+      "f0": 25599117.727509856,
+      "initial_gradient": 2691.5317213361645,
+      "tolerance": 0.0026915317213361645,
+      "gradient_check_errors": [
+        2.4777486546123178e-05,
+        1.7742587442842009e-06
+      ],
+      "source_sha256": "03e1aa94d46acbf672fe088df988f4580f73599874a75ba8c8de4d4d337e72a0",
+      "setup_and_first_fg_seconds": 0.23201129998778924
+    },
+    {
+      "name": "HILBERTA",
+      "args": [
+        50
+      ],
+      "family": "hilbert-quadratic",
+      "selection_reason": "Dense Hilbert quadratic; n=50; default diagonal shift D=0 retained.",
+      "expected_dimension": 50,
+      "dimension": 50,
+      "classification": "C-CQUR2-AN-V-0",
+      "f0": 309.67748068958826,
+      "initial_gradient": 33.51467268581634,
+      "tolerance": 3.351467268581634e-05,
+      "gradient_check_errors": [
+        2.0430845903973704e-10,
+        3.409138409920926e-11
+      ],
+      "source_sha256": "7c2a399b98db37f21666bbbcf23526c8c6852b2cd2aaad19d7a6be876c67bae7",
+      "setup_and_first_fg_seconds": 0.10339440003735945
+    },
+    {
+      "name": "INTEQNELS",
+      "args": [
+        100
+      ],
+      "family": "discrete-integral-equation",
+      "selection_reason": "Dense discrete integral equation in least squares form without fixed variables; n=100.",
+      "expected_dimension": 100,
+      "dimension": 102,
+      "classification": "C-CSUR2-AN-V-0",
+      "f0": 0.5730503063791657,
+      "initial_gradient": 1.8662582824030958,
+      "tolerance": 1.8662582824030957e-06,
+      "gradient_check_errors": [
+        1.7252588246918776e-12,
+        2.066838367120738e-11
+      ],
+      "source_sha256": "0e3ae0d53f3a4f741e9e25141038d32f5122985278399538eae3355fe362b917",
+      "setup_and_first_fg_seconds": 0.441608399967663
+    },
+    {
+      "name": "LIARWHD",
+      "args": [
+        1000
+      ],
+      "family": "li-arrowhead-least-squares",
+      "selection_reason": "Li arrowhead least squares; n=1000.",
+      "expected_dimension": 1000,
+      "dimension": 1000,
+      "classification": "C-CSUR2-AN-V-0",
+      "f0": 585000.0,
+      "initial_gradient": 98318.19770520613,
+      "tolerance": 0.09831819770520613,
+      "gradient_check_errors": [
+        1.4688276740499625e-09,
+        3.495445042056599e-09
+      ],
+      "source_sha256": "86b5a0b50698bfaf2b0c10f87933339cfe4199953d517af623a6fce178856163",
+      "setup_and_first_fg_seconds": 0.3770574000081979
+    },
+    {
+      "name": "LUKSAN11LS",
+      "args": [],
+      "family": "luksan-chained-serpentine",
+      "selection_reason": "Luksan chained serpentine least squares; official translation fixed at n=100.",
+      "expected_dimension": 100,
+      "dimension": 100,
+      "classification": "C-CSUR2-AN-V-0",
+      "f0": 626.0639857227842,
+      "initial_gradient": 222.1552287572575,
+      "tolerance": 0.0002221552287572575,
+      "gradient_check_errors": [
+        1.2622688044508166e-10,
+        1.6183656283398725e-10
+      ],
+      "source_sha256": "907d4194c74c44008172aba7cc39512d7119d9c494423c1207b70f8b60988e26",
+      "setup_and_first_fg_seconds": 0.04526909999549389
+    },
+    {
+      "name": "LUKSAN12LS",
+      "args": [],
+      "family": "luksan-modified-hs47",
+      "selection_reason": "Luksan chained modified HS47 residuals; official translation fixed at n=98.",
+      "expected_dimension": 98,
+      "dimension": 98,
+      "classification": "C-CSUR2-AN-V-0",
+      "f0": 32160.0,
+      "initial_gradient": 5926.407343407977,
+      "tolerance": 0.005926407343407977,
+      "gradient_check_errors": [
+        1.2715906057530906e-10,
+        1.6498778067548564e-10
+      ],
+      "source_sha256": "50181dd8303f2fc4d35235f4c8d784b85ccba736810375c99b89d75cabaf235f",
+      "setup_and_first_fg_seconds": 0.055569800024386495
+    },
+    {
+      "name": "LUKSAN13LS",
+      "args": [],
+      "family": "luksan-modified-hs48",
+      "selection_reason": "Luksan chained modified HS48 residuals; official translation fixed at n=98.",
+      "expected_dimension": 98,
+      "dimension": 98,
+      "classification": "C-CSUR2-AN-V-0",
+      "f0": 64352.0,
+      "initial_gradient": 8382.878264653495,
+      "tolerance": 0.008382878264653493,
+      "gradient_check_errors": [
+        2.427259538867569e-10,
+        1.262803396593291e-09
+      ],
+      "source_sha256": "059b454b9facfe3a484a5b80f963c292789d78a35749a5d5f73ee36663a26dda",
+      "setup_and_first_fg_seconds": 0.056754899967927486
+    },
+    {
+      "name": "LUKSAN14LS",
+      "args": [],
+      "family": "luksan-modified-hs53",
+      "selection_reason": "Luksan chained modified HS53 residuals; official translation fixed at n=98.",
+      "expected_dimension": 98,
+      "dimension": 98,
+      "classification": "C-CSUR2-AN-V-0",
+      "f0": 26880.0,
+      "initial_gradient": 10283.33642355437,
+      "tolerance": 0.01028333642355437,
+      "gradient_check_errors": [
+        1.1874634752999541e-09,
+        4.6124733534693364e-11
+      ],
+      "source_sha256": "f5e36c134e35161a2799232f7ef03c0b33b6de1d11bbb5d5c13564a22e6d662e",
+      "setup_and_first_fg_seconds": 0.04929779999656603
+    },
+    {
+      "name": "LUKSAN17LS",
+      "args": [],
+      "family": "luksan-sparse-trigonometric",
+      "selection_reason": "Luksan sparse trigonometric least squares; official translation fixed at n=100.",
+      "expected_dimension": 100,
+      "dimension": 100,
+      "classification": "C-CSUR2-AN-V-0",
+      "f0": 1687370.148927746,
+      "initial_gradient": 392992.38871400076,
+      "tolerance": 0.3929923887140007,
+      "gradient_check_errors": [
+        6.610194681087786e-11,
+        5.879695837991862e-11
+      ],
+      "source_sha256": "a4700c152cc652b58a90d85871e4085c33d3c6ef87ce5480492fb57bda8972d5",
+      "setup_and_first_fg_seconds": 0.10419129999354482
+    },
+    {
+      "name": "LUKSAN21LS",
+      "args": [],
+      "family": "luksan-modified-boundary-value",
+      "selection_reason": "Luksan modified discrete boundary value least squares; official translation fixed at n=100.",
+      "expected_dimension": 100,
+      "dimension": 100,
+      "classification": "C-CSUR2-AN-V-0",
+      "f0": 99.98750720029595,
+      "initial_gradient": 2.829525870958156,
+      "tolerance": 2.829525870958156e-06,
+      "gradient_check_errors": [
+        4.9026172010968594e-11,
+        3.196362896584759e-10
+      ],
+      "source_sha256": "f0f58020e25ab5eadf031d91daf80fbd3112d91db19f7fd4210b4e53b2f92040",
+      "setup_and_first_fg_seconds": 0.039217500016093254
+    },
+    {
+      "name": "LUKSAN22LS",
+      "args": [],
+      "family": "luksan-attracting-repelling",
+      "selection_reason": "Luksan attracting repelling least squares; official translation fixed at n=100.",
+      "expected_dimension": 100,
+      "dimension": 100,
+      "classification": "C-CSUR2-AN-V-0",
+      "f0": 24876.864702602004,
+      "initial_gradient": 7239.913797482675,
+      "tolerance": 0.007239913797482675,
+      "gradient_check_errors": [
+        2.3654876598047244e-10,
+        2.217614958286818e-09
+      ],
+      "source_sha256": "d3a1684680570210f5a0fa4f7c30d173624e717a1f9b2b6f7b96a18eca076aca",
+      "setup_and_first_fg_seconds": 0.06507749995216727
+    },
+    {
+      "name": "MANCINO",
+      "args": [
+        50
+      ],
+      "family": "mancino",
+      "selection_reason": "Dense transcendental Mancino residuals; n=50 bounds quadratic element count.",
+      "expected_dimension": 50,
+      "dimension": 50,
+      "classification": "C-CSUR2-AN-V-0",
+      "f0": 8632597700.777077,
+      "initial_gradient": 130514312.1176885,
+      "tolerance": 130.5143121176885,
+      "gradient_check_errors": [
+        3.4442705699591063e-11,
+        1.5755249476464942e-09
+      ],
+      "source_sha256": "93047edf7d2546ab27942515c5c4caafce445465380c54a911fd4d3370050312",
+      "setup_and_first_fg_seconds": 0.21788990002823994
+    },
+    {
+      "name": "MOREBV",
+      "args": [
+        1000
+      ],
+      "family": "more-boundary-value",
+      "selection_reason": "More discrete boundary value least squares without fixed variables; n=1000.",
+      "expected_dimension": 1000,
+      "dimension": 1000,
+      "classification": "C-CSUR2-MN-V-0",
+      "f0": 1.2938292442044343e-09,
+      "initial_gradient": 4.989983087378378e-06,
+      "tolerance": 1e-06,
+      "gradient_check_errors": [
+        3.3537210755349954e-18,
+        2.2711277303244515e-12
+      ],
+      "source_sha256": "692f291ac1284a94352af46fccf2a6089e1a35eb2f6ac596b97bf33f0775c08f",
+      "setup_and_first_fg_seconds": 0.4237268000142649
+    },
+    {
+      "name": "MSQRTALS",
+      "args": [
+        10
+      ],
+      "family": "matrix-square-root-least-squares",
+      "selection_reason": "Dense matrix square root residuals; matrix order 10 gives n=100; one case only.",
+      "expected_dimension": 100,
+      "dimension": 100,
+      "classification": "C-CSUR2-AN-V-V",
+      "f0": 212.71621861755358,
+      "initial_gradient": 28.88832356788667,
+      "tolerance": 2.888832356788667e-05,
+      "gradient_check_errors": [
+        1.0407263939526956e-09,
+        2.186148265820492e-10
+      ],
+      "source_sha256": "09fe16374388908baa46e5c787a86102119e8191b00e1d0634a0c1a6fd02e383",
+      "setup_and_first_fg_seconds": 0.07707689999369904
+    },
+    {
+      "name": "NCB20B",
+      "args": [
+        500
+      ],
+      "family": "nonconvex-banded-20",
+      "selection_reason": "Nonconvex coercive quartic banded objective; n=500; simplified NCB20 formulation only.",
+      "expected_dimension": 500,
+      "dimension": 500,
+      "classification": "C-COUR2-AN-V-0",
+      "f0": 1000.0,
+      "initial_gradient": 87.11831036010743,
+      "tolerance": 8.711831036010742e-05,
+      "gradient_check_errors": [
+        1.8178672683536633e-09,
+        9.3174737420982e-10
+      ],
+      "source_sha256": "7cf5a6b44860d6cc565be8a8398f1f31e1b47af8cc93c76947b8097be41c6eac",
+      "setup_and_first_fg_seconds": 0.3408920999499969
+    },
+    {
+      "name": "NONDQUAR",
+      "args": [
+        1000
+      ],
+      "family": "nondiagonal-quartic",
+      "selection_reason": "Quartic with tridiagonal interior and arrowhead border; n=1000.",
+      "expected_dimension": 1000,
+      "dimension": 1000,
+      "classification": "C-COUR2-AN-V-0",
+      "f0": 1006.0,
+      "initial_gradient": 4003.986013961587,
+      "tolerance": 0.004003986013961587,
+      "gradient_check_errors": [
+        4.2063704864098123e-10,
+        2.4578578181521234e-10
+      ],
+      "source_sha256": "1a1d8e45c1fa9fcd97bf656727284145366cb7578f082946580a08ff5a83c28c",
+      "setup_and_first_fg_seconds": 0.21440749999601394
+    },
+    {
+      "name": "OSCIGRAD",
+      "args": [
+        1000
+      ],
+      "family": "oscillating-path-gradient",
+      "selection_reason": "Least squares of oscillating path gradient equations; n=1000; default rho.",
+      "expected_dimension": 1000,
+      "dimension": 1000,
+      "classification": "C-CSUR2-AN-V-0",
+      "f0": 612072002.25,
+      "initial_gradient": 2228572665.879322,
+      "tolerance": 2228.572665879322,
+      "gradient_check_errors": [
+        8.566864245480183e-11,
+        2.7897383170118334e-10
+      ],
+      "source_sha256": "1fbdc89cad4b2029eb37e7408bbc6f1b448311a7111735cbb0d64dbb021406eb",
+      "setup_and_first_fg_seconds": 0.2907258000341244
+    },
+    {
+      "name": "PENALTY1",
+      "args": [
+        100
+      ],
+      "family": "first-penalty",
+      "selection_reason": "Dense first penalty residual objective; n=100.",
+      "expected_dimension": 100,
+      "dimension": 100,
+      "classification": "C-CSUR2-AN-V-0",
+      "f0": 114480553328.346,
+      "initial_gradient": 787243242.9043782,
+      "tolerance": 787.2432429043781,
+      "gradient_check_errors": [
+        7.375722765790231e-11,
+        1.0030252161715853e-10
+      ],
+      "source_sha256": "8d919b03cf89e3f4da17d556afdc0e9ee0b080c9ce23b610ee157f1d05a45e9a",
+      "setup_and_first_fg_seconds": 0.02754889999050647
+    },
+    {
+      "name": "PENALTY2",
+      "args": [
+        100
+      ],
+      "family": "second-penalty",
+      "selection_reason": "Dense second penalty residual objective with exponentials; n=100.",
+      "expected_dimension": 100,
+      "dimension": 100,
+      "classification": "C-CSUR2-AN-V-0",
+      "f0": 1688477.691493624,
+      "initial_gradient": 1467575.1896262316,
+      "tolerance": 1.4675751896262315,
+      "gradient_check_errors": [
+        2.551962865917324e-10,
+        1.3622734770364237e-11
+      ],
+      "source_sha256": "9a05d3791d20370498c4400a896cca579ac6c96c9302318e1f79a5d2b321e016",
+      "setup_and_first_fg_seconds": 0.058658800029661506
+    },
+    {
+      "name": "POWELLSG",
+      "args": [
+        1000
+      ],
+      "family": "powell-singular",
+      "selection_reason": "Extended singular Powell block polynomial; n=1000.",
+      "expected_dimension": 1000,
+      "dimension": 1000,
+      "classification": "C-COUR2-AN-V-0",
+      "f0": 53750.0,
+      "initial_gradient": 7253.895505175133,
+      "tolerance": 0.007253895505175132,
+      "gradient_check_errors": [
+        3.466214803487151e-09,
+        1.9227607483697886e-09
+      ],
+      "source_sha256": "f054a8606012bdde1ed0f52b32c69398e84a5ebba3e4f3cbbf2652c868a5c625",
+      "setup_and_first_fg_seconds": 0.1578336000093259
+    },
+    {
+      "name": "POWER",
+      "args": [
+        1000
+      ],
+      "family": "oren-power",
+      "selection_reason": "Weighted quadratic squared Oren objective; n=1000.",
+      "expected_dimension": 1000,
+      "dimension": 1000,
+      "classification": "C-COUR2-AN-V-0",
+      "f0": 250500250000.0,
+      "initial_gradient": 36578764376.80748,
+      "tolerance": 36578.76437680748,
+      "gradient_check_errors": [
+        4.837336401612358e-10,
+        1.0247411114648483e-09
+      ],
+      "source_sha256": "9d7b7aa8503221506d5a029bc05f9b9748468d3c50a0ea8fff10cf307358a0fb",
+      "setup_and_first_fg_seconds": 0.055891099967993796
+    },
+    {
+      "name": "QING",
+      "args": [
+        1000
+      ],
+      "family": "qing",
+      "selection_reason": "Separable multimodal even quartic regression objective; n=1000.",
+      "expected_dimension": 1000,
+      "dimension": 1000,
+      "classification": "C-CSUR2-MN-V-0",
+      "f0": 332833500.0,
+      "initial_gradient": 72974.89979438136,
+      "tolerance": 0.07297489979438136,
+      "gradient_check_errors": [
+        1.5927337278865506e-08,
+        8.533850788503717e-07
+      ],
+      "source_sha256": "2f32028f9b54b13e9857a3c4b28bf3a0bda3deb923fc1cd4d3d6b2663edff3f7",
+      "setup_and_first_fg_seconds": 0.08800539997173473
+    },
+    {
+      "name": "SPARSINE",
+      "args": [
+        1000
+      ],
+      "family": "sparse-sine",
+      "selection_reason": "Sparse smooth trigonometric objective; n=1000.",
+      "expected_dimension": 1000,
+      "dimension": 1000,
+      "classification": "C-COUR2-AN-V-0",
+      "f0": 2070708.2632169642,
+      "initial_gradient": 264594.8057194515,
+      "tolerance": 0.2645948057194515,
+      "gradient_check_errors": [
+        3.39603434648232e-09,
+        5.918173117317943e-09
+      ],
+      "source_sha256": "8f834fc26c9fa7a971789d4449649ddb516f90f9af3afb9fd7948e4e1b318cc2",
+      "setup_and_first_fg_seconds": 0.2677096000406891
+    },
+    {
+      "name": "SPARSQUR",
+      "args": [
+        1000
+      ],
+      "family": "sparse-quartic",
+      "selection_reason": "Sparse nonseparable quartic objective; n=1000.",
+      "expected_dimension": 1000,
+      "dimension": 1000,
+      "classification": "C-COUR2-AN-V-0",
+      "f0": 140765.625,
+      "initial_gradient": 39305.396516413624,
+      "tolerance": 0.03930539651641362,
+      "gradient_check_errors": [
+        3.473259440992928e-10,
+        1.6576593674848735e-09
+      ],
+      "source_sha256": "c168490a2af731cdb19b0baaacc1b195dcfef29bd4a46f56d708dec3a8605071",
+      "setup_and_first_fg_seconds": 0.3840148000163026
+    },
+    {
+      "name": "TQUARTIC",
+      "args": [
+        1000
+      ],
+      "family": "toint-quartic",
+      "selection_reason": "Toint quartic residual objective; n=1000.",
+      "expected_dimension": 1000,
+      "dimension": 1000,
+      "classification": "C-CSUR2-AN-V-0",
+      "f0": 0.81,
+      "initial_gradient": 1.8,
+      "tolerance": 1.8e-06,
+      "gradient_check_errors": [
+        8.973685509949814e-13,
+        9.505979337021131e-11
+      ],
+      "source_sha256": "6106337ddaedb774664d894e77a2ac9431e6c52a95b647e661fa387b8376795a",
+      "setup_and_first_fg_seconds": 0.2682471000007354
+    },
+    {
+      "name": "TRIDIA",
+      "args": [
+        1000
+      ],
+      "family": "shanno-tridiagonal-quadratic",
+      "selection_reason": "Shanno tridiagonal quadratic; n=1000; original coefficients retained.",
+      "expected_dimension": 1000,
+      "dimension": 1000,
+      "classification": "C-CQUR2-AN-V-0",
+      "f0": 500499.0,
+      "initial_gradient": 36651.630413939296,
+      "tolerance": 0.0366516304139393,
+      "gradient_check_errors": [
+        1.4586312811027576e-09,
+        1.8025387989210112e-09
+      ],
+      "source_sha256": "3c1d37fe1e7e215ad26ab02c6e2973426a93e690e78938810995ad1aae6b67ba",
+      "setup_and_first_fg_seconds": 0.1901443999959156
+    },
+    {
+      "name": "VARDIM",
+      "args": [
+        100
+      ],
+      "family": "variable-dimension",
+      "selection_reason": "Dense coupling through quadratic and quartic aggregated terms; n=100.",
+      "expected_dimension": 100,
+      "dimension": 100,
+      "classification": "C-COUR2-AN-V-0",
+      "f0": 131058369689326.14,
+      "initial_gradient": 90124245756842.05,
+      "tolerance": 90124245.75684205,
+      "gradient_check_errors": [
+        1.978950834691498e-11,
+        7.592997832538027e-11
+      ],
+      "source_sha256": "d93e89efe23a4b98fc6b6357aaa44fc959a6feb80f0681d060b494808ce93430",
+      "setup_and_first_fg_seconds": 0.02270720002707094
+    },
+    {
+      "name": "VAREIGVL",
+      "args": [
+        500
+      ],
+      "family": "variational-eigenvalue",
+      "selection_reason": "Banded variational eigenvalue objective with norm power; n=500; default M=6,Q=1.5.",
+      "expected_dimension": 500,
+      "dimension": 501,
+      "classification": "C-COUR2-AN-V-0",
+      "f0": 8747.253494577099,
+      "initial_gradient": 1123.0157382714174,
+      "tolerance": 0.0011230157382714173,
+      "gradient_check_errors": [
+        9.29946930677081e-10,
+        3.415862440268857e-09
+      ],
+      "source_sha256": "a013bf577f62247128e5f59189ecddaad583a51614184194fb5b26dac4ab9b7f",
+      "setup_and_first_fg_seconds": 0.20094059995608404
+    },
+    {
+      "name": "WOODS",
+      "args": [
+        250
+      ],
+      "family": "woods",
+      "selection_reason": "Extended Woods coupled blocks; NS=250 gives n=1000.",
+      "expected_dimension": 1000,
+      "dimension": 1000,
+      "classification": "C-CSUR2-AN-V-0",
+      "f0": 4798000.0,
+      "initial_gradient": 259261.31990715468,
+      "tolerance": 0.2592613199071547,
+      "gradient_check_errors": [
+        2.2873683331639252e-09,
+        2.245359269450555e-09
+      ],
+      "source_sha256": "3d4f6d32a500928eb760c25673d860f463f76e30bed1e2d0e171f0c730ea4360",
+      "setup_and_first_fg_seconds": 0.3620313999708742
+    },
+    {
+      "name": "TOINTGSS",
+      "args": [
+        1000
+      ],
+      "family": "toint-gaussian",
+      "selection_reason": "Smooth bounded Gaussian chain objective; n=1000.",
+      "expected_dimension": 1000,
+      "dimension": 1000,
+      "classification": "C-COUR2-AY-V-0",
+      "f0": 8991.999999999984,
+      "initial_gradient": 189.54682798717576,
+      "tolerance": 0.00018954682798717575,
+      "gradient_check_errors": [
+        2.0331500313362264e-09,
+        2.53755988180675e-09
+      ],
+      "source_sha256": "6b41d5ff6094c2d0bfb4e35abde20aacf9c30e3406ad2eb042157359c97b9c39",
+      "setup_and_first_fg_seconds": 0.08874370000557974
+    },
+    {
+      "name": "FMINSURF",
+      "args": [
+        20
+      ],
+      "family": "free-minimum-surface",
+      "selection_reason": "Free boundary minimum surface energy on 20 by 20 mesh; n=400.",
+      "expected_dimension": 400,
+      "dimension": 400,
+      "classification": "C-COUR2-MY-V-0",
+      "f0": 28.678154941042493,
+      "initial_gradient": 0.6445349611105516,
+      "tolerance": 1e-06,
+      "gradient_check_errors": [
+        9.962735497692776e-12,
+        1.259347140458722e-10
+      ],
+      "source_sha256": "608c20765fb1e49e257a4e4e8087abf09f78eb1c9aecd88e53cbd82b0c6ab6b5",
+      "setup_and_first_fg_seconds": 0.125098499993328
+    },
+    {
+      "name": "SINQUAD",
+      "args": [
+        1000
+      ],
+      "family": "sine-quadratic",
+      "selection_reason": "Mixed sine and quadratic repeated element objective; n=1000.",
+      "expected_dimension": 1000,
+      "dimension": 1000,
+      "classification": "C-COUR2-AY-V-0",
+      "f0": 0.6561,
+      "initial_gradient": 1019.0455584791088,
+      "tolerance": 0.0010190455584791088,
+      "gradient_check_errors": [
+        1.3179819567964789e-11,
+        1.2416215377573547e-11
+      ],
+      "source_sha256": "f0e62266159f04c719cc414121906f921831104b3c620acf7f63504122282904",
+      "setup_and_first_fg_seconds": 0.3298841000068933
+    }
+  ]
+}

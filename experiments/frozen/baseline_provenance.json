@@ -1,0 +1,32 @@
+[
+  {
+    "source": "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\solvers\\baselines.py",
+    "destination": "output\\uad_formal_rerun_20261024\\baselines_native.py",
+    "source_sha256": "69f1decf6fdb8c7dbaf7dcae624a59cdf55fb1f480c3396855f10c600aff259d",
+    "change": "Only shared runtime import replaced; recurrence unchanged."
+  },
+  {
+    "source": "output\\ued_formal_benchmark_20261020\\baseline_solvers\\cug.py",
+    "destination": "output\\uad_formal_rerun_20261024\\cug_native.py",
+    "source_sha256": "956a7026cdbdae7a8ca14d956a1e0832f53deb274e8275089f70407d782ee150",
+    "change": "Only shared runtime import replaced; recurrence unchanged."
+  },
+  {
+    "source": "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\aqnpe\\__init__.py",
+    "destination": "output\\uad_formal_rerun_20261024\\aqnpe\\__init__.py",
+    "source_sha256": "c873f5a78d7b1cd29608d460d5e0562bdd31aac246b26dc0fea867b18a1f7214",
+    "change": "Byte-identical copy."
+  },
+  {
+    "source": "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\aqnpe\\native.py",
+    "destination": "output\\uad_formal_rerun_20261024\\aqnpe\\native.py",
+    "source_sha256": "876c7973f8bb3052a6fe98dc1ae0e4ee57b129830aa479437b57b14b681f2794",
+    "change": "Byte-identical copy."
+  },
+  {
+    "source": "output\\ued_paper_blueprint_20261020\\evidence\\cutest_package_check\\cutest_experiments\\aqnpe\\solver.py",
+    "destination": "output\\uad_formal_rerun_20261024\\aqnpe\\solver.py",
+    "source_sha256": "b47f13ce552ca52de5ec8a50e57733c8b84a333294592057899a23a92de2fcc6",
+    "change": "Byte-identical copy."
+  }
+]

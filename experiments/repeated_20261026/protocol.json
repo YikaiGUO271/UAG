@@ -1,0 +1,61 @@
+{
+  "source_protocol_sha256": "0b43c1abf25da7108d97e2d8869782a9a9a30037e68d6371934efb9b8127c091",
+  "repeats": 5,
+  "suites": "all",
+  "problems": null,
+  "methods": [
+    "UAD",
+    "NAG",
+    "RNAG",
+    "AC-FGM",
+    "GD",
+    "CUG",
+    "AdaNAG",
+    "A-QNPE"
+  ],
+  "config": {
+    "specific": {
+      "eps": 1e-07,
+      "max_fg": 100000,
+      "seconds": 120.0
+    },
+    "cutest": {
+      "relative_eps": 1e-06,
+      "max_fg": 20000,
+      "seconds": 30.0
+    }
+  },
+  "max_fg_override": null,
+  "seconds_override": null,
+  "diagnostic": false,
+  "numerical_threads": 1,
+  "solver_parallelism": 1,
+  "source_hashes": {
+    "adanag_theory.py": "71e4a1c0dbe484d05adcec145ce41c2d1fa60f782d916cb3630df676c7507b73",
+    "analyze_results.py": "ce270927e2e97a4420dab6f63115c5431688fb0f9c5cc8fa96cb886e14f9a25f",
+    "aqnpe\\__init__.py": "c873f5a78d7b1cd29608d460d5e0562bdd31aac246b26dc0fea867b18a1f7214",
+    "aqnpe\\native.py": "876c7973f8bb3052a6fe98dc1ae0e4ee57b129830aa479437b57b14b681f2794",
+    "aqnpe\\solver.py": "b47f13ce552ca52de5ec8a50e57733c8b84a333294592057899a23a92de2fcc6",
+    "baselines_native.py": "d9fa4d9879cd9f56a7a8cb42943616ffff9f3b50db7875de933eccab8c3eae5f",
+    "check_adanag_theory.py": "a6fcf47874d39b6936a3d57d557696002e56aa8a69dfa12c7abe57d4a1379d59",
+    "check_adanag_theory_prefix.py": "24f42bb389155d79feda762dbcaff730ea3d4ea6708ddcae74423d66e90e2fa1",
+    "cug_native.py": "94ac32ece936efdea2fd4725241109edf74bc59681ee7d57b2037c4da940eaee",
+    "environment.py": "cc32bcbddb52a313c58ab2bb64a9699f35f19035c3724ac627039f101427562a",
+    "formal_cases.py": "0e267a4e17024439aa33d8ab885ff254bee95ca52585c20bd159152b717b1537",
+    "native_api.py": "e5d9a85003e3e9f4a32a50df1acea07fbd0288cc9ab6e2b5cc408225693b765a",
+    "optimized_uad\\__init__.py": "57558f82d04d00184e87025029587bc1a80503cc6888cf349e758d993bb71b12",
+    "optimized_uad\\core.py": "5450d212680ae364aafc66ebe1258e76ab8efa6ee93a9a560d0eccdd698ad930",
+    "optimized_uad\\runtime.py": "d246dbc482fac320a5d8cfddf516e1f92bbc1a151226802a17d648c781404e8b",
+    "optimized_uad\\secant.py": "421526b42d2b98e8c790eeab03fbe78f788a89a59fbe6fff82e5cc842370cdcf",
+    "optimized_uad\\validate_optimization.py": "151c50bfa8502272d3fb9ee71671d67c6d700c3e6177acc544b5ec223b0bc2c1",
+    "run_campaign.py": "93c6bc9afb05066ede99ea9e955fada946d9e7caad22ec595c628f43bd848cc7",
+    "smooth_trajectories.py": "7746188c50a6b10d7ba2a70b72ee33659a96e2dc504311319707aa2658ca267d"
+  },
+  "reference_runtime": "original unchanged Windows/native campaign",
+  "method_order": "For repetition r and case index i rotate methods by (i+r) modulo m, reverse when (i+r) is odd.",
+  "timing": "One observation per repetition; all FG history timestamps from that run; JIT/object construction/endpoint checks excluded; every FG checks the soft time budget.",
+  "driver_sha256": "3aa91cb8960478232e5a53ecf8a5c4c1e2fa08ad1b0f38e133310d5f5fdde788",
+  "created_utc": "2026-10-26T09:35:56.373275+00:00",
+  "stop_before_utc": "2026-10-26T11:30:00+00:00",
+  "aggregation": "Use only complete repetitions shared by every method/problem. Solved requires R/R successes; medians of all R costs are used only for solved entries, otherwise infinity. Report all statuses and IQR; also report problem-by-repeat profiles as sensitivity analysis."
+}
